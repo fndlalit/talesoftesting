@@ -1,0 +1,152 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<style>
+  /* Section headers */
+  .press-section-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--heading-color, #1a1a2e);
+    margin: 2.5rem 0 0.3rem;
+  }
+  .press-section-title:first-of-type {
+    margin-top: 0;
+  }
+  .press-section-desc {
+    color: var(--text-muted-color, #666);
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+  }
+
+  /* 3-column grid */
+  .press-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.8rem;
+    margin-bottom: 3rem;
+  }
+  @media (max-width: 992px) {
+    .press-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 576px) {
+    .press-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Card */
+  .press-card {
+    border: 1px solid var(--card-border-color, #e0e0e0);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--card-bg, #fff);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .press-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  }
+  .press-card .card-body {
+    padding: 1.2rem;
+  }
+  .press-card img, .press-card iframe {
+    width: 100%;
+  }
+  .press-card .video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+  .press-card .video-wrap iframe {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    border: 0;
+  }
+  .press-card h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0.8rem 0 0.2rem;
+    color: var(--heading-color, #1a1a2e);
+  }
+  .press-card .item-title {
+    font-size: 0.9rem;
+    color: var(--text-color, #555);
+    margin: 0 0 0.4rem;
+  }
+  .press-card .item-date {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--heading-color, #1a1a2e);
+    margin: 0.3rem 0;
+  }
+  .press-card .item-meta {
+    font-size: 0.85rem;
+    color: #50b8a6;
+  }
+</style>
+
+<!-- ===== INTERVIEWS ===== -->
+{% assign interviews = site.data.talks | where: "section", "interview" | sort: "date" | reverse %}
+{% if interviews.size > 0 %}
+<h2 class="press-section-title">Interviews</h2>
+<p class="press-section-desc">Conversations about testing, quality, and leadership.</p>
+<div class="press-grid">
+  {% for talk in interviews %}
+  <div class="press-card">
+    {% if talk.video_url %}
+    <div class="video-wrap">
+      <iframe src="{{ talk.video_url }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>
+    <div class="card-body">
+      <p class="item-title">{{ talk.title }}{% if talk.event %} | {{ talk.event }}{% endif %}</p>
+    </div>
+    {% else %}
+    <div class="card-body">
+      <h3>{% if talk.link %}<a href="{{ talk.link }}" target="_blank" rel="noopener" style="color: inherit; text-decoration: none; border-bottom: 1px dashed #50b8a6;">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}</h3>
+      <p class="item-title">{{ talk.event }}</p>
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- ===== PUBLICATIONS & AWARDS ===== -->
+{% assign pubs = site.data.talks | where: "section", "publication" | sort: "date" | reverse %}
+{% if pubs.size > 0 %}
+<h2 class="press-section-title">Publications & Awards</h2>
+<p class="press-section-desc">Books, articles, awards, and projects.</p>
+<div class="press-grid">
+  {% for pub in pubs %}
+  <div class="press-card">
+    <div class="card-body">
+      <h3>{% if pub.link %}<a href="{{ pub.link }}" target="_blank" rel="noopener" style="color: inherit; text-decoration: none; border-bottom: 1px dashed #50b8a6;">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</h3>
+      <p class="item-title">{{ pub.event }}</p>
+      <p class="item-date">{{ pub.date | date: "%Y" }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- ===== VOLUNTEERING ===== -->
+{% assign vol = site.data.talks | where: "section", "volunteering" | sort: "date" | reverse %}
+{% if vol.size > 0 %}
+<h2 class="press-section-title">Volunteering & Community</h2>
+<p class="press-section-desc">Giving back to the testing community.</p>
+<div class="press-grid">
+  {% for v in vol %}
+  <div class="press-card">
+    <div class="card-body">
+      <h3>{% if v.link %}<a href="{{ v.link }}" target="_blank" rel="noopener" style="color: inherit; text-decoration: none; border-bottom: 1px dashed #50b8a6;">{{ v.title }}</a>{% else %}{{ v.title }}{% endif %}</h3>
+      <p class="item-title">{{ v.event }}</p>
+      {% if v.location %}<p class="item-date">{{ v.location }}</p>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

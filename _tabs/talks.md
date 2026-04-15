@@ -1,10 +1,9 @@
 ---
 layout: talks
-title: Press, Publications & Talks
+title: Talks & Events
 icon: fas fa-microphone-alt
-order: 6
+order: 5
 ---
 
 <!-- This page uses a custom layout (_layouts/talks.html) that renders
-     a responsive video/photo grid from _data/talks.yml.
-     To add a new talk, just add an entry to _data/talks.yml — no code changes needed! -->
+     upcoming events, featured talks, and past events from _data/talks.yml. -->
