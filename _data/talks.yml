@@ -181,6 +181,7 @@
   type: "Talk"
   flag: "\U0001F1EB\U0001F1EE"
   link: "https://www.robocon.io/"
+  thumbnail: "https://cfp.robocon.io/robocon-2025/og-image"
 
 - title: "Beyond Automation: How Agents Amplify (Not Replace) Testers with Agentic QCSD"
   section: past
@@ -230,6 +231,7 @@
   type: "Keynote"
   flag: "\U0001F310"
   link: "https://youtu.be/Ba7N_ktqqjc"
+  thumbnail: "https://www.onlinetestconf.com/wp-content/uploads/2025/07/1-1-1024x1024.png"
 
 - title: "Progressing beyond Regression – Enhancing Automation with Testability"
   section: past
@@ -267,6 +269,7 @@
   type: "QCSD Workshop"
   flag: "\U0001F1F7\U0001F1F4"
   link: "https://romaniatesting.ro/sessions/testing-beyond-testing/"
+  thumbnail: "https://romaniatesting.ro/wp-content/uploads/2023/12/RTC_2024_KV_Header-1920x1000-1.png"
 
 - title: "Testability 101: How testers can help enhance testability in Software"
   section: past
@@ -276,6 +279,7 @@
   type: "Workshop"
   flag: "\U0001F1F3\U0001F1F1"
   link: "https://www.testautomationdays.com/program-day-1/"
+  thumbnail: "https://www.testautomationdays.com/wp-content/uploads/2019/10/IMG_0667.jpg"
 
 - title: "How to DevOps without taking Quality for granted"
   section: past
@@ -302,6 +306,7 @@
   type: "Talk"
   flag: "\U0001F1E6\U0001F1F9"
   link: "https://www.germantesting.de/events/atn"
+  thumbnail: "https://www.germantesting.de/fileadmin/_processed_/0/e/csm_testingcommunity_social_dc5f85db16.jpg"
 
 - title: "Lessons Learned in Leading Testing Community of Practice"
   section: past
@@ -348,6 +353,7 @@
   type: "Talk"
   flag: "\U0001F1EF\U0001F1F5"
   link: "https://jasst.jp/symposium/jasst23tokyo/details.html#A5"
+  thumbnail: "https://jasst.jp/banner/jasst23tokyo_02.png"
 
 - title: "Accelerating Quality with Tree-shaped Testing"
   section: past
@@ -367,6 +373,7 @@
   type: "Talk"
   flag: "\U0001F310"
   link: "https://1point21gws.com/testingsummit/testengineering/bangalore/#Lalitkumar"
+  thumbnail: "https://1point21gws.com/testingsummit/testengineering/bangalore/img/world-testingconf-Bangalore-new-event-banner.png"
 
 - title: "Session-Based Test Management"
   section: past
@@ -376,6 +383,7 @@
   type: "Workshop"
   flag: "\U0001F310"
   link: "https://thetesttribe.com/worqference-lalit-bhamare/"
+  thumbnail: "https://www.thetesttribe.com/wp-content/uploads/2021/11/WhatsApp-Image-2021-10-15-at-12.43.38-PM.jpeg"
 
 - title: "Succeeding with Whole Team Testing"
   section: past
@@ -435,6 +443,7 @@
   type: "Talk"
   flag: "\U0001F310"
   link: "https://youtu.be/J--g-iFWvTc"
+  thumbnail: "https://www.onlinetestconf.com/wp-content/uploads/2025/07/1-1-1024x1024.png"
 
 - title: "Session Based Programming – Lightning Talk"
   section: past
@@ -443,6 +452,7 @@
   location: "Potsdam, Germany"
   type: "Lightning Talk"
   flag: "\U0001F1E9\U0001F1EA"
+  thumbnail: "https://atd-de-prod.s3.eu-central-1.amazonaws.com/media/metatags/atd25_general_banner_16x9.jpg"
 
 - title: "The State of Testing 2016"
   section: past
@@ -451,6 +461,7 @@
   location: "Online"
   type: "Joint Talk"
   flag: "\U0001F310"
+  thumbnail: "https://www.onlinetestconf.com/wp-content/uploads/2025/07/1-1-1024x1024.png"
 
 - title: "Mindmaps and Heuristics – Tester's Best Friends in Fast Changing Environment"
   section: past
