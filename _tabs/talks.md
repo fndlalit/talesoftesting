@@ -2,7 +2,7 @@
 layout: talks
 title: Press, Publications & Talks
 icon: fas fa-microphone-alt
-order: 5
+order: 6
 ---
 
 <!-- This page uses a custom layout (_layouts/talks.html) that renders

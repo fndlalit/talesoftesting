@@ -116,6 +116,9 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
+  - "*.xml"
+  - "*.HEIC"
+  - "*.jpeg"
   - docs
   - tools
   - README.md
@@ -123,6 +126,10 @@ exclude:
   - rollup.config.js
   - package*.json
   - migrate_wp.py
+  - MIGRATION_GUIDE.md
+  - "2018-*.md"
+  - "2021-*.md"
+  - "2023-*.md"
 
 jekyll-archives:
   enabled: [categories, tags]
