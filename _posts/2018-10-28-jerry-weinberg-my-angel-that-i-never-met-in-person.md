@@ -4,7 +4,7 @@ date: 2018-10-28 11:32:22 +0530
 categories: [Career, Inspirational]
 ---
 
-![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/screen-shot-2018-10-28-at-12-54-22_orig.png) 
+![Jerry Weinberg](/assets/img/posts/jerry-weinberg.png)
 
 The more I think about events and people around me, the more I have started to believe in higher calling and celestial hints. I have been wanting to write about Jerry and as I started to pen my heart down finally, I learned that it’s Jerry’s birthday today. Could that be a coincidence?
 

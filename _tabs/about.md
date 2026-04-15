@@ -15,7 +15,5 @@ I'm **Lalit Bhamare** — a passionate advocate for software testing, quality en
 
 ## Get in Touch
 
-- Email: [teatimewithtesters@gmail.com](mailto:teatimewithtesters@gmail.com)
 - LinkedIn: [linkedin.com/in/lalitbhamare](https://www.linkedin.com/in/lalitbhamare/)
-- Twitter: [@Aborhood](https://twitter.com/Aborhood)
-- Medium: [medium.com/@laaborhood](https://medium.com/@laaborhood)
+- Medium: [medium.com/@lalitbhamare](https://medium.com/@lalitbhamare)

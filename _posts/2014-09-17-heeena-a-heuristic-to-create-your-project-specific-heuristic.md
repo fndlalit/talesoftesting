@@ -4,7 +4,7 @@ date: 2014-09-17 18:51:27 +0530
 categories: [Uncategorized]
 ---
 
-[![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/8846131_orig.png)](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/heeena.png) 
+<!-- Original HEEENA diagram image was lost during migration. The heuristic is explained in detail below. -->
 
 Ever since I have realised the importance of heuristics and oracles, I don’t remember a single day I tested something without using them. Be it for critical thinking, recognising a problem, identifying and analysing risks, test planning or test design; there is heuristic for almost every testing problem. 
 

@@ -62,4 +62,4 @@ As a professional tester who firmly believes in the power of a mind for skilled 
 
 Thank you for stopping by.
 
-[ ![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/whatsapp-image-2021-01-26-at-10-26-35_orig.jpeg) ](https://testmastersacademyonline.org/)
+Visit [Test Masters Academy Online](https://testmastersacademyonline.org/) for more.

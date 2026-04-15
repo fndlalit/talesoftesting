@@ -4,7 +4,6 @@ date: 2016-12-12 18:14:30 +0530
 categories: [Uncategorized]
 ---
 
-![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/screen-shot-2016-12-12-at-13-45-58_orig.png)
 With my experience as an Agile tester so far, one thing I see organisations still struggling with or trying to get better at are the **estimations**.While thinking deeply about what makes our estimations go wrong I realised that there is still a lot we do in projects that we do not **record**, **measure** and **consider** as factors that matter. And that is probably why we are still trying to get better at estimates. And that is also probably why the ideas like [#NoEstimates](http://noestimatesbook.com/) make sense and are getting popular.
 
 **A few thoughts on [#NoEstimates](http://noestimatesbook.com/) first**

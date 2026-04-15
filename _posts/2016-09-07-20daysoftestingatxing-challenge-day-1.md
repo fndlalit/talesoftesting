@@ -37,8 +37,6 @@ Sounds like an interesting bunch, isn’t it? Well, given that this challenge st
 
 That’s me … having great time with my 3 awesome screens. Usually, I read interesting technical stuff in morning hours. And I was reading some cool shares from our “[Software Quality](https://www.xing.com/news/pages/software-quality-272)” page on [XING](https://www.xing.com/). Have you checked it out, by the way? You should!
 
-  ![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/img-7225_orig.jpg)  
-
 Naturally, I won’t be able to share specific details of the internal things I would do for further tasks in this challenge but I can at least blog about the stuff and the fun I had. 
 
 So, I am looking forward to upcoming tasks for next 19 days and I’m sure it is going to be fun. How about starting some similar cool campaign at your workplace and let us all know what ‘fun’ you had? I look forward to it.

@@ -4,7 +4,7 @@ date: 2017-06-25 21:11:21 +0530
 categories: [Agile, Devops, Testing]
 ---
 
-![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/screen-shot-2017-06-25-at-23-21-32_orig.png)
+![Session Based Testing in Agile/DevOps](/assets/img/posts/session-based-testing-agile-devops.webp)
 ​During my ET/SBTM workshops, I have been often asked if it is possible to perform Session Based Testing in typical Agile/DevOps environments.
 
 I think if tester knows how to perform SBT (especially with different session types), there should be no trouble in doing it regardless of the development methodology their team follows. (If you are unaware of typical session types in SBTM, then I recommend you to checkout this [informative series](https://simonsaysnomore.wordpress.com/2014/08/19/session-based-test-session-reports/) by my friend Simon ‘Peter’ Schrijver.) However, I understand that probably, the fast paced way of working through sprints, shipping small chunks of software regularly, keeps everyone mainly focused around achieving the sprint goal. And for testers, this often means focusing only on ‘acceptance criteria’ and moving on to the next ticket, which is waiting to be tested and deployed.  And that might force some testers to just forget every awesome technique they know and run behind getting “the stuff done”.

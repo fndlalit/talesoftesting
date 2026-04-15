@@ -4,8 +4,7 @@ date: 2017-05-28 13:08:07 +0530
 categories: [Agile, Devops]
 ---
 
-![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/kafa-cokolada-sajam_orig.jpg)
-​Before some of you start freaking out, let me make this clear – no, it’s not the pot some of you might be thinking of 🙂. It’s an abbreviation of “Problem on Table”, an activity we have recently started doing at XING AG for its testers.
+Before some of you start freaking out, let me make this clear – no, it’s not the pot some of you might be thinking of 🙂. It’s an abbreviation of “Problem on Table”, an activity we have recently started doing at XING AG for its testers.
 
 As facilitator, I have experienced the benefits of POT method of problem sharing (and solving). I was first introduced with the idea at ITB tester meet-ups I participated in Pune/Mumbai and in order to facilitate such exchange for testers at XING, we decided to give it a try with some twist. And guess what? It worked really well!
 

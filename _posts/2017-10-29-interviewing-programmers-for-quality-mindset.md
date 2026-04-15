@@ -4,8 +4,6 @@ date: 2017-10-29 07:00:00 +0530
 categories: [Agile, Career]
 ---
 
-![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/screen-shot-2017-10-29-at-16-26-35_orig.png)
-
 Lately, I happened to have an interesting discussion with my colleague [Dirk Meißner](https://www.xing.com/profile/Dirk_Meissner33/cv) on whether programmers should have reasonable understanding of testing or not. A lot has been talked and written about how testers need to be great with their technical skills so that they can contribute effectively and remain valuable. Sure, that’s helpful and I too insist that it’s high time that testers get over with their traditional way of working (and thinking). However, what surprises me is that there is not enough awareness or enough discussions happening around programmers learning to understand testing to amplify their effectiveness.**Does it matter? Why? **
 
 It absolutely does. At least now, if it did not before. “[Whole Team Testing](https://www.agilealliance.org/resources/sessions/whole-team-testing/)” is new cool (again) especially in DevOps contexts. And it has it’s own reasons to be that way.
@@ -66,4 +64,4 @@ If we need technical testers, we also need programmers who understand testing. A
 
 Oh and by the way, I will be touching on some of the related topics in my talk for [**Online Testing Conference**](http://www.onlinetestconf.com/?utm_source=speaker&utm_medium=share&utm_content=Lalit). Feel free to join if the topic interests you.
 
-[ ![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/lalit-meet-the-speaker-5_1_orig.png) ](http://www.onlinetestconf.com/register/?utm_source=speaker&utm_medium=share&utm_content=Lalit)
+[![Lalit - Meet the Speaker](/assets/img/posts/lalit-meet-the-speaker.jpeg)](http://www.onlinetestconf.com/register/?utm_source=speaker&utm_medium=share&utm_content=Lalit)

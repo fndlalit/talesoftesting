@@ -4,8 +4,6 @@ date: 2016-09-23 09:20:42 +0530
 categories: [Uncategorized]
 ---
 
-[![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/lunch_orig.jpg)](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/lunch_orig.jpg) 
-
 Hmm…. I was sort of in a cave after day 5th and now it’s action time for me again. 
 
 Not that I was totally out of the challenge but could not manage to blog about it. So… here is the list of tasks on my plate and what I did about them (u**pdates for the pending tasks are in brown)**

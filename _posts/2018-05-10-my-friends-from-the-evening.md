@@ -4,8 +4,6 @@ date: 2018-05-10 09:04:21 +0530
 categories: [Inspirational, Social Life]
 ---
 
-![Picture](https://www.talesoftesting.com/uploads/3/9/4/5/39452505/img-3204-1_orig.jpg)
-
 Evenings… I have started to fall in love with them.After a tiring day at work, as I walk back towards my little nest … I meet them on my way.
 “Them who?”, you may ask. They are these little birds that do this blissful chirping… and some of them blow that sweet whistle. It feels like they now know me very well and are happy to see me around. Makes me feel so special I tell you. And then there are these beautiful trees. Some small and some of them being huge. They all are now lush, fresh and blooming with colourful blossoms. A couple of them even greet me with maddening fragrance of their flowers… And again… there is this tiny but cutely flowing canal. A bit mild but yet lively sound of its water when it splashes against little rocks in its way… it hypnotises me, I must say. That very old wooden bridge right above this naughty canal…it asks me to talk with it for a while, everyday. Sometimes it tells me the sweet old stories of old couple living in a big farm-house nearby and also about those naughty deers that come there for drinking water and run away as fast as they come. The bridge says he gets angry on them for not even saying “hello” but never forgets to mention how much he loves them.
 
