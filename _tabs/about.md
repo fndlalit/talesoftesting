@@ -99,20 +99,16 @@ For over eighteen years, I've worked at the intersection of engineering quality,
 
 <dl class="ed-two">
   <div>
-    <dt>Emerging QA Leader of the Year 2025</dt>
+    <dt><a href="https://www.practitest.com/qa-leader-of-the-year-2025/" target="_blank" rel="noopener">Emerging QA Leader of the Year 2025</a></dt>
     <dd>PractiTest — global recognition for leadership in quality engineering</dd>
   </div>
   <div>
-    <dt>EuroSTAR Best Paper 2022</dt>
+    <dt><a href="https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/" target="_blank" rel="noopener">EuroSTAR Best Paper 2022</a></dt>
     <dd>One of only 26 Best Paper awardees in the 30-year history of Europe's largest software testing conference</dd>
   </div>
   <div>
-    <dt>Contributing Author — Taking Testing Seriously</dt>
+    <dt><a href="https://www.wiley.com/en-us/Taking+Testing+Seriously%3A+The+Rapid+Software+Testing+Approach-p-9781394253197" target="_blank" rel="noopener">Contributing Author — Taking Testing Seriously</a></dt>
     <dd>By James Bach &amp; Michael Bolton (Wiley) — the definitive book on Rapid Software Testing</dd>
-  </div>
-  <div>
-    <dt>Program Chair — Sparks 2025</dt>
-    <dd>Curating and directing the inaugural <a href="https://synapse-qa.com/sparks/" target="_blank" rel="noopener">Sparks conference</a> programme in Malaysia</dd>
   </div>
 </dl>
 
