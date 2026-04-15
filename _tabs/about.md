@@ -100,7 +100,7 @@ I build engineering cultures where quality is a way of thinking, not a phase to 
 
 <dl class="ed-two">
   <div>
-    <dt>QA Leader of the Year 2025</dt>
+    <dt>Emerging QA Leader of the Year 2025</dt>
     <dd>PractiTest — global recognition for quality engineering leadership</dd>
   </div>
   <div>
