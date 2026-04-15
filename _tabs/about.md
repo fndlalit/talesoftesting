@@ -124,7 +124,7 @@ For over eighteen years, I've worked at the intersection of engineering quality,
 
 <p>I created <strong>QCSD (Quality Conscious Software Delivery)</strong>, an award-winning framework that reframes quality from a gatekeeping activity into a delivery philosophy. Its latest evolution, <strong>Agentic QCSD</strong>, extends this thinking into AI-augmented delivery — where autonomous agents amplify (rather than replace) human testers. Both versions of the framework have been adopted by teams across three continents and are the subjects I'm most frequently invited to speak about at international conferences.</p>
 
-<p>Through in-house trainings, public workshops, and conference sessions, I've trained over 500 engineers globally on agile development, testing, quality engineering, and AI.</p>
+<p>Through in-house trainings, public workshops, and conference sessions, I've trained over 1000 engineers globally on agile development, testing, quality engineering, and AI.</p>
 
 <hr class="ed-sep">
 
@@ -164,14 +164,6 @@ For over eighteen years, I've worked at the intersection of engineering quality,
 <p>Productivity Engineering · Quality Engineering · AI &amp; Automation · Engineering Leadership · Test Management · Quality Coaching · Digital Transformation · Programme &amp; Project Management</p>
 
 <p><em>Industries:</em> E-commerce · Banking &amp; Finance · Pre-sales · Telecommunications · Social Networking · Media &amp; Entertainment · E-Governance · Life Sciences</p>
-
-<hr class="ed-sep">
-
-<h2>Education</h2>
-
-<p><strong>Bachelor of Engineering</strong> in Mechanical Engineering — Savitribai Phule Pune University, India (2008).</p>
-
-<p class="ed-sm">SAFe DevOps Practitioner · Rapid Software Testing · BBST Lead Instructor · BBST Foundations · ISTQB Foundations</p>
 
 <hr class="ed-sep">
 
