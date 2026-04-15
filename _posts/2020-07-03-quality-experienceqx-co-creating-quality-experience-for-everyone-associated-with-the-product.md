@@ -4,7 +4,7 @@ date: 2020-07-03 17:00:00 +0530
 categories: [Devops, Software Delivery, UX]
 ---
 
-![](https://talesoftesting.com/wp-content/uploads/2022/01/1593763088951.png)
+![](/assets/img/posts/1593763088951.png)
  
 I have been talking about [**Whole Team Qualit**](https://contestnyc2019.sched.com/event/Tk13/2-day-certification-training-succeeding-with-whole-team-testing)**y** via [Whole Team Testing](https://www.stickyminds.com/article/whole-team-testing-whole-team-quality) for a couple of years now. During my workshops, I am often asked if testing can only be extended for programmers in a team. Pretty interesting question it is and my answer is obviously “no”. Though I usually explain in my workshops on how to extend testing to roles beyond programmers in a team i.e. for UX or PO roles, I realized that I have not given deep thought to it and to how exactly testing could be extended to other disciplines in a meaningful way.
 
@@ -95,4 +95,4 @@ And, I recommend you to read  [System Design Heuristics](https://www.goodreads.
 
 Until then…
 
-[![](https://talesoftesting.com/wp-content/uploads/2022/01/QX-for-Testers.png)](https://talesoftesting.com/wp-content/uploads/2022/01/QX-for-Testers.png)
+[![](/assets/img/posts/QX-for-Testers.png)](/assets/img/posts/QX-for-Testers.png)

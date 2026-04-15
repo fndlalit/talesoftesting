@@ -4,7 +4,7 @@ date: 2018-10-08 22:00:00 +0530
 categories: [Agile, Career, Devops, Testing]
 ---
 
-![](https://talesoftesting.com/wp-content/uploads/2021/11/evaluation.jpeg)
+![](/assets/img/posts/evaluation.jpeg)
 
 **​Disclaimer:** The purpose** of this blog is not to undermine the importance of automation skills for testers but rather to highlight the lack of awareness in our industry for tester’s usefulness in teams beyond typical testing and automation tasks. **​Recently, I was invited to conduct a workshop around “Whole Team Testing” at Test Leadership Congress in New York. Participating in this conference has been a great experience, especially because I truly believe in the need for conferences dedicated to testing leadership and career path for testers in changing era.
 
@@ -24,7 +24,7 @@ Heavy emphasis on technical skills for testers is not my big concern, but lack o
 **Why do we need testers in the first place?**
 
 One may argue that in an era of AI and advanced automation where every **check** can be easily automated, why do we need human testers at all? That’s an interesting argument  and before I explain why we are talking about it,  I want you to have a look over the diagram below:
-![](https://talesoftesting.com/wp-content/uploads/2021/11/Feedback-effects.png) 
+![](/assets/img/posts/Feedback-effects.png) 
 The diagram represents a system that we as a team operate into. I created it based on my experience as a tester so far and by interviewing some programmers I have closely worked with. Looking at a bunch of things mentioned there, you can figure out what all can happen (rather typically happens) when a tester in the team is not available. If you read the diagram carefully, you will notice that the impact on finding and reporting bugs is just one segment that gets highlighted when the tester is missing in the team. Impact on writing new tests or automating them is another segment. But is that all you need testers for in a team? Certainly not!
 
 The purpose of having testers in the team is way beyond finding bugs, writing tests, or automated scripts for that matter.    If utilized to their full potential, testers in the team can very well serve as a mode to protect your system from running into collapse or explosion mode (please read more about that in “How Software is Built” by Jerry Weinberg). How? It’s simple. By providing system-related feedback to the controller which is typically the team lead or test manager in a typical team set-up. The better you utilize testers for their abilities the better feedback you get from them which in turn can help you command better control over your system and protect it from collapse/explosion.  You need a tester in the team to provide you with information that you as a stakeholder can use for making better decisions.
@@ -44,11 +44,11 @@ It has very little value if the tester in your team just sticks with the usual a
 A lot of elements matter when it comes to your product’s quality. Functional acceptance criteria are just a tiny part of it. A skilled tester would know about these elements and they would educate the team about the same.
 
 Check out [SFDIPOT](http://www.testingeducation.org/course_notes/bach_james/cm_2002_rapidsoftwaretesting/rapidsoftwaretesting_10_heuristic_test_strategy_model.pdf) from [HTSM](http://www.testingeducation.org/course_notes/bach_james/cm_2002_rapidsoftwaretesting/rapidsoftwaretesting_10_heuristic_test_strategy_model.pdf) by James Bach or simply have a look on mindmap below (thanks to [Albert Gareev](http://automation-beyond.com/wp/wp-content/uploads/2015/02/SFDiPOT.png))
-![](https://talesoftesting.com/wp-content/uploads/2021/11/SFDIPOT.png) 
+![](/assets/img/posts/SFDIPOT.png) 
 **3. Advocates for Testability **Testability is one of the key areas I would expect skilled testers in my team to help programmers and designers get it right.  A skilled tester would know what makes a product testable, how to evaluate it for testability, and also advocate the team as to where and how they can improve it. Nothing beats the pleasure of testing a better testable product.
 
 Here is a [heuristic for testability](http://www.satisfice.com/tools/testability.pdf) if that makes you curious. Out of the various types of testability mentioned there, I would expect the tester to at least know **Intrinsic Testability **and how to help their team improve it.
-![](https://talesoftesting.com/wp-content/uploads/2021/11/Testability.png)
+![](/assets/img/posts/Testability.png)
 **4. Better allies for UX peeps**Ever wondered what would happen if System Thinking meets Design Thinking? I firmly believe that challenges faced by testers and UX professionals are more or less the same when it comes to ensuring better quality and better user experience.
 
 A regular and close exchange between these two disciplines has tremendous potential to create a better user experience with enhanced product quality which I would call “[Quality Experience](https://talesoftesting.com/quality-experienceqx-co-creating-quality-experience-for-everyone-associated-with-the-product/)”. If a UX designer comes with one best solution for some product problem, a skilled tester with their insights, product knowledge, awareness around cross-functional dependencies can point out a variety of ways in which it may fail. This does not mean a tester has to criticize UX solutions as such but early collaboration and exchange between two can help avoid lots of unnecessary research and rework.
@@ -60,7 +60,7 @@ A skilled tester would make this collaboration happen and would bring out the be
 **5. Friend in need for marketing and user care **
 
 This is another area of collaboration where skilled testers can add great value to solve the team’s problems beyond finding bugs. I have listed some of the possibilities where testers can help user care and get benefit in return and I believe the same applies to their collaboration with marketing teams:
-![](https://talesoftesting.com/wp-content/uploads/2021/11/User-Care.png) 
+![](/assets/img/posts/User-Care.png) 
 **6. Alert mechanism when the system is on the verge of collapse **
 
 Well, this is a bit tricky but I would mention it anyway. By nature of their work, skilled testers can use their sharp observation skills to observe and understand people, situations, and events around them and can draw inferences that can help identify potential risks, before it is too late. The retrospective meeting is a great place for skilled testers to raise flags for potential issues surrounding team dynamics or people issues they observed, in a constructive way of course which is where their communication skills can come in handy.

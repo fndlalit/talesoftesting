@@ -30,20 +30,20 @@ Having deep philosophical discussions with [Michael Bolton](https://twitter.com
 
 Like I said before, focusing on the **Product** notion of the quality alone is not enough. To succeed with Whole Team Quality, it is equally important to understand **Project** and the **People** notion of quality. They are related and they do affect each other. That said, to **deliver** a quality product we got to be equally conscious about the project and the people notion of the quality.
 
-![](https://talesoftesting.com/wp-content/uploads/2020/09/QualiTri-by-Lalit.png)
+![](/assets/img/posts/QualiTri-by-Lalit.png)
 
 **The framework: Quality-conscious Software Delivery **
 
 The challenge was how to really go about implementing QualiTri model in a context. And thinking about it helped me formulate my goal to be to achieve the ***d******elivery of quality products by quality-conscious people using quality-empowering processes.  ***
 
-![](https://talesoftesting.com/wp-content/uploads/2020/09/QCSD-in-framework.png)
-How to implement the 4E structure of QCSD can vary from context to context but below is how we implemented it in our team which has worked great for us so far. ![](https://talesoftesting.com/wp-content/uploads/2020/09/QCSD-in-action.png)
+![](/assets/img/posts/QCSD-in-framework.png)
+How to implement the 4E structure of QCSD can vary from context to context but below is how we implemented it in our team which has worked great for us so far. ![](/assets/img/posts/QCSD-in-action.png)
 Going further in detail of the implementation of 4E structure for QCSD framework would require a series of blog posts. It starts with creating awareness, convincing your team for the need of it, considering their inputs, evaluating the project context and creating the workflows/action items ***together with your team***, and then committing for the efforts needed. It’s a process that takes time. Plus it is highly subjective from project teams to project teams and their contexts. And hence I would rather stop here for now.
 
 **How do we know it worked?**
 
 The Lead Time graph for our team before and during an experimentation phase of QCSD in our team (based on the improvements we did in the processes, consciousness with which all people worked with and keeping quality of the product in mind) reflected the positive impact.
-![](https://talesoftesting.com/wp-content/uploads/2020/09/Case-study-at-XING.png)
+![](/assets/img/posts/Case-study-at-XING.png)
 I believe it was the first sprint in a long time, where we as a team finished all the tickets and pulled more, the so-called testing bottle-neck was minimal and the bugs reported that would make into the backlog or warrant some critical rework post-production were negligible.
 
 Sure, this graph did not remain ideal all the time. Teams change, business contexts change too which affects the overall delivery and quality of the product we end up shipping. But if you know how to go about delivering a quality product by quality-conscious people using quality-empowering processes, I am almost certain you will do way more good than bad. And it’s a win in my opinion.

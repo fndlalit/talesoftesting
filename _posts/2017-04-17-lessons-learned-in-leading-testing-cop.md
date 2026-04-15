@@ -4,7 +4,7 @@ date: 2017-04-17 07:37:55 +0530
 categories: [Community of Practice]
 ---
 
-![](https://talesoftesting.com/wp-content/uploads/2017/04/freelancing-writing_1_orig.jpeg)
+![](/assets/img/posts/freelancing-writing_1_orig.jpeg)
 
 ​Nothing beats the pleasure of talking and testing with old friends on a cozy weekend. Even better if it is a long weekend and the weather is awesome (I must tell you I have fallen in love with Spring in Germany). I met [Pratik](https://www.linkedin.com/in/pratikkumar-patel-661a961b/) last weekend after quite some time. Apart from working together on Tea-time with Testers, Pratik and I have also worked on setting up and running Testing CoP under TCS-Cisco relationship. Pratik is now setting up Testing CoP for his new team and wanted to brainstorm around things we did in the past. Instead of keeping our notes just with ourselves, I thought I would rather share them in this blog so that others can benefit too.
 
