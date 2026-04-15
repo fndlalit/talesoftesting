@@ -2,7 +2,7 @@
 layout: talks
 title: Talks & Events
 icon: fas fa-microphone-alt
-order: 5
+order: 4
 ---
 
 <!-- This page uses a custom layout (_layouts/talks.html) that renders

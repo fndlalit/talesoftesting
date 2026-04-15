@@ -1,8 +1,8 @@
 ---
 layout: page
-title: QCSD
+title: QCSD - Quality Conscious Software Delivery
 icon: fas fa-award
-order: 5
+order: 2
 ---
 
 ![QCSD e-book Lalit Bhamare](https://talesoftesting.com/wp-content/uploads/2022/10/IMG_3450.png)
