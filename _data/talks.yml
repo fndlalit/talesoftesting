@@ -181,7 +181,7 @@
   type: "Talk"
   flag: "\U0001F1EB\U0001F1EE"
   link: "https://www.robocon.io/"
-  thumbnail: "https://cfp.robocon.io/robocon-2025/og-image"
+  thumbnail: "https://cdn.pretix.cloud/1/pub/thumbs/3cfe95ade89c1a9680a7aad1fb233dae.1200.71cc76be10f674.png"
 
 - title: "Beyond Automation: How Agents Amplify (Not Replace) Testers with Agentic QCSD"
   section: past
@@ -221,7 +221,7 @@
   type: "Keynote"
   flag: "\U0001F1E6\U0001F1EA"
   link: "https://www.testingmind.com/event/test-automation-summit-dubai/agenda/"
-  thumbnail: "https://testingmind-com.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2025/05/28131140/TAS-Dubai-2.jpg"
+  # thumbnail: TAS Dubai image (S3 link expired)
 
 - title: "Opening Keynote"
   section: past
