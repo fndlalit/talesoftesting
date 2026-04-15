@@ -1,0 +1,81 @@
+# ============================================================
+# Talks, Publications & Press
+# ============================================================
+# Each entry needs a "section" field: "upcoming", "featured", or "past"
+#
+# Fields:
+#   title       - Talk title
+#   section     - "upcoming" | "featured" | "past"
+#   event       - Conference / event name
+#   date        - YYYY-MM-DD
+#   location    - City, Country (for upcoming/past)
+#   type        - Session, Workshop, Keynote, Panel Q&A, etc.
+#   flag        - Country flag emoji
+#   thumbnail   - Path to event/talk image
+#   video_url   - YouTube embed URL (for featured talks)
+#   link        - External link
+#   description - Short summary
+# ============================================================
+
+# --- UPCOMING EVENTS ---
+# (Add your upcoming talks here)
+# - title: "Building Quality Culture"
+#   section: upcoming
+#   event: "TestBash Global 2026"
+#   date: 2026-09-15
+#   location: "London, UK"
+#   type: "Session"
+#   flag: "\U0001F1EC\U0001F1E7"
+#   thumbnail: /assets/img/talks/testbash-2026.jpg
+
+# --- FEATURED TALKS (videos) ---
+
+- title: "Quality Culture and Software Development | TestBash 2024"
+  section: featured
+  event: "TestBash 2024"
+  date: 2024-06-15
+  video_url: "https://www.youtube.com/embed/REPLACE_WITH_YOUR_VIDEO_ID"
+
+- title: "The Art of Test Leadership | European Testing Conference"
+  section: featured
+  event: "ETC 2023"
+  date: 2023-11-20
+  video_url: "https://www.youtube.com/embed/REPLACE_WITH_YOUR_VIDEO_ID"
+
+- title: "QCSD Framework Deep Dive | Agile India"
+  section: featured
+  event: "Agile India 2023"
+  date: 2023-03-10
+  video_url: "https://www.youtube.com/embed/REPLACE_WITH_YOUR_VIDEO_ID"
+
+# --- PAST EVENTS ---
+
+- title: "Building Quality Culture in Engineering Teams"
+  section: past
+  event: "TestBash Global"
+  date: 2024-06-15
+  location: "London, UK"
+  type: "Session"
+  flag: "\U0001F1EC\U0001F1E7"
+  thumbnail: /assets/img/talks/testbash-global.jpg
+
+- title: "QCSD Framework Workshop"
+  section: past
+  event: "Agile India"
+  date: 2024-03-10
+  location: "Bengaluru, India"
+  type: "Workshop"
+  flag: "\U0001F1EE\U0001F1F3"
+  thumbnail: /assets/img/talks/agile-india.jpg
+
+- title: "Tea-time with Testers — Community Building"
+  section: past
+  event: "EuroSTAR"
+  date: 2023-11-20
+  location: "Antwerp, Belgium"
+  type: "Session"
+  flag: "\U0001F1E7\U0001F1EA"
+  thumbnail: /assets/img/talks/eurostar.jpg
+
+# --- ADD YOUR REAL ENTRIES ABOVE ---
+# Replace the placeholder entries with your actual talks, events, and video URLs.

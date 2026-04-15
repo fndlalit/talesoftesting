@@ -1,0 +1,22 @@
+# ============================================================
+# Talks Page Configuration
+# ============================================================
+
+# Hero quote displayed at the top of the page
+quote: "Quality is not an act, it is a habit."
+
+# Carousel images — add your speaking/conference photos here
+# Place images in assets/img/talks/ and reference them below
+carousel_images:
+  - /assets/img/talks/speaking-1.jpg
+  - /assets/img/talks/speaking-2.jpg
+  - /assets/img/talks/speaking-3.jpg
+
+# Country flags where you've spoken (use emoji flags)
+countries:
+  - "\U0001F1EE\U0001F1F3"
+  - "\U0001F1EC\U0001F1E7"
+  - "\U0001F1E6\U0001F1FA"
+  - "\U0001F1FA\U0001F1F8"
+  - "\U0001F1E9\U0001F1EA"
+  - "\U0001F1F3\U0001F1F1"

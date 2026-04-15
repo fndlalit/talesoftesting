@@ -1,0 +1,139 @@
+# The Site Configuration
+# Import the theme
+theme: jekyll-theme-chirpy
+
+# The language of the webpage
+lang: en
+
+# Change to your timezone
+timezone: Asia/Kolkata
+
+# jekyll-seo-tag settings
+title: Tales of Testing
+tagline: Leadership, Testing, Quality Engineering and more...
+description: >-
+  Personal blog by Lalit Bhamare — Leadership, Testing, Quality Engineering and more.
+
+# Fill with the protocol & hostname for your site.
+# e.g. 'https://username.github.io', note that it does not end with a '/'.
+url: "https://talesoftesting.com"
+
+github:
+  username: # your GitHub username
+
+social:
+  name: Lalit Bhamare
+  email: teatimewithtesters@gmail.com
+  links:
+    - https://twitter.com/Aborhood
+    - https://www.linkedin.com/in/lalitbhamare/
+    - https://medium.com/@laaborhood
+
+# Google Analytics (optional — add your tracking ID)
+# google_analytics:
+#   id: ""
+
+# Site verification (optional)
+# webmaster_verifications:
+#   google: ""
+
+# Prefer color scheme setting.
+# Options: light | dark
+theme_mode: light
+
+# The CDN endpoint for images.
+# Notice that once it is assigned, the CDN url
+# will be added to all image (site avatar & posts' images) paths starting with '/'
+# img_cdn: ""
+
+# The avatar on sidebar, support local and CORS resources
+avatar: /assets/img/avatar/lalit.jpg
+
+# The URL of the site-wide social preview image
+# og_image: /assets/img/og-image.jpg
+
+# boolean type, the global switch for TOC in posts.
+toc: true
+
+comments:
+  active: # giscus, disqus, etc. — set up later if you want comments
+  # Disqus:
+  #   shortname: ""
+
+# Self-hosted static assets
+assets:
+  self_host:
+    enabled: false
+
+paginate: 10
+
+# ------------ The following options are not recommended to be modified ------------------
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+      permalink: /posts/:title/
+  - scope:
+      path: _tabs
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - rollup.config.js
+  - package*.json
+  - migrate_wp.py
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
