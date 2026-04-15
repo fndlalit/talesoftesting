@@ -194,7 +194,7 @@
 
 - title: "Beyond Automation: How Agents Amplify (Not Replace) Testers with Agentic QCSD"
   section: past
-  event: "Crowdcast Webinar"
+  event: "EuroSTAR AI Deep Dive"
   date: 2025-03-12
   location: "Online"
   type: "Webinar"
@@ -353,9 +353,9 @@
   section: past
   event: "EuroSTAR Conference 2022"
   date: 2022-06-15
-  location: "Europe"
+  location: "Copenhagen, Denmark"
   type: "Talk"
-  flag: "\U0001F1EA\U0001F1FA"
+  flag: "\U0001F1E9\U0001F1F0"
   link: "https://conference.eurostarsoftwaretesting.com/event/2022/accelerating-quality-with-tree-shaped-testing/"
   thumbnail: "https://conference.eurostarsoftwaretesting.com/wp-content/uploads/2022/01/Lalitkumar-Bhamare-ES2022-Track-Talk-Feature-Image.jpg"
 
@@ -472,7 +472,7 @@
 
 # --- PUBLICATIONS & AWARDS (newest-first) ---
 
-- title: "Emerging QA Leader of the Year 2025"
+- title: "QA Leader of the Year 2025"
   section: publication
   event: "PractiTest"
   date: 2025-04-01
@@ -500,9 +500,15 @@
   event: "Talk show host"
   date: 2019-01-01
 
+- title: "Quality Conscious Software Delivery"
+  section: publication
+  event: "Book by Lalitkumar Bhamare"
+  date: 2022-01-01
+  link: "https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/"
+
 - title: "State of Testing Report"
   section: publication
-  event: "Co-creator and co-author"
+  event: "Co-creator and co-author (2013–Present)"
   date: 2018-01-01
   link: "http://qablog.practitest.com/state-of-testing/"
 
@@ -513,6 +519,13 @@
 
 # --- VOLUNTEERING (newest-first) ---
 
+- title: "CEO, Co-founder & Chief Editor"
+  section: volunteering
+  event: "Tea-time with Testers Magazine"
+  date: 2025-04-01
+  location: "Global (2011–Present)"
+  link: "https://www.teatimewithtesters.com/"
+
 - title: "Program Chair – Sparks 2025"
   section: volunteering
   event: "Sparks Conference"
@@ -520,10 +533,11 @@
   location: "Malaysia"
   link: "https://synapse-qa.com/sparks/"
 
-- title: "VP of Education"
+- title: "Director/VP of Education"
   section: volunteering
   event: "Association for Software Testing, USA"
   date: 2020-08-01
+  location: "USA (2020–2024)"
   link: "https://associationforsoftwaretesting.org/2020/08/29/ast-board-2020-2021/"
 
 - title: "Event host and moderator"
@@ -531,6 +545,13 @@
   event: "FailQonf and Tribal Qonf by The Test Tribe"
   date: 2020-06-01
   link: "https://www.thetesttribe.com/failqonf/"
+
+- title: "Advisory Board Member"
+  section: volunteering
+  event: "AskUI"
+  date: 2021-01-01
+  location: "Germany (2021–2023)"
+  link: "https://www.askui.com/"
 
 - title: "Member of the Advisory Board"
   section: volunteering

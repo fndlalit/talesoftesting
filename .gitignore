@@ -20,3 +20,6 @@ Thumbs.db
 
 # Bundle
 Gemfile.lock
+
+# Conference photos (raw, not yet curated for site)
+photos/
