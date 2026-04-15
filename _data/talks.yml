@@ -2,15 +2,10 @@
 # Talks, Publications & Press — Real Data
 # ============================================================
 # section: "upcoming" | "featured" | "past" | "interview" | "publication" | "volunteering"
+# All entries within each section are ordered newest-first.
 # ============================================================
 
 # --- FEATURED TALKS (video embeds) ---
-
-- title: "Opening Keynote – OnlineTest Conference 2025"
-  section: featured
-  event: "OnlineTest Conference 2025"
-  date: 2025-01-15
-  video_url: "https://www.youtube.com/embed/Ba7N_ktqqjc"
 
 - title: "Live from #EuroSTAR 25"
   section: featured
@@ -18,41 +13,17 @@
   date: 2025-06-04
   video_url: "https://www.youtube.com/embed/HjmUV4uSOLo"
 
+- title: "Opening Keynote – OnlineTest Conference 2025"
+  section: featured
+  event: "OnlineTest Conference 2025"
+  date: 2025-01-15
+  video_url: "https://www.youtube.com/embed/Ba7N_ktqqjc"
+
 - title: "Interview from #AutomationSTAR"
   section: featured
   event: "AutomationSTAR 2024 – Señor Performo"
   date: 2024-11-01
   video_url: "https://www.youtube.com/embed/WLLjEEij9Tw"
-
-- title: "EuroSTAR 2022 Preview – Accelerating Quality with Tree-shaped Testing"
-  section: featured
-  event: "EuroSTAR Software Testing Conference"
-  date: 2022-06-15
-  video_url: "https://www.youtube.com/embed/2JlOJpADL5g"
-
-- title: "Evaluating Testers in Agile Team"
-  section: featured
-  event: "Test Masters Online"
-  date: 2018-10-11
-  video_url: "https://www.youtube.com/embed/XuDJij12vsU"
-
-- title: "Quality-conscious Software Delivery – TestFlix 2020"
-  section: featured
-  event: "The Test Tribe – TestFlix 2020"
-  date: 2020-10-01
-  video_url: "https://www.youtube.com/embed/5VAL5JsC9l4"
-
-- title: "Succeeding with QCSD – ConTEST 2021"
-  section: featured
-  event: "Test Masters Academy – ConTEST 2021"
-  date: 2021-11-01
-  video_url: "https://www.youtube.com/embed/yHTb_6C6sbY"
-
-- title: "Testing Beyond Testing – The Test Tribe"
-  section: featured
-  event: "The Test Tribe"
-  date: 2021-06-01
-  video_url: "https://www.youtube.com/embed/DIWRdiE4XYI"
 
 - title: "SOFTECAsia 2024 – Testability 101"
   section: featured
@@ -66,17 +37,35 @@
   date: 2024-09-11
   video_url: "https://www.youtube.com/embed/tiLxyP3jwp0"
 
-- title: "Getting non-testers to Test – Online Testing Conference 2017"
+- title: "EuroSTAR Best Paper Award 2022"
   section: featured
-  event: "Online Testing Conference 2017"
-  date: 2017-10-15
-  video_url: "https://www.youtube.com/embed/J--g-iFWvTc"
+  event: "Tea-time with Testers"
+  date: 2022-11-01
+  video_url: "https://www.youtube.com/embed/RWkHiYJxoVM"
 
-- title: "State of Software Testing 2018 – Roundtable"
+- title: "EuroSTAR 2022 Preview – Accelerating Quality with Tree-shaped Testing"
   section: featured
-  event: "State of Testing Roundtable 2018"
-  date: 2018-03-01
-  video_url: "https://www.youtube.com/embed/236Em7dOm4o"
+  event: "EuroSTAR Software Testing Conference"
+  date: 2022-06-15
+  video_url: "https://www.youtube.com/embed/2JlOJpADL5g"
+
+- title: "Succeeding with QCSD – ConTEST 2021"
+  section: featured
+  event: "Test Masters Academy – ConTEST 2021"
+  date: 2021-11-01
+  video_url: "https://www.youtube.com/embed/yHTb_6C6sbY"
+
+- title: "Testing Beyond Testing – The Test Tribe"
+  section: featured
+  event: "The Test Tribe"
+  date: 2021-06-01
+  video_url: "https://www.youtube.com/embed/DIWRdiE4XYI"
+
+- title: "Quality-conscious Software Delivery – TestFlix 2020"
+  section: featured
+  event: "The Test Tribe – TestFlix 2020"
+  date: 2020-10-01
+  video_url: "https://www.youtube.com/embed/5VAL5JsC9l4"
 
 - title: "Testing Beyond Testing – Porto Testers Meetup"
   section: featured
@@ -84,63 +73,25 @@
   date: 2019-06-01
   video_url: "https://www.youtube.com/embed/f1_IoIPDagI"
 
-- title: "EuroSTAR Best Paper Award 2022"
+- title: "Evaluating Testers in Agile Team"
   section: featured
-  event: "Tea-time withTesters"
-  date: 2022-11-01
-  video_url: "https://www.youtube.com/embed/RWkHiYJxoVM"
+  event: "Test Masters Online"
+  date: 2018-10-11
+  video_url: "https://www.youtube.com/embed/XuDJij12vsU"
 
-# --- INTERVIEWS (video embeds) ---
+- title: "State of Software Testing 2018 – Roundtable"
+  section: featured
+  event: "State of Testing Roundtable 2018"
+  date: 2018-03-01
+  video_url: "https://www.youtube.com/embed/236Em7dOm4o"
 
-- title: "Interview with Lalitkumar Bhamare – Rapid Software Testing (RST)"
-  section: interview
-  event: "RST"
-  date: 2022-01-15
-  video_url: "https://www.youtube.com/embed/je-xE0xh98I"
+- title: "Getting non-testers to Test – Online Testing Conference 2017"
+  section: featured
+  event: "Online Testing Conference 2017"
+  date: 2017-10-15
+  video_url: "https://www.youtube.com/embed/J--g-iFWvTc"
 
-- title: "QA Time – Conversation with QA Leaders – interview by Qase"
-  section: interview
-  event: "Qase"
-  date: 2022-06-01
-  video_url: "https://www.youtube.com/embed/xc4Gp94Try8"
-
-- title: "Software Testing Interview with Lalit – interview by Daniel Knott"
-  section: interview
-  event: "Adventures in QA"
-  date: 2019-03-01
-  video_url: "https://www.youtube.com/embed/G3SGXUTdBeY"
-
-- title: "What Lies Beneath – Testing AMA feat. Lalit Bhamare"
-  section: interview
-  event: "The Test Chat"
-  date: 2021-03-01
-  video_url: "https://www.youtube.com/embed/pdm0xtTOPWg"
-
-- title: "Interview about Around the World with 80 Software Testers"
-  section: interview
-  event: "Book Interview"
-  date: 2020-06-01
-  video_url: "https://www.youtube.com/embed/JrwhKuEcpU0"
-
-- title: "Testing AMA – Changing Role of a Tester"
-  section: interview
-  event: "The Test Tribe"
-  date: 2021-09-01
-  video_url: "https://www.youtube.com/embed/IQ7HggPLv7Q"
-
-# --- INTERVIEWS (non-video, link-based) ---
-
-- title: "7 Leadership Questions with Lalit Bhamare"
-  section: interview
-  event: "Clarity Consulting Global"
-  date: 2021-01-01
-  link: "https://www.consultclarity.org/post/7-questions-with-lalit-bhamare"
-
-- title: "Interview by InfoQ.com – State of Testing Report 2020"
-  section: interview
-  event: "InfoQ"
-  date: 2020-04-01
-  link: "https://www.infoq.com/articles/2020-state-testing-report/"
+# --- INTERVIEWS (newest-first) ---
 
 - title: "Good Tester vs Average Tester – interview by Vskills India"
   section: interview
@@ -148,17 +99,23 @@
   date: 2024-01-01
   video_url: "https://www.youtube.com/embed/9vgK9_qJefQ"
 
-- title: "Keep Learning, Share and Pay it Forward – IT Career Energiser"
+- title: "QA Time – Conversation with QA Leaders – interview by Qase"
   section: interview
-  event: "IT Career Energiser (Phil Burgess)"
-  date: 2020-01-01
-  video_url: "https://www.youtube.com/embed/NfLnMyZopik"
+  event: "Qase"
+  date: 2022-06-01
+  video_url: "https://www.youtube.com/embed/xc4Gp94Try8"
 
-- title: "Interviewed by InfoQ.com – State of Testing Report 2021"
+- title: "Interview with Lalitkumar Bhamare – Rapid Software Testing (RST)"
   section: interview
-  event: "InfoQ"
-  date: 2021-04-01
-  link: "https://www.infoq.com/articles/2021-state-testing-report/"
+  event: "RST"
+  date: 2022-01-15
+  video_url: "https://www.youtube.com/embed/je-xE0xh98I"
+
+- title: "Testing AMA – Changing Role of a Tester"
+  section: interview
+  event: "The Test Tribe"
+  date: 2021-09-01
+  video_url: "https://www.youtube.com/embed/IQ7HggPLv7Q"
 
 - title: "Meet Lalitkumar Bhamare – Interview by LAMA"
   section: interview
@@ -166,13 +123,104 @@
   date: 2021-06-15
   link: "https://lama-app.com/interview-with-Lalitkumar-Bhamare"
 
+- title: "Interviewed by InfoQ.com – State of Testing Report 2021"
+  section: interview
+  event: "InfoQ"
+  date: 2021-04-01
+  link: "https://www.infoq.com/articles/2021-state-testing-report/"
+
+- title: "What Lies Beneath – Testing AMA feat. Lalit Bhamare"
+  section: interview
+  event: "The Test Chat"
+  date: 2021-03-01
+  video_url: "https://www.youtube.com/embed/pdm0xtTOPWg"
+
+- title: "7 Leadership Questions with Lalit Bhamare"
+  section: interview
+  event: "Clarity Consulting Global"
+  date: 2021-01-01
+  link: "https://www.consultclarity.org/post/7-questions-with-lalit-bhamare"
+
 - title: "5 Testing Questions with Lalitkumar Bhamare"
   section: interview
   event: "softwaretestingtools.com"
   date: 2020-08-01
   link: "https://www.softwaretestingtools.com/testing-news/5-testing-questions-with-lalit-bhamare"
 
-# --- PAST EVENTS (2025) ---
+- title: "Interview about Around the World with 80 Software Testers"
+  section: interview
+  event: "Book Interview"
+  date: 2020-06-01
+  video_url: "https://www.youtube.com/embed/JrwhKuEcpU0"
+
+- title: "Interview by InfoQ.com – State of Testing Report 2020"
+  section: interview
+  event: "InfoQ"
+  date: 2020-04-01
+  link: "https://www.infoq.com/articles/2020-state-testing-report/"
+
+- title: "Keep Learning, Share and Pay it Forward – IT Career Energiser"
+  section: interview
+  event: "IT Career Energiser (Phil Burgess)"
+  date: 2020-01-01
+  video_url: "https://www.youtube.com/embed/NfLnMyZopik"
+
+- title: "Software Testing Interview with Lalit – interview by Daniel Knott"
+  section: interview
+  event: "Adventures in QA"
+  date: 2019-03-01
+  video_url: "https://www.youtube.com/embed/G3SGXUTdBeY"
+
+# --- PAST EVENTS (newest-first) ---
+
+- title: "Automated Accessibility Testing"
+  section: past
+  event: "RoboCon 2026"
+  date: 2026-02-12
+  location: "Helsinki, Finland"
+  type: "Talk"
+  flag: "\U0001F1EB\U0001F1EE"
+  link: "https://www.robocon.io/"
+
+- title: "Beyond Automation: How Agents Amplify (Not Replace) Testers with Agentic QCSD"
+  section: past
+  event: "German Testing Night Stuttgart 2025"
+  date: 2025-07-22
+  location: "Stuttgart, Germany"
+  type: "Talk"
+  flag: "\U0001F1E9\U0001F1EA"
+  link: "https://www.germantesting.de/events/gtn/stuttgart25"
+  thumbnail: "https://www.germantesting.de/fileadmin/_processed_/7/4/csm_AAA_social_banner_community_gtd_d3ff6cfb17.jpg"
+
+- title: "Beyond Automation: How Agents Amplify (Not Replace) Testers with Agentic QCSD"
+  section: past
+  event: "Crowdcast Webinar"
+  date: 2025-03-12
+  location: "Online"
+  type: "Webinar"
+  flag: "\U0001F310"
+  link: "https://www.crowdcast.io/c/agenticqcsd"
+  thumbnail: "https://images-production-crowdcast-lambdas.s3.amazonaws.com/events/582778b0-7acc-4c8f-8d43-ded82a62eb9d/cover-photo-1771427867087.png"
+
+- title: "Closing Keynote"
+  section: past
+  event: "Sparks 2025 by SynapsQA"
+  date: 2025-03-01
+  location: "Malaysia"
+  type: "Keynote"
+  flag: "\U0001F1F2\U0001F1FE"
+  link: "https://synapse-qa.com/sparks/"
+  thumbnail: "https://synapse-qa.com/wp-content/uploads/2025/01/Leadership-blog-2.jpg"
+
+- title: "Opening Keynote"
+  section: past
+  event: "TAS 2025 by Testingminds"
+  date: 2025-02-15
+  location: "Dubai, UAE"
+  type: "Keynote"
+  flag: "\U0001F1E6\U0001F1EA"
+  link: "https://www.testingmind.com/event/test-automation-summit-dubai/agenda/"
+  thumbnail: "https://testingmind-com.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2025/05/28131140/TAS-Dubai-2.jpg"
 
 - title: "Opening Keynote"
   section: past
@@ -183,60 +231,15 @@
   flag: "\U0001F310"
   link: "https://youtu.be/Ba7N_ktqqjc"
 
-- title: "Closing Keynote"
+- title: "Progressing beyond Regression – Enhancing Automation with Testability"
   section: past
-  event: "Sparks 2025 by SynapsQA"
-  date: 2025-03-01
-  location: "Malaysia"
-  type: "Keynote"
-  flag: "\U0001F1F2\U0001F1FE"
-  link: "https://synapse-qa.com/sparks/"
-
-- title: "Opening Keynote"
-  section: past
-  event: "TAS 2025 by Testingminds"
-  date: 2025-02-15
-  location: "Dubai, UAE"
-  type: "Keynote"
-  flag: "\U0001F1E6\U0001F1EA"
-  link: "https://www.testingmind.com/event/test-automation-summit-dubai/agenda/"
-
-# --- PAST EVENTS (2024) ---
-
-- title: "AI for Better AI"
-  section: past
-  event: "AI on PI Day Conference by AIDA Group"
-  date: 2024-03-14
-  location: "Online"
-  type: "Talk"
-  flag: "\U0001F310"
-  link: "https://aidausergroup.org/2024/02/02/ai-on-pi-day-2024/"
-
-- title: "How to DevOps without taking Quality for granted"
-  section: past
-  event: "Scaled Agile China and Emperfly meet-up"
-  date: 2024-04-01
-  location: "China"
-  type: "Talk"
-  flag: "\U0001F1E8\U0001F1F3"
-
-- title: "Testability 101: How testers can help enhance testability in Software"
-  section: past
-  event: "Test Automation Days 2024"
-  date: 2024-05-29
-  location: "Netherlands"
+  event: "AutomationSTAR 2024"
+  date: 2024-10-09
+  location: "Vienna, Austria"
   type: "Workshop"
-  flag: "\U0001F1F3\U0001F1F1"
-  link: "https://www.testautomationdays.com/program-day-1/"
-
-- title: "Testing Beyond Testing: Using the transformative power of testing to cultivate a true culture of quality"
-  section: past
-  event: "Romanian Testing Conference 2024"
-  date: 2024-06-14
-  location: "Romania"
-  type: "QCSD Workshop"
-  flag: "\U0001F1F7\U0001F1F4"
-  link: "https://romaniatesting.ro/sessions/testing-beyond-testing/"
+  flag: "\U0001F1E6\U0001F1F9"
+  link: "https://automation.eurostarsoftwaretesting.com/event/2024/progressing-beyond-regression-enhancing-automation-with-testability/"
+  thumbnail: "https://automation.eurostarsoftwaretesting.com/wp-content/uploads/2024/03/AS2024-Lalitkumar-BhamareSamer-Naqvi-TUTORIAL-Feature-Image.webp"
 
 - title: "QCSD Workshop"
   section: past
@@ -256,16 +259,40 @@
   flag: "\U0001F1F2\U0001F1FE"
   link: "https://softecasia.org/"
 
-- title: "Progressing beyond Regression – Enhancing Automation with Testability"
+- title: "Testing Beyond Testing: Using the transformative power of testing to cultivate a true culture of quality"
   section: past
-  event: "AutomationSTAR 2024"
-  date: 2024-10-09
-  location: "Vienna, Austria"
-  type: "Workshop"
-  flag: "\U0001F1E6\U0001F1F9"
-  link: "https://automation.eurostarsoftwaretesting.com/event/2024/progressing-beyond-regression-enhancing-automation-with-testability/"
+  event: "Romanian Testing Conference 2024"
+  date: 2024-06-14
+  location: "Romania"
+  type: "QCSD Workshop"
+  flag: "\U0001F1F7\U0001F1F4"
+  link: "https://romaniatesting.ro/sessions/testing-beyond-testing/"
 
-# --- PAST EVENTS (2023) ---
+- title: "Testability 101: How testers can help enhance testability in Software"
+  section: past
+  event: "Test Automation Days 2024"
+  date: 2024-05-29
+  location: "Netherlands"
+  type: "Workshop"
+  flag: "\U0001F1F3\U0001F1F1"
+  link: "https://www.testautomationdays.com/program-day-1/"
+
+- title: "How to DevOps without taking Quality for granted"
+  section: past
+  event: "Scaled Agile China and Emperfly meet-up"
+  date: 2024-04-01
+  location: "China"
+  type: "Talk"
+  flag: "\U0001F1E8\U0001F1F3"
+
+- title: "AI for Better AI"
+  section: past
+  event: "AI on PI Day Conference by AIDA Group"
+  date: 2024-03-14
+  location: "Online"
+  type: "Talk"
+  flag: "\U0001F310"
+  link: "https://aidausergroup.org/2024/02/02/ai-on-pi-day-2024/"
 
 - title: "AI for better AI"
   section: past
@@ -303,6 +330,16 @@
   flag: "\U0001F1E8\U0001F1F3"
   link: "http://www.tid.org.cn/"
 
+- title: "An Ancient Science for Advanced Critical Thinking for Testers and Teams"
+  section: past
+  event: "EuroSTAR Conference 2023"
+  date: 2023-06-15
+  location: "Europe"
+  type: "Talk"
+  flag: "\U0001F1EA\U0001F1FA"
+  link: "https://conference.eurostarsoftwaretesting.com/event/2023/an-ancient-science-for-advanced-critical-thinking-for-testers-and-teams/"
+  thumbnail: "https://conference.eurostarsoftwaretesting.com/wp-content/uploads/2022/11/ES2023-Lalitkumar-Bhamare-TRACK-TALK-Feature-Image.jpg"
+
 - title: "Making Quality Happen with QCSD"
   section: past
   event: "JaSST 2023"
@@ -312,17 +349,6 @@
   flag: "\U0001F1EF\U0001F1F5"
   link: "https://jasst.jp/symposium/jasst23tokyo/details.html#A5"
 
-- title: "An Ancient Science for Advanced Critical Thinking for Testers and Teams"
-  section: past
-  event: "EuroSTAR Conference 2023"
-  date: 2023-06-15
-  location: "Europe"
-  type: "Talk"
-  flag: "\U0001F1EA\U0001F1FA"
-  link: "https://conference.eurostarsoftwaretesting.com/event/2023/an-ancient-science-for-advanced-critical-thinking-for-testers-and-teams/"
-
-# --- PAST EVENTS (2022) ---
-
 - title: "Accelerating Quality with Tree-shaped Testing"
   section: past
   event: "EuroSTAR Conference 2022"
@@ -331,8 +357,7 @@
   type: "Talk"
   flag: "\U0001F1EA\U0001F1FA"
   link: "https://conference.eurostarsoftwaretesting.com/event/2022/accelerating-quality-with-tree-shaped-testing/"
-
-# --- PAST EVENTS (2021) ---
+  thumbnail: "https://conference.eurostarsoftwaretesting.com/wp-content/uploads/2022/01/Lalitkumar-Bhamare-ES2022-Track-Talk-Feature-Image.jpg"
 
 - title: "Quality Conscious Software Delivery"
   section: past
@@ -352,8 +377,6 @@
   flag: "\U0001F310"
   link: "https://thetesttribe.com/worqference-lalit-bhamare/"
 
-# --- PAST EVENTS (2019) ---
-
 - title: "Succeeding with Whole Team Testing"
   section: past
   event: "ConTEST NYC 2019"
@@ -369,8 +392,6 @@
   location: "Porto, Portugal"
   type: "Talk"
   flag: "\U0001F1F5\U0001F1F9"
-
-# --- PAST EVENTS (2018) ---
 
 - title: "Understanding Testers beyond Testing"
   section: past
@@ -389,15 +410,6 @@
   type: "Talk"
   flag: "\U0001F1F0\U0001F1F7"
 
-- title: "Evaluating Testers in Agile Teams"
-  section: past
-  event: "Test Masters Online"
-  date: 2018-06-01
-  location: "Online"
-  type: "Webinar"
-  flag: "\U0001F310"
-  link: "https://www.testmastersacademyonline.org/lalitkumar-bhamare"
-
 - title: "Making whole-team Testing successful"
   section: past
   event: "Test Leadership Congress 2018"
@@ -406,7 +418,14 @@
   type: "Workshop"
   flag: "\U0001F1FA\U0001F1F8"
 
-# --- PAST EVENTS (2016-2017) ---
+- title: "Evaluating Testers in Agile Teams"
+  section: past
+  event: "Test Masters Online"
+  date: 2018-06-01
+  location: "Online"
+  type: "Webinar"
+  flag: "\U0001F310"
+  link: "https://www.testmastersacademyonline.org/lalitkumar-bhamare"
 
 - title: "Getting non-testers to Test"
   section: past
@@ -417,14 +436,6 @@
   flag: "\U0001F310"
   link: "https://youtu.be/J--g-iFWvTc"
 
-- title: "The State of Testing 2016"
-  section: past
-  event: "OnlineTestConf – Winter 2016"
-  date: 2016-12-01
-  location: "Online"
-  type: "Joint Talk"
-  flag: "\U0001F310"
-
 - title: "Session Based Programming – Lightning Talk"
   section: past
   event: "Agile Testing Days 2016"
@@ -433,7 +444,13 @@
   type: "Lightning Talk"
   flag: "\U0001F1E9\U0001F1EA"
 
-# --- PAST EVENTS (2014) ---
+- title: "The State of Testing 2016"
+  section: past
+  event: "OnlineTestConf – Winter 2016"
+  date: 2016-12-01
+  location: "Online"
+  type: "Joint Talk"
+  flag: "\U0001F310"
 
 - title: "Mindmaps and Heuristics – Tester's Best Friends in Fast Changing Environment"
   section: past
@@ -444,8 +461,6 @@
   flag: "\U0001F1EE\U0001F1F3"
   link: "https://www.slideshare.net/Lalit_Bhamare/mindmaps-and-heuristics-testers-best-friends-lalit-bhamare-36117417"
 
-# --- PAST EVENTS (2013) ---
-
 - title: "State of Testing webinar 2013"
   section: past
   event: "TV for Testers"
@@ -455,7 +470,12 @@
   flag: "\U0001F310"
   description: "With Jerry Weinberg, Fiona Charles, and Joel Montvelisky"
 
-# --- PUBLICATIONS & PROJECTS ---
+# --- PUBLICATIONS & AWARDS (newest-first) ---
+
+- title: "Emerging QA Leader of the Year 2025"
+  section: publication
+  event: "PractiTest"
+  date: 2025-04-01
 
 - title: "Contributing author in 'Taking Testing Seriously'"
   section: publication
@@ -475,23 +495,23 @@
   date: 2020-01-01
   link: "https://www.stickyminds.com/article/whole-team-testing-whole-team-quality"
 
+- title: "Techno Talks with Lalit"
+  section: publication
+  event: "Talk show host"
+  date: 2019-01-01
+
 - title: "State of Testing Report"
   section: publication
   event: "Co-creator and co-author"
   date: 2018-01-01
   link: "http://qablog.practitest.com/state-of-testing/"
 
-- title: "Techno Talks with Lalit"
-  section: publication
-  event: "Talk show host"
-  date: 2019-01-01
-
 - title: "Musings over Tea Time – Foreword"
   section: publication
   event: "Tea-time with Testers"
   date: 2014-06-01
 
-# --- VOLUNTEERING ---
+# --- VOLUNTEERING (newest-first) ---
 
 - title: "Program Chair – Sparks 2025"
   section: volunteering
@@ -506,33 +526,6 @@
   date: 2020-08-01
   link: "https://associationforsoftwaretesting.org/2020/08/29/ast-board-2020-2021/"
 
-- title: "Program Chair – ConTEST NYC 2020"
-  section: volunteering
-  event: "ConTEST NYC"
-  date: 2020-01-01
-  link: "https://contest-nyc.testmastersacademy.org/proposals/2020-programme-committee/"
-
-- title: "Lead Instructor – BBST Foundations"
-  section: volunteering
-  event: "Association for Software Testing, USA"
-  date: 2019-01-01
-
-- title: "Peer Advisor with James Bach"
-  section: volunteering
-  event: "Rapid Software Testing Applied"
-  date: 2019-06-01
-
-- title: "Editorials – Tea-time with Testers"
-  section: volunteering
-  event: "Tea-time with Testers Magazine"
-  date: 2013-01-01
-
-- title: "Track-chair – Agile Testing Days 2016"
-  section: volunteering
-  event: "Agile Testing Days"
-  date: 2016-12-01
-  location: "Potsdam, Germany"
-
 - title: "Event host and moderator"
   section: volunteering
   event: "FailQonf and Tribal Qonf by The Test Tribe"
@@ -543,3 +536,30 @@
   section: volunteering
   event: "ditCraft"
   date: 2020-03-01
+
+- title: "Program Chair – ConTEST NYC 2020"
+  section: volunteering
+  event: "ConTEST NYC"
+  date: 2020-01-01
+  link: "https://contest-nyc.testmastersacademy.org/proposals/2020-programme-committee/"
+
+- title: "Peer Advisor with James Bach"
+  section: volunteering
+  event: "Rapid Software Testing Applied"
+  date: 2019-06-01
+
+- title: "Lead Instructor – BBST Foundations"
+  section: volunteering
+  event: "Association for Software Testing, USA"
+  date: 2019-01-01
+
+- title: "Track-chair – Agile Testing Days 2016"
+  section: volunteering
+  event: "Agile Testing Days"
+  date: 2016-12-01
+  location: "Potsdam, Germany"
+
+- title: "Editorials – Tea-time with Testers"
+  section: volunteering
+  event: "Tea-time with Testers Magazine"
+  date: 2013-01-01
