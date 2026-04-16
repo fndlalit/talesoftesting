@@ -276,7 +276,7 @@ layout: page
 
 <!-- Carousel script -->
 <script>
-(function() {
+document.addEventListener('DOMContentLoaded', function() {
   var carousel = document.getElementById('heroCarousel');
   if (!carousel) return;
   var imgs = carousel.querySelectorAll('img');
@@ -304,5 +304,5 @@ layout: page
 
   // Auto-advance every 5 seconds
   setInterval(function() { goTo(current + 1); }, 5000);
-})();
+});
 </script>
