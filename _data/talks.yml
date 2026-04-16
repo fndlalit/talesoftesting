@@ -487,24 +487,28 @@
   section: publication
   event: "PractiTest"
   date: 2025-04-01
+  thumbnail: "/assets/img/logos/practitest-award.jpeg"
 
 - title: "Contributing author in 'Taking Testing Seriously'"
   section: publication
   event: "Book by James Bach and Michael Bolton"
   date: 2025-01-01
   link: "https://www.wiley.com/en-us/Taking+Testing+Seriously%3A+The+Rapid+Software+Testing+Approach-p-9781394253197"
+  thumbnail: "/assets/img/logos/taking-testing-seriously.jpg"
 
 - title: "EuroSTAR Best Paper 2022 Award"
   section: publication
   event: "Quality Conscious Software Delivery"
   date: 2022-06-15
   link: "https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/"
+  thumbnail: "/assets/img/logos/eurostar-bestpaper.jpg"
 
 - title: "Whole-Team Testing for Whole-Team Quality"
   section: publication
   event: "StickyMinds Article"
   date: 2020-01-01
   link: "https://www.stickyminds.com/article/whole-team-testing-whole-team-quality"
+  thumbnail: "/assets/img/logos/stickyminds.png"
 
 - title: "Techno Talks with Lalit"
   section: publication
@@ -516,12 +520,14 @@
   event: "Book by Lalitkumar Bhamare"
   date: 2022-01-01
   link: "https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/"
+  thumbnail: "/assets/img/logos/eurostar-bestpaper.jpg"
 
 - title: "State of Testing Report"
   section: publication
   event: "Co-creator and co-author (2013–Present)"
   date: 2018-01-01
   link: "http://qablog.practitest.com/state-of-testing/"
+  thumbnail: "/assets/img/logos/state-of-testing.png"
 
 - title: "Musings over Tea Time – Foreword"
   section: publication
@@ -536,6 +542,7 @@
   date: 2025-04-01
   location: "Global (2011–Present)"
   link: "https://www.teatimewithtesters.com/"
+  thumbnail: "/assets/img/logos/ttwt.jpg"
 
 - title: "Program Chair – Sparks 2025"
   section: volunteering
@@ -543,6 +550,7 @@
   date: 2025-01-01
   location: "Malaysia"
   link: "https://synapse-qa.com/sparks/"
+  thumbnail: "/assets/img/logos/sparks.png"
 
 - title: "Director/VP of Education"
   section: volunteering
@@ -550,12 +558,14 @@
   date: 2020-08-01
   location: "USA (2020–2024)"
   link: "https://associationforsoftwaretesting.org/2020/08/29/ast-board-2020-2021/"
+  thumbnail: "/assets/img/logos/ast.png"
 
 - title: "Event host and moderator"
   section: volunteering
   event: "FailQonf and Tribal Qonf by The Test Tribe"
   date: 2020-06-01
   link: "https://www.thetesttribe.com/failqonf/"
+  thumbnail: "/assets/img/logos/testtribe.png"
 
 - title: "Advisory Board Member"
   section: volunteering
@@ -563,6 +573,7 @@
   date: 2021-01-01
   location: "Germany (2021–2023)"
   link: "https://www.askui.com/"
+  thumbnail: "/assets/img/logos/askui.svg"
 
 - title: "Member of the Advisory Board"
   section: volunteering
@@ -585,11 +596,6 @@
   event: "Association for Software Testing, USA"
   date: 2019-01-01
 
-- title: "Track-chair – Agile Testing Days 2016"
-  section: volunteering
-  event: "Agile Testing Days"
-  date: 2016-12-01
-  location: "Potsdam, Germany"
 
 - title: "Editorials – Tea-time with Testers"
   section: volunteering

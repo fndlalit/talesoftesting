@@ -122,14 +122,14 @@ order: 2
 <div class="qcsd">
 
 <p class="qcsd-lede">
-The software industry spends trillions failing at quality — not because it lacks tools, but because it confuses testing with thinking. QCSD is a framework for fixing that confusion. Its Agentic evolution extends the fix into the age of AI.
+The software industry spends trillions failing at quality — not because it lacks tools, but because it treats quality as a problem tools can solve. QCSD is a framework built on the premise that quality comes from consciousness, not process. Its Agentic evolution extends that premise into the age of AI.
 </p>
 
 <p>When you ask most teams what "quality engineering" means, the answer comes back in tooling: automation frameworks, CI/CD gates, SonarQube dashboards, DORA metrics. These things matter. But they are answers to the wrong question. The question isn't <em>how do we check more things faster</em>. It's <em>how do we make quality a conscious act at every stage of building software</em>.</p>
 
-<p>Jerry Weinberg saw this decades ago when he wrote that quality is value to some person — and that no matter what they tell you at first, it is always a people problem. That observation remains more relevant today than when he made it. The cost of poor software quality in the US alone reached $2.41 trillion in 2022, yet the industry's response has been to double down on the same thinking: more automation, more dashboards, more gates. I call this the <strong>Faster Horse cycle</strong> — using 21st-century tools to optimise 20th-century objectives. Teams producing more tests than ever, while producing no better software.</p>
+<p><a href="https://en.wikipedia.org/wiki/Gerald_Weinberg" target="_blank" rel="noopener">Jerry Weinberg</a> saw this decades ago when he wrote that quality is value to some person — and that no matter what they tell you at first, it is always a people problem. That observation remains more relevant today than when he made it. The cost of poor software quality in the US alone reached $2.41 trillion in 2022, yet the industry's response has been to double down on the same thinking: more automation, more dashboards, more gates. I call this the <strong>Faster Horse cycle</strong> — using 21st-century tools to optimise 20th-century objectives. Teams producing more tests than ever, while producing no better software.</p>
 
-<p>The engineering solutions are just a tiny part of the picture. The deeper problem is one of consciousness — or rather, its absence. And that's where QCSD begins.</p>
+<p>The engineering solutions are just a tiny part of the picture. The deeper problem is one of consciousness for quality — or rather, its absence. And that's where QCSD begins.</p>
 
 <hr class="qcsd-sep">
 
