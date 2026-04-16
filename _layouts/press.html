@@ -107,7 +107,7 @@ layout: page
   /* Publication thumbnails */
   .pub-thumb-wrap {
     width: 100%;
-    height: 160px;
+    height: 180px;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -173,7 +173,7 @@ layout: page
     </div>
     {% elsif pub.thumbnail %}
     <div class="pub-thumb-wrap{% if pub.thumb_type == 'logo' %} logo-style{% endif %}">
-      <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}" loading="lazy">
+      {% if pub.thumbnail contains '://' %}<img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" loading="lazy">{% else %}<img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}" loading="lazy">{% endif %}
     </div>
     {% endif %}
     <div class="card-body">
@@ -195,9 +195,15 @@ layout: page
   {% for v in vol %}
   <div class="press-card">
     {% if v.thumbnail %}
-    <div class="vol-logo-wrap">
-      <img src="{{ v.thumbnail | relative_url }}" alt="{{ v.event }}" loading="lazy">
-    </div>
+      {% if v.thumb_type == 'photo' %}
+      <div class="pub-thumb-wrap">
+        {% if v.thumbnail contains '://' %}<img src="{{ v.thumbnail }}" alt="{{ v.event }}" loading="lazy">{% else %}<img src="{{ v.thumbnail | relative_url }}" alt="{{ v.event }}" loading="lazy">{% endif %}
+      </div>
+      {% else %}
+      <div class="vol-logo-wrap">
+        {% if v.thumbnail contains '://' %}<img src="{{ v.thumbnail }}" alt="{{ v.event }}" loading="lazy">{% else %}<img src="{{ v.thumbnail | relative_url }}" alt="{{ v.event }}" loading="lazy">{% endif %}
+      </div>
+      {% endif %}
     {% endif %}
     <div class="card-body">
       <h3>{% if v.link %}<a href="{{ v.link }}" target="_blank" rel="noopener" style="color: inherit; text-decoration: none; border-bottom: 1px dashed #50b8a6;">{{ v.title }}</a>{% else %}{{ v.title }}{% endif %}</h3>

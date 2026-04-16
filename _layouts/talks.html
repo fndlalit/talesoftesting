@@ -210,7 +210,7 @@ layout: page
   <div class="event-card">
     {% if talk.thumbnail %}
       <a href="{{ talk.link | default: '#' }}" target="_blank" rel="noopener">
-        <img src="{{ talk.thumbnail }}" alt="{{ talk.event }}" loading="lazy">
+        {% if talk.thumbnail contains '://' %}<img src="{{ talk.thumbnail }}" alt="{{ talk.event }}" loading="lazy">{% else %}<img src="{{ talk.thumbnail | relative_url }}" alt="{{ talk.event }}" loading="lazy">{% endif %}
       </a>
     {% endif %}
     <div class="card-body">
@@ -238,7 +238,7 @@ layout: page
     </div>
     {% elsif talk.thumbnail %}
       <a href="{{ talk.link | default: '#' }}" target="_blank" rel="noopener">
-        <img src="{{ talk.thumbnail }}" alt="{{ talk.title }}" loading="lazy">
+        {% if talk.thumbnail contains '://' %}<img src="{{ talk.thumbnail }}" alt="{{ talk.title }}" loading="lazy">{% else %}<img src="{{ talk.thumbnail | relative_url }}" alt="{{ talk.title }}" loading="lazy">{% endif %}
       </a>
     {% endif %}
     <div class="card-body">
@@ -259,7 +259,7 @@ layout: page
   <div class="event-card">
     {% if talk.thumbnail %}
       <a href="{{ talk.link | default: '#' }}" target="_blank" rel="noopener">
-        <img src="{{ talk.thumbnail }}" alt="{{ talk.event }}" loading="lazy">
+        {% if talk.thumbnail contains '://' %}<img src="{{ talk.thumbnail }}" alt="{{ talk.event }}" loading="lazy">{% else %}<img src="{{ talk.thumbnail | relative_url }}" alt="{{ talk.event }}" loading="lazy">{% endif %}
       </a>
     {% endif %}
     <div class="card-body">

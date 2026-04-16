@@ -624,7 +624,7 @@
   section: publication
   event: "Tea-time with Testers"
   date: 2014-06-01
-  thumbnail: "/assets/img/talks/ttwt-editorial.jpg"
+  thumbnail: "/assets/img/talks/ttwt-magazines.jpg"
 
 # --- VOLUNTEERING (newest-first) ---
 
@@ -635,6 +635,7 @@
   location: "Global (2011–Present)"
   link: "https://www.teatimewithtesters.com/"
   thumbnail: "/assets/img/talks/ttwt-magazines.jpg"
+  thumb_type: "photo"
 
 - title: "Program Chair – Sparks 2025"
   section: volunteering
@@ -694,3 +695,4 @@
   event: "Tea-time with Testers Magazine"
   date: 2013-01-01
   thumbnail: "/assets/img/talks/ttwt-editorial.jpg"
+  thumb_type: "photo"
