@@ -119,6 +119,18 @@ layout: page
     height: 100%;
     object-fit: cover;
   }
+  .pub-thumb-wrap.logo-style {
+    height: 100px;
+    background: var(--card-bg, #f9f9f9);
+    border-bottom: 1px solid var(--card-border-color, #e0e0e0);
+  }
+  .pub-thumb-wrap.logo-style img {
+    max-height: 48px;
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
 </style>
 
 <!-- ===== INTERVIEWS ===== -->
@@ -156,7 +168,7 @@ layout: page
   {% for pub in pubs %}
   <div class="press-card">
     {% if pub.thumbnail %}
-    <div class="pub-thumb-wrap">
+    <div class="pub-thumb-wrap{% if pub.thumb_type == 'logo' %} logo-style{% endif %}">
       <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}" loading="lazy">
     </div>
     {% endif %}

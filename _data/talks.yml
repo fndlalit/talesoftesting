@@ -487,7 +487,7 @@
   section: publication
   event: "PractiTest"
   date: 2025-04-01
-  thumbnail: "/assets/img/logos/practitest-award.jpeg"
+  thumbnail: "/assets/img/logos/practitest-award.jpg"
 
 - title: "Contributing author in 'Taking Testing Seriously'"
   section: publication
@@ -509,6 +509,7 @@
   date: 2020-01-01
   link: "https://www.stickyminds.com/article/whole-team-testing-whole-team-quality"
   thumbnail: "/assets/img/logos/stickyminds.png"
+  thumb_type: "logo"
 
 - title: "Techno Talks with Lalit"
   section: publication
