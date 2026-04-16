@@ -285,7 +285,7 @@
   type: "Keynote"
   flag: "\U0001F1F2\U0001F1FE"
   link: "https://synapse-qa.com/sparks/"
-  thumbnail: "https://synapse-qa.com/wp-content/uploads/2025/01/Leadership-blog-2.jpg"
+  thumbnail: "/assets/img/talks/sparks-closing-keynote.jpg"
 
 - title: "Opening Keynote"
   section: past
@@ -353,7 +353,7 @@
   type: "Workshop"
   flag: "\U0001F1F3\U0001F1F1"
   link: "https://www.testautomationdays.com/program-day-1/"
-  thumbnail: "https://www.testautomationdays.com/wp-content/uploads/2019/10/IMG_0667.jpg"
+  thumbnail: "/assets/img/talks/test-automation-days.jpg"
 
 - title: "How to DevOps without taking Quality for granted"
   section: past
@@ -409,7 +409,7 @@
   type: "Workshop"
   flag: "\U0001F1E8\U0001F1F3"
   link: "http://www.tid.org.cn/"
-  thumbnail: "/assets/img/talks/carousel-qcsd-china.jpg"
+  thumbnail: "/assets/img/talks/tid-qcsd-presenting.jpg"
 
 - title: "Making Quality Happen with QCSD"
   section: past
@@ -478,6 +478,7 @@
   location: "New York, USA"
   type: "2-Day Workshop"
   flag: "\U0001F1FA\U0001F1F8"
+  thumbnail: "/assets/img/talks/contest-nyc-panel.jpg"
 
 - title: "Testing Beyond Testing"
   section: past
@@ -486,6 +487,7 @@
   location: "Porto, Portugal"
   type: "Talk"
   flag: "\U0001F1F5\U0001F1F9"
+  link: "https://youtu.be/f1_IoIPDagI"
 
 - title: "Understanding Testers beyond Testing"
   section: past
@@ -588,7 +590,7 @@
   event: "Quality Conscious Software Delivery"
   date: 2022-06-15
   link: "https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/"
-  thumbnail: "/assets/img/logos/eurostar-bestpaper.jpg"
+  thumbnail: "/assets/img/talks/eurostar-bestpaper-closeup.jpg"
 
 - title: "Whole-Team Testing for Whole-Team Quality"
   section: publication
@@ -622,6 +624,7 @@
   section: publication
   event: "Tea-time with Testers"
   date: 2014-06-01
+  thumbnail: "/assets/img/talks/ttwt-editorial.jpg"
 
 # --- VOLUNTEERING (newest-first) ---
 
@@ -631,7 +634,7 @@
   date: 2025-04-01
   location: "Global (2011–Present)"
   link: "https://www.teatimewithtesters.com/"
-  thumbnail: "/assets/img/logos/ttwt.jpg"
+  thumbnail: "/assets/img/talks/ttwt-magazines.jpg"
 
 - title: "Program Chair – Sparks 2025"
   section: volunteering
@@ -690,3 +693,4 @@
   section: volunteering
   event: "Tea-time with Testers Magazine"
   date: 2013-01-01
+  thumbnail: "/assets/img/talks/ttwt-editorial.jpg"
