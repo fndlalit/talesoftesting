@@ -5,19 +5,14 @@
 # Hero quote displayed at the top of the page
 quote: "Quality is not an act, it is a habit."
 
-# Carousel images — add your speaking/conference photos here
+# Carousel images — curated speaking/conference photos (diverse venues)
 carousel_images:
-  - /assets/img/talks/carousel-sparks-stage.jpg
-  - /assets/img/talks/carousel-qcsd-china.jpg
-  - /assets/img/talks/carousel-presenting-animated.jpg
-  - /assets/img/talks/carousel-eurostar-award.jpg
-  - /assets/img/talks/carousel-quality-matters.jpg
-  - /assets/img/talks/carousel-candid-speaking.jpg
-  - /assets/img/talks/carousel-korea-poster.jpg
-  - /assets/img/talks/carousel-group-speakers.jpg
-  - /assets/img/talks/carousel-workshop-group.jpg
-  - /assets/img/talks/carousel-sparks-certificate.jpg
-  - /assets/img/talks/speaking-1.jpg
+  - /assets/img/talks/carousel-sparks-stage.jpg          # Sparks keynote, Malaysia
+  - /assets/img/talks/carousel-eurostar-award.jpg         # EuroSTAR Best Paper, Denmark
+  - /assets/img/talks/carousel-automationstar-portrait.jpg # AutomationSTAR, Vienna
+  - /assets/img/talks/carousel-korea-poster.jpg           # Better Software Conference, Korea
+  - /assets/img/talks/carousel-qcsd-china.jpg             # TiD Conference, Beijing
+  - /assets/img/talks/carousel-sparks-certificate.jpg     # Sparks certificate, Malaysia
 
 # Country flags where you've spoken (use emoji flags)
 countries:

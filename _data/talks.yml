@@ -79,17 +79,47 @@
   date: 2018-10-11
   video_url: "https://www.youtube.com/embed/XuDJij12vsU"
 
+- title: "State of Testing 2026 Roundtable – AI Anxiety, Specialization & QA Careers"
+  section: featured
+  event: "PractiTest – State of Testing 2026"
+  date: 2026-02-01
+  video_url: "https://www.youtube.com/embed/r2rz3Z8JHNQ"
+
+- title: "State of Testing 2024 – Roundtable Discussion"
+  section: featured
+  event: "PractiTest – State of Testing 2024"
+  date: 2024-04-01
+  video_url: "https://www.youtube.com/embed/oPq1KSXw0gE"
+
+- title: "State of Testing 2023 – Roundtable Discussion"
+  section: featured
+  event: "PractiTest – State of Testing 2023"
+  date: 2023-08-01
+  video_url: "https://www.youtube.com/embed/bLv3bZxwgkQ"
+
 - title: "State of Software Testing 2018 – Roundtable"
   section: featured
   event: "State of Testing Roundtable 2018"
   date: 2018-03-01
   video_url: "https://www.youtube.com/embed/236Em7dOm4o"
 
+- title: "State of Testing 2017 – Trends in Software Testing"
+  section: featured
+  event: "PractiTest – State of Testing 2017"
+  date: 2017-12-01
+  video_url: "https://www.youtube.com/embed/ja-huiQlhD0"
+
 - title: "Getting non-testers to Test – Online Testing Conference 2017"
   section: featured
   event: "Online Testing Conference 2017"
   date: 2017-10-15
   video_url: "https://www.youtube.com/embed/J--g-iFWvTc"
+
+- title: "State of Testing 2013 – Webinar with Jerry Weinberg"
+  section: featured
+  event: "Tea-time with Testers / PractiTest"
+  date: 2013-04-24
+  video_url: "https://www.youtube.com/embed/cIXPKw-KhiY"
 
 # --- SUPER VOICE – Judge (newest-first) ---
 
@@ -379,6 +409,7 @@
   type: "Workshop"
   flag: "\U0001F1E8\U0001F1F3"
   link: "http://www.tid.org.cn/"
+  thumbnail: "/assets/img/talks/carousel-qcsd-china.jpg"
 
 - title: "Making Quality Happen with QCSD"
   section: past
@@ -388,6 +419,7 @@
   type: "Talk"
   flag: "\U0001F1E8\U0001F1F3"
   link: "http://www.tid.org.cn/"
+  thumbnail: "/assets/img/talks/carousel-presenting-animated.jpg"
 
 - title: "An Ancient Science for Advanced Critical Thinking for Testers and Teams"
   section: past
@@ -533,6 +565,7 @@
   location: "Online"
   type: "Webinar"
   flag: "\U0001F310"
+  link: "https://www.youtube.com/watch?v=cIXPKw-KhiY"
   description: "With Jerry Weinberg, Fiona Charles, and Joel Montvelisky"
 
 # --- PUBLICATIONS & AWARDS (newest-first) ---
