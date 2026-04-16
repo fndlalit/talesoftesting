@@ -167,7 +167,11 @@ layout: page
 <div class="press-grid">
   {% for pub in pubs %}
   <div class="press-card">
-    {% if pub.thumbnail %}
+    {% if pub.video_url %}
+    <div class="video-wrap">
+      <iframe src="{{ pub.video_url }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    </div>
+    {% elsif pub.thumbnail %}
     <div class="pub-thumb-wrap{% if pub.thumb_type == 'logo' %} logo-style{% endif %}">
       <img src="{{ pub.thumbnail | relative_url }}" alt="{{ pub.title }}" loading="lazy">
     </div>
