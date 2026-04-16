@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var dotsContainer = document.getElementById('carouselDots');
   var current = 0;
 
-  // Build dots
+  /* Build dots */
   for (var i = 0; i < imgs.length; i++) {
     var dot = document.createElement('span');
     if (i === 0) dot.classList.add('active');
@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   window.moveSlide = function(dir) { goTo(current + dir); };
 
-  // Auto-advance every 5 seconds
+  /* Auto-advance every 5 seconds */
   setInterval(function() { goTo(current + 1); }, 5000);
 });
 </script>

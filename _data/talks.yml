@@ -91,6 +91,40 @@
   date: 2017-10-15
   video_url: "https://www.youtube.com/embed/J--g-iFWvTc"
 
+# --- SUPER VOICE – Judge (newest-first) ---
+
+- title: "Super Voice Season 1 Grand Finale – Judge"
+  section: featured
+  event: "Super Voice by Synapse QA"
+  date: 2023-06-01
+  video_url: "https://www.youtube.com/embed/tH5ycLArz4c"
+
+- title: "Super Voice #episode3: Knockouts Round – Judge"
+  section: featured
+  event: "Super Voice by Synapse QA"
+  date: 2023-04-01
+  video_url: "https://www.youtube.com/embed/cAIs5yb3FqI"
+
+- title: "Super Voice: Battle Round Episode 2 – Judge"
+  section: featured
+  event: "Super Voice by Synapse QA"
+  date: 2023-03-01
+  video_url: "https://www.youtube.com/embed/A6HyP6G_Ks0"
+
+- title: "Super Voice: Battle Round Episode 1 – Judge"
+  section: featured
+  event: "Super Voice by Synapse QA"
+  date: 2023-02-01
+  video_url: "https://www.youtube.com/embed/VP6HiW0903U"
+
+# --- PANEL DISCUSSIONS (featured video) ---
+
+- title: "Experts Panel Discussion – ConTEST NYC 2019"
+  section: featured
+  event: "Test Masters Academy – ConTEST NYC 2019"
+  date: 2019-11-18
+  video_url: "https://www.youtube.com/embed/gIXVQvE4rO0"
+
 # --- INTERVIEWS (newest-first) ---
 
 - title: "Good Tester vs Average Tester – interview by Vskills India"
@@ -192,6 +226,16 @@
   flag: "\U0001F1E9\U0001F1EA"
   link: "https://www.germantesting.de/events/gtn/stuttgart25"
   thumbnail: "https://www.germantesting.de/fileadmin/_processed_/7/4/csm_AAA_social_banner_community_gtd_d3ff6cfb17.jpg"
+
+- title: "Quality of Testing - Then, Now & Tomorrow"
+  section: past
+  event: "Sparks 2025 by SynapsQA"
+  date: 2025-07-01
+  location: "Malaysia"
+  type: "Talk"
+  flag: "\U0001F1F2\U0001F1FE"
+  link: "https://www.youtube.com/live/eutt7hzARUE"
+  thumbnail: "https://synapse-qa.com/wp-content/uploads/2025/01/Leadership-blog-2.jpg"
 
 - title: "Beyond Automation: How Agents Amplify (Not Replace) Testers with Agentic QCSD"
   section: past
@@ -316,6 +360,16 @@
   type: "Talk"
   flag: "\U0001F310"
   link: "https://seastarquality2023.sched.com/"
+
+- title: "Accelerating Quality with Conscious Deliveries"
+  section: past
+  event: "InflectraCON 2023"
+  date: 2023-08-01
+  location: "Online"
+  type: "Talk"
+  flag: "\U0001F310"
+  link: "https://www.inflectra.com/Ideas/Videos/PL1GncVUgF5nvWfWHncWcdYj180LuavCN_/g4f2stSL4As.aspx"
+  thumbnail: "https://i.ytimg.com/vi/g4f2stSL4As/hqdefault.jpg"
 
 - title: "Essentials of QCSD"
   section: past
