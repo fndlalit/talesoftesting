@@ -7,6 +7,16 @@ quote: "Quality is not an act, it is a habit."
 
 # Carousel images — add your speaking/conference photos here
 carousel_images:
+  - /assets/img/talks/carousel-sparks-stage.jpg
+  - /assets/img/talks/carousel-qcsd-china.jpg
+  - /assets/img/talks/carousel-presenting-animated.jpg
+  - /assets/img/talks/carousel-eurostar-award.jpg
+  - /assets/img/talks/carousel-quality-matters.jpg
+  - /assets/img/talks/carousel-candid-speaking.jpg
+  - /assets/img/talks/carousel-korea-poster.jpg
+  - /assets/img/talks/carousel-group-speakers.jpg
+  - /assets/img/talks/carousel-workshop-group.jpg
+  - /assets/img/talks/carousel-sparks-certificate.jpg
   - /assets/img/talks/speaking-1.jpg
 
 # Country flags where you've spoken (use emoji flags)
