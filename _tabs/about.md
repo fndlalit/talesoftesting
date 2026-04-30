@@ -44,7 +44,7 @@ order: 3
     color: #50b8a6;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    margin: 0 0 2.4rem;
+    margin: 0 0 3.5rem;
     font-weight: 500;
   }
   .ab-hero-text p {
@@ -158,9 +158,11 @@ document.addEventListener('DOMContentLoaded', function() {
     <h1 class="ab-name">Lalitkumar Bhamare</h1>
     <p class="ab-role">Productivity Engineering. Leadership. AI.</p>
     <p>For over eighteen years, I've worked at the intersection of software quality, engineering leadership, and human curiosity. I believe the best software isn't just tested - it's <em>thought about</em> deeply, cared about at every level from ideation till end user satisfaction, looked after from discovery to disaster recovery, by every person who touches it.</p>
-    <p>I help building engineering teams where "quality is everyone's responsibility" is not just a slogan on the wall but a culture practically lived and pragmatically nurtured. I coach senior executives on leading with quality consciousness. And I speak at conferences around the world about why none of this works without changing how people <em>think</em>, not just how they test.</p>
+    <p>I help building engineering teams where "quality is everyone's responsibility" is not just a slogan on the wall but a culture practically lived and pragmatically nurtured.</p>
   </div>
 </div>
+
+<p>I coach senior executives on leading with quality consciousness. And I speak at conferences around the world about why it matters.</p>
 
 <div class="ab-quote">
   <p>Most organisations chase quality through process. I've spent my career proving it comes from consciousness - a deliberate, human-centred awareness woven into every stage of software delivery.</p>
