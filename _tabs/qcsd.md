@@ -1,6 +1,6 @@
 ---
 layout: page
-title: QCSD
+title: Quality Conscious Software Delivery
 icon: fas fa-award
 order: 2
 ---
