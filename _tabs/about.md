@@ -76,6 +76,42 @@ order: 3
     max-width: 80px;
   }
 
+  .ed-cards { margin: 1.5rem 0; }
+  .ed-card {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 0 1rem;
+    align-items: start;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid var(--card-border-color, #e8e8e8);
+    text-decoration: none !important;
+    transition: background 0.2s;
+  }
+  .ed-card:first-child { border-top: 1px solid var(--card-border-color, #e8e8e8); }
+  .ed-card:hover { background: var(--card-bg, rgba(0,0,0,0.02)); }
+  .ed-card-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #50b8a6;
+    background: rgba(80,184,166,0.08);
+    border-radius: 10px;
+  }
+  .ed-card strong {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--heading-color, #1a1a2e);
+    margin-bottom: 0.2rem;
+  }
+  .ed-card span {
+    font-size: 0.85rem;
+    color: var(--text-muted-color, #888);
+    line-height: 1.5;
+  }
+
   .ed-connect { margin-top: 0.8rem; }
   .ed-connect a { margin-right: 1.5rem; font-size: 0.95rem; white-space: nowrap; }
 
@@ -102,7 +138,7 @@ order: 3
 <div class="ed">
 
 <div class="ed-hero">
-  <img src="/assets/img/about-lalit.jpg" alt="Lalitkumar Bhamare" class="ed-hero-photo">
+  <img src="/assets/img/about-lalit.jpg" alt="Lalitkumar Bhamare" class="ed-hero-photo" width="900" height="1200" loading="eager">
   <div class="ed-pull" style="margin-top: 0;">
     <p>Most organisations chase quality through process. I've spent my career proving it comes from consciousness — a deliberate, human-centred awareness woven into every stage of delivery. That conviction became QCSD, won a EuroSTAR Best Paper award, and has since shaped how teams across three continents build software. Now, with Agentic QCSD, this philosophy extends into the age of AI agents — where quality consciousness becomes a design principle for the autonomous systems we build alongside.</p>
     <cite>— On the evolution of Quality Conscious Software Delivery</cite>
@@ -112,25 +148,6 @@ order: 3
 <p class="ed-intro">
 For over eighteen years, I've worked at the intersection of engineering quality, leadership, and human curiosity. I believe the best software isn't just tested — it's <em>thought about</em> deeply. I build teams that think that way, coach senior executives on how to lead their teams with quality consciousness, and I speak around the world about why it matters.
 </p>
-
-<hr class="ed-sep">
-
-<h2>Recognition</h2>
-
-<dl class="ed-two">
-  <div>
-    <dt><a href="https://www.practitest.com/qa-leader-of-the-year-2025/" target="_blank" rel="noopener">Emerging QA Leader of the Year 2025</a></dt>
-    <dd>PractiTest — global recognition for leadership in quality engineering</dd>
-  </div>
-  <div>
-    <dt><a href="https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/" target="_blank" rel="noopener">EuroSTAR Best Paper 2022</a></dt>
-    <dd>One of only 26 Best Paper awardees in the 30-year history of Europe's largest software testing conference</dd>
-  </div>
-  <div>
-    <dt><a href="https://www.wiley.com/en-us/Taking+Testing+Seriously%3A+The+Rapid+Software+Testing+Approach-p-9781394253197" target="_blank" rel="noopener">Contributing Author — Taking Testing Seriously</a></dt>
-    <dd>By James Bach &amp; Michael Bolton (Wiley) — the definitive book on Rapid Software Testing</dd>
-  </div>
-</dl>
 
 <hr class="ed-sep">
 
@@ -144,26 +161,45 @@ For over eighteen years, I've worked at the intersection of engineering quality,
 
 <hr class="ed-sep">
 
-<h2>Publications</h2>
+<h2>Recognition &amp; Publications</h2>
 
-<dl class="ed-two">
-  <div>
-    <dt><a href="https://www.wiley.com/en-us/Taking+Testing+Seriously%3A+The+Rapid+Software+Testing+Approach-p-9781394253197" target="_blank" rel="noopener">Taking Testing Seriously</a></dt>
-    <dd>Contributing author — by James Bach &amp; Michael Bolton (Wiley)</dd>
-  </div>
-  <div>
-    <dt><a href="https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/" target="_blank" rel="noopener">Quality Conscious Software Delivery</a></dt>
-    <dd>EuroSTAR Best Paper 2022 — a framework for embedding quality consciousness into delivery</dd>
-  </div>
-  <div>
-    <dt><a href="http://qablog.practitest.com/state-of-testing/" target="_blank" rel="noopener">State of Testing Report</a></dt>
-    <dd>Co-creator &amp; co-author — published annually with PractiTest and Tea-time with Testers since 2013</dd>
-  </div>
-  <div>
-    <dt><a href="https://www.teatimewithtesters.com/" target="_blank" rel="noopener">Tea-time with Testers Magazine</a></dt>
-    <dd>CEO, Co-founder &amp; Chief Editor since 2011</dd>
-  </div>
-</dl>
+<div class="ed-cards">
+  <a href="https://www.practitest.com/qa-leader-of-the-year-2025/" target="_blank" rel="noopener" class="ed-card">
+    <div class="ed-card-icon"><i class="fas fa-trophy"></i></div>
+    <div>
+      <strong>Emerging QA Leader of the Year 2025</strong>
+      <span>PractiTest — global recognition for leadership in quality engineering</span>
+    </div>
+  </a>
+  <a href="https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/" target="_blank" rel="noopener" class="ed-card">
+    <div class="ed-card-icon"><i class="fas fa-award"></i></div>
+    <div>
+      <strong>EuroSTAR Best Paper 2022</strong>
+      <span>One of only 26 awardees in the 30-year history of Europe's largest testing conference</span>
+    </div>
+  </a>
+  <a href="https://www.wiley.com/en-us/Taking+Testing+Seriously%3A+The+Rapid+Software+Testing+Approach-p-9781394253197" target="_blank" rel="noopener" class="ed-card">
+    <div class="ed-card-icon"><i class="fas fa-book"></i></div>
+    <div>
+      <strong>Taking Testing Seriously</strong>
+      <span>Contributing author — James Bach &amp; Michael Bolton (Wiley)</span>
+    </div>
+  </a>
+  <a href="http://qablog.practitest.com/state-of-testing/" target="_blank" rel="noopener" class="ed-card">
+    <div class="ed-card-icon"><i class="fas fa-chart-bar"></i></div>
+    <div>
+      <strong>State of Testing Report</strong>
+      <span>Co-creator &amp; co-author — published annually since 2013</span>
+    </div>
+  </a>
+  <a href="https://www.teatimewithtesters.com/" target="_blank" rel="noopener" class="ed-card">
+    <div class="ed-card-icon"><i class="fas fa-newspaper"></i></div>
+    <div>
+      <strong>Tea-time with Testers Magazine</strong>
+      <span>CEO, Co-founder &amp; Chief Editor since 2011</span>
+    </div>
+  </a>
+</div>
 
 <hr class="ed-sep">
 
@@ -172,14 +208,6 @@ For over eighteen years, I've worked at the intersection of engineering quality,
 <p>I'm the <strong>CEO, Co-founder, and Chief Editor</strong> of <a href="https://www.teatimewithtesters.com/" target="_blank" rel="noopener">Tea-time with Testers Magazine</a> (2011–Present) — a globally recognised English-language publication known for its quality content and significant contribution to advancing the software testing craft.</p>
 
 <p>I served as <strong>Director/VP of Education</strong> at the <a href="https://associationforsoftwaretesting.org/" target="_blank" rel="noopener">Association for Software Testing, USA</a> (2020–2024), overseeing the organisation's BBST education programme. I've also served as <strong>Advisory Board Member</strong> for AskUI (2021–2023), a German startup in AI-based automation, and as <strong>Peer Advisor</strong> with James Bach for Rapid Software Testing courses.</p>
-
-<hr class="ed-sep">
-
-<h2>Expertise</h2>
-
-<p>Productivity Engineering · Quality Engineering · AI &amp; Automation · Engineering Leadership · Test Management · Quality Coaching · Digital Transformation · Programme &amp; Project Management</p>
-
-<p><em>Industries:</em> E-commerce · Banking &amp; Finance · Pre-sales · Telecommunications · Social Networking · Media &amp; Entertainment · E-Governance · Life Sciences</p>
 
 <hr class="ed-sep">
 
