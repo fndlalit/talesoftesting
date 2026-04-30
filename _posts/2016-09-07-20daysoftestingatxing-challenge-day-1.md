@@ -2,7 +2,6 @@
 title: "#20DaysOfTestingatXING challenge - Day 1"
 date: 2016-09-07 09:50:15 +0530
 categories: [Uncategorized]
-image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=400&fit=crop"
 ---
 
 Some awesome colleagues at workplace (Maik Nogens and Ionut Oancea) have come up with this cool idea of 20DaysOfTesting@XING, on the lines of what Software Testing Club did some days back.

@@ -2,7 +2,6 @@
 title: "Mind, Matter, Testing and The Cargo Cult"
 date: 2021-01-22 16:28:20 +0530
 categories: [Devops, Mindfuck, Testing]
-image: "https://images.unsplash.com/photo-1456406644174-8ddd4cd52a06?w=800&h=400&fit=crop"
 ---
 
 ​I recently stumbled upon an [interesting article](https://blog.testproject.io/2021/01/19/the-testing-mindset-myth/) written by [Alan Page](https://www.linkedin.com/in/a-l-a-n/) where he has discussed some interesting ideas around the mindset,  tester’s role, and how different software development teams approach testing. If you have not read his article yet, then I encourage you to read it first.

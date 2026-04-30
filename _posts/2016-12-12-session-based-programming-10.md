@@ -2,7 +2,6 @@
 title: "Session Based Programming 1.0"
 date: 2016-12-12 18:14:30 +0530
 categories: [Uncategorized]
-image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=400&fit=crop"
 ---
 
 With my experience as an Agile tester so far, one thing I see organisations still struggling with or trying to get better at are the **estimations**.While thinking deeply about what makes our estimations go wrong I realised that there is still a lot we do in projects that we do not **record**, **measure** and **consider** as factors that matter. And that is probably why we are still trying to get better at estimates. And that is also probably why the ideas like [#NoEstimates](http://noestimatesbook.com/) make sense and are getting popular.

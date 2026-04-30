@@ -2,7 +2,6 @@
 title: "The Story of Production (and Layoff)"
 date: 2015-01-20 15:32:57 +0530
 categories: [Uncategorized]
-image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=400&fit=crop"
 ---
 
 Once upon a time in jungle, there was a Tiger and he had his own factory.

@@ -2,7 +2,6 @@
 title: "#20DaysofTesting at XING - catching up﻿"
 date: 2016-09-23 09:20:42 +0530
 categories: [Uncategorized]
-image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop"
 ---
 
 Hmm…. I was sort of in a cave after day 5th and now it’s action time for me again. 

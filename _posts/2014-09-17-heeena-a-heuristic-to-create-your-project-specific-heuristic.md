@@ -2,7 +2,6 @@
 title: "HEEENA - A heuristic to create your project specific heuristic"
 date: 2014-09-17 18:51:27 +0530
 categories: [Uncategorized]
-image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=400&fit=crop"
 ---
 
 <!-- Original HEEENA diagram image was lost during migration. The heuristic is explained in detail below. -->

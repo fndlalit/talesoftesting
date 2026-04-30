@@ -2,7 +2,7 @@
 title: "Interviewing Programmers for Quality Mindset"
 date: 2017-10-29 07:00:00 +0530
 categories: [Agile, Career]
-image: "https://images.unsplash.com/photo-1565688534245-05d6b5be184a?w=800&h=400&fit=crop"
+image: "/assets/img/posts/lalit-meet-the-speaker.jpeg"
 ---
 
 Lately, I happened to have an interesting discussion with my colleague [Dirk Meißner](https://www.xing.com/profile/Dirk_Meissner33/cv) on whether programmers should have reasonable understanding of testing or not. A lot has been talked and written about how testers need to be great with their technical skills so that they can contribute effectively and remain valuable. Sure, that’s helpful and I too insist that it’s high time that testers get over with their traditional way of working (and thinking). However, what surprises me is that there is not enough awareness or enough discussions happening around programmers learning to understand testing to amplify their effectiveness.**Does it matter? Why? **

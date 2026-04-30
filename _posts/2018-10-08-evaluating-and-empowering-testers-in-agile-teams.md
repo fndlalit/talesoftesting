@@ -2,7 +2,7 @@
 title: "Evaluating and Empowering Testers in Agile Teams"
 date: 2018-10-08 22:00:00 +0530
 categories: [Agile, Career, Devops, Testing]
-image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=400&fit=crop"
+image: "/assets/img/posts/evaluation.jpeg"
 ---
 
 ![](/assets/img/posts/evaluation.jpeg)

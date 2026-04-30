@@ -2,7 +2,7 @@
 title: "Quality Experience(QX): Co-creating Quality Experience for everyone associated with the product."
 date: 2020-07-03 17:00:00 +0530
 categories: [Devops, Software Delivery, UX]
-image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=400&fit=crop"
+image: "/assets/img/posts/1593763088951.png"
 ---
 
 ![](/assets/img/posts/1593763088951.png)

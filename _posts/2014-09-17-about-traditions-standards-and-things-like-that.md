@@ -2,7 +2,6 @@
 title: "About traditions, standards and things like that..."
 date: 2014-09-17 17:04:57 +0530
 categories: [Uncategorized]
-image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=400&fit=crop"
 ---
 
 This story is from [Mahabharata](http://en.wikipedia.org/wiki/Mahabharata). Pitamaha Bhishma was very angry with Arjuna because he eloped Subhadra. This was against the tradition because Subhadra’s brother Balrama had already promised for Subhadra’s marriage to Duryodhana. 
