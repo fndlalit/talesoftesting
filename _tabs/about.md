@@ -27,7 +27,9 @@ order: 3
     border-radius: 12px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   }
-  .ab-hero .shimmer { animation: none !important; background: none !important; }
+  .ab-hero .shimmer,
+  .ab-hero .shimmer::before,
+  .ab-hero .shimmer::after { animation: none !important; background: none !important; }
   .ab-hero-text {
     padding-top: 0.6rem;
   }
