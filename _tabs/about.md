@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <img src="/assets/img/about-lalit.jpg" alt="Lalitkumar Bhamare" class="ab-hero-photo" width="900" height="1200" loading="eager">
   <div class="ab-hero-text">
     <p>For over eighteen years, I've worked at the intersection of software quality, engineering leadership, and human curiosity. I believe the best software isn't just tested - it's <em>thought about</em> deeply, cared about at every level from ideation till end user satisfaction, looked after from discovery to disaster recovery, by every person who touches it.</p>
-    <p>I help building engineering teams where "quality is everyone's responsibility" is not just a slogan on the wall but a culture practically lived and pragmatically nurtured.</p>
+    <p style="margin-top: 1.8rem;">I help building engineering teams where "quality is everyone's responsibility" is not just a slogan on the wall but a culture practically lived and pragmatically nurtured.</p>
   </div>
 </div>
 
