@@ -5,8 +5,6 @@ categories: [Devops, Software Delivery, UX]
 image: "/assets/img/posts/1593763088951.png"
 ---
 
-![](/assets/img/posts/1593763088951.png)
- 
 I have been talking about [**Whole Team Qualit**](https://contestnyc2019.sched.com/event/Tk13/2-day-certification-training-succeeding-with-whole-team-testing)**y** via [Whole Team Testing](https://www.stickyminds.com/article/whole-team-testing-whole-team-quality) for a couple of years now. During my workshops, I am often asked if testing can only be extended for programmers in a team. Pretty interesting question it is and my answer is obviously “no”. Though I usually explain in my workshops on how to extend testing to roles beyond programmers in a team i.e. for UX or PO roles, I realized that I have not given deep thought to it and to how exactly testing could be extended to other disciplines in a meaningful way.
 
 I read books, discussed with my colleagues, did my research and the outcome has been what I would like to name as QX i.e. Quality Experience. If QA (read that as Quality Advocates) and UX professionals collaborate in a meaningful way, I firmly believe they can co-create a Quality Experience for everyone associated with the product.
