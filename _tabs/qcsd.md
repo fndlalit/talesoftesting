@@ -146,7 +146,7 @@ When you ask most teams what "quality engineering" means, the answer comes back 
   <cite>— The QCSD goal</cite>
 </div>
 
-<p>The details of the framework — its models, its implementation patterns, its adaptation to different contexts — are what I share in my <a href="/talesoftesting/talks/">workshops, tutorials, and keynotes</a> at conferences worldwide. Each engagement is tailored to the audience: from half-day executive briefings to full-day hands-on tutorials where teams leave with a concrete implementation roadmap.</p>
+<p>The details of the framework — its models, its implementation patterns, its adaptation to different contexts — are what I share in my <a href="/talks/">workshops, tutorials, and keynotes</a> at conferences worldwide. Each engagement is tailored to the audience: from half-day executive briefings to full-day hands-on tutorials where teams leave with a concrete implementation roadmap.</p>
 
 <hr class="qcsd-sep">
 
@@ -190,7 +190,7 @@ When you ask most teams what "quality engineering" means, the answer comes back 
 
 <h2>Work With Me</h2>
 
-<p>I deliver QCSD and Agentic QCSD through <a href="/talesoftesting/talks/">keynotes, full-day workshops, and executive coaching</a> — tailored to your organisation's context, maturity, and ambitions. Whether you're building a quality engineering capability from scratch, navigating AI adoption in your delivery pipeline, or looking for a keynote that changes how your organisation thinks about quality.</p>
+<p>I deliver QCSD and Agentic QCSD through <a href="/talks/">keynotes, full-day workshops, and executive coaching</a> — tailored to your organisation's context, maturity, and ambitions. Whether you're building a quality engineering capability from scratch, navigating AI adoption in your delivery pipeline, or looking for a keynote that changes how your organisation thinks about quality.</p>
 
 <p><a href="https://www.linkedin.com/in/lalitkumarbhamare/" target="_blank" rel="noopener"><strong>Let's talk.</strong></a></p>
 

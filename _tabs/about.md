@@ -168,7 +168,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <p>Most organisations chase quality through process. I've spent my career proving it comes from consciousness - a deliberate, human-centred awareness woven into every stage of software delivery.</p>
 </div>
 
-<p>That conviction became <strong><a href="/talesoftesting/qcsd/">Quality Conscious Software Delivery</a></strong> a.k.a. <strong><a href="/talesoftesting/qcsd/">QCSD</a></strong>, an award-winning framework now adopted by teams across three continents. Its evolution, <strong>Agentic QCSD</strong>, extends that thinking into the age of AI agents, where quality consciousness becomes a design principle for autonomous systems. Through keynotes, full-day workshops, and executive coaching, I've trained over 1,000 engineers globally.</p>
+<p>That conviction became <strong><a href="/qcsd/">Quality Conscious Software Delivery</a></strong> a.k.a. <strong><a href="/qcsd/">QCSD</a></strong>, an award-winning framework now adopted by teams across three continents. Its evolution, <strong>Agentic QCSD</strong>, extends that thinking into the age of AI agents, where quality consciousness becomes a design principle for autonomous systems. Through keynotes, full-day workshops, and executive coaching, I've trained over 1,000 engineers globally.</p>
 
 <hr class="ab-sep">
 
