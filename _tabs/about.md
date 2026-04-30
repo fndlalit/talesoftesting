@@ -1,5 +1,5 @@
 ---
-# the default layout is 'page'
+title: About Me
 icon: fas fa-info-circle
 order: 3
 ---
@@ -80,13 +80,35 @@ order: 3
   .ed-connect a { margin-right: 1.5rem; font-size: 0.95rem; white-space: nowrap; }
 
   .ed-sm { font-size: 0.92rem; color: var(--text-muted-color, #888); line-height: 1.8; }
+
+  .ed-hero {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2.5rem;
+    align-items: start;
+    margin-bottom: 2.5rem;
+  }
+  @media (max-width: 720px) {
+    .ed-hero { grid-template-columns: 1fr; }
+    .ed-hero-photo { max-width: 260px; }
+  }
+  .ed-hero-photo {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
 </style>
 
 <div class="ed">
 
-<p class="ed-intro">
-For over eighteen years, I've worked at the intersection of engineering quality, leadership, and human curiosity. I believe the best software isn't just tested — it's <em>thought about</em> deeply. I build teams that think that way, coach senior executives on how to lead their teams with quality consciousness, and I speak around the world about why it matters.
-</p>
+<div class="ed-hero">
+  <img src="/talesoftesting/assets/img/about-lalit.jpg" alt="Lalitkumar Bhamare" class="ed-hero-photo" loading="lazy">
+  <div>
+    <p class="ed-intro">
+    For over eighteen years, I've worked at the intersection of engineering quality, leadership, and human curiosity. I believe the best software isn't just tested — it's <em>thought about</em> deeply. I build teams that think that way, coach senior executives on how to lead their teams with quality consciousness, and I speak around the world about why it matters.
+    </p>
+  </div>
+</div>
 
 <div class="ed-pull">
   <p>Most organisations chase quality through process. I've spent my career proving it comes from consciousness — a deliberate, human-centred awareness woven into every stage of delivery. That conviction became QCSD, won a EuroSTAR Best Paper award, and has since shaped how teams across three continents build software. Now, with Agentic QCSD, this philosophy extends into the age of AI agents — where quality consciousness becomes a design principle for the autonomous systems we build alongside.</p>
