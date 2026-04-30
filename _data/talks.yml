@@ -73,10 +73,16 @@
 # --- FEATURED TALKS (video embeds) ---
 
 - title: "Live from #EuroSTAR 25"
-  section: featured
+  section: interview
   event: "EuroSTAR 25 – Señor Performo"
   date: 2025-06-04
   video_url: "https://www.youtube.com/embed/HjmUV4uSOLo"
+
+- title: "Taking Testing Seriously – Panel Discussion with James Bach and Michael Bolton"
+  section: featured
+  event: "Taking Testing Seriously"
+  date: 2025-03-01
+  video_url: "https://www.youtube.com/embed/hYP4f83W2uU"
 
 - title: "Opening Keynote – OnlineTest Conference 2025"
   section: featured
@@ -85,19 +91,13 @@
   video_url: "https://www.youtube.com/embed/Ba7N_ktqqjc"
 
 - title: "Interview from #AutomationSTAR"
-  section: featured
+  section: interview
   event: "AutomationSTAR 2024 – Señor Performo"
   date: 2024-11-01
   video_url: "https://www.youtube.com/embed/WLLjEEij9Tw"
 
-- title: "SOFTECAsia 2024 – Testability 101"
-  section: featured
-  event: "Malaysian Software Testing Board"
-  date: 2024-09-11
-  video_url: "https://www.youtube.com/embed/73ZzB_hk84I"
-
 - title: "SOFTECAsia 2024 – Testing Beyond Testing"
-  section: featured
+  section: past
   event: "Malaysian Software Testing Board"
   date: 2024-09-11
   video_url: "https://www.youtube.com/embed/tiLxyP3jwp0"
@@ -109,76 +109,59 @@
   video_url: "https://www.youtube.com/embed/RWkHiYJxoVM"
 
 - title: "EuroSTAR 2022 Preview – Accelerating Quality with Tree-shaped Testing"
-  section: featured
+  section: interview
   event: "EuroSTAR Software Testing Conference"
   date: 2022-06-15
   video_url: "https://www.youtube.com/embed/2JlOJpADL5g"
 
 - title: "Succeeding with QCSD – ConTEST 2021"
-  section: featured
+  section: past
   event: "Test Masters Academy – ConTEST 2021"
   date: 2021-11-01
   video_url: "https://www.youtube.com/embed/yHTb_6C6sbY"
 
 - title: "Testing Beyond Testing – The Test Tribe"
-  section: featured
+  section: past
   event: "The Test Tribe"
   date: 2021-06-01
   video_url: "https://www.youtube.com/embed/DIWRdiE4XYI"
 
 - title: "Quality-conscious Software Delivery – TestFlix 2020"
-  section: featured
+  section: past
   event: "The Test Tribe – TestFlix 2020"
   date: 2020-10-01
   video_url: "https://www.youtube.com/embed/5VAL5JsC9l4"
 
-- title: "Testing Beyond Testing – Porto Testers Meetup"
-  section: featured
-  event: "Porto Testers Meetup"
-  date: 2019-06-01
-  video_url: "https://www.youtube.com/embed/f1_IoIPDagI"
-
-- title: "Evaluating Testers in Agile Team"
-  section: featured
-  event: "Test Masters Online"
-  date: 2018-10-11
-  video_url: "https://www.youtube.com/embed/XuDJij12vsU"
 
 - title: "State of Testing 2026 Roundtable – AI Anxiety, Specialization & QA Careers"
-  section: featured
+  section: interview
   event: "PractiTest – State of Testing 2026"
   date: 2026-02-01
   video_url: "https://www.youtube.com/embed/r2rz3Z8JHNQ"
 
 - title: "State of Testing 2024 – Roundtable Discussion"
-  section: featured
+  section: interview
   event: "PractiTest – State of Testing 2024"
   date: 2024-04-01
   video_url: "https://www.youtube.com/embed/oPq1KSXw0gE"
 
 - title: "State of Testing 2023 – Roundtable Discussion"
-  section: featured
+  section: interview
   event: "PractiTest – State of Testing 2023"
   date: 2023-08-01
   video_url: "https://www.youtube.com/embed/bLv3bZxwgkQ"
 
 - title: "State of Software Testing 2018 – Roundtable"
-  section: featured
+  section: interview
   event: "State of Testing Roundtable 2018"
   date: 2018-03-01
   video_url: "https://www.youtube.com/embed/236Em7dOm4o"
 
 - title: "State of Testing 2017 – Trends in Software Testing"
-  section: featured
+  section: interview
   event: "PractiTest – State of Testing 2017"
   date: 2017-12-01
   video_url: "https://www.youtube.com/embed/ja-huiQlhD0"
-
-- title: "Getting non-testers to Test – Online Testing Conference 2017"
-  section: featured
-  event: "Online Testing Conference 2017"
-  date: 2017-10-15
-  video_url: "https://www.youtube.com/embed/J--g-iFWvTc"
 
 - title: "State of Testing 2013 – Webinar with Jerry Weinberg"
   section: featured
@@ -189,25 +172,25 @@
 # --- SUPER VOICE – Judge (newest-first) ---
 
 - title: "Super Voice Season 1 Grand Finale – Judge"
-  section: featured
+  section: volunteering
   event: "Super Voice by Synapse QA"
   date: 2023-06-01
   video_url: "https://www.youtube.com/embed/tH5ycLArz4c"
 
 - title: "Super Voice #episode3: Knockouts Round – Judge"
-  section: featured
+  section: volunteering
   event: "Super Voice by Synapse QA"
   date: 2023-04-01
   video_url: "https://www.youtube.com/embed/cAIs5yb3FqI"
 
 - title: "Super Voice: Battle Round Episode 2 – Judge"
-  section: featured
+  section: volunteering
   event: "Super Voice by Synapse QA"
   date: 2023-03-01
   video_url: "https://www.youtube.com/embed/A6HyP6G_Ks0"
 
 - title: "Super Voice: Battle Round Episode 1 – Judge"
-  section: featured
+  section: volunteering
   event: "Super Voice by Synapse QA"
   date: 2023-02-01
   video_url: "https://www.youtube.com/embed/VP6HiW0903U"
