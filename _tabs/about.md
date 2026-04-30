@@ -27,9 +27,7 @@ order: 3
     border-radius: 12px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.08);
   }
-  .ab-hero .shimmer,
-  .ab-hero .shimmer::before,
-  .ab-hero .shimmer::after { animation: none !important; background: none !important; }
+  .ab-hero .img-link { pointer-events: none; }
   .ab-hero-text {
     padding-top: 0.6rem;
   }
@@ -143,6 +141,14 @@ order: 3
     white-space: nowrap;
   }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.ab-hero .shimmer').forEach(function(el) {
+    el.classList.remove('shimmer');
+  });
+});
+</script>
 
 <div class="ab">
 
