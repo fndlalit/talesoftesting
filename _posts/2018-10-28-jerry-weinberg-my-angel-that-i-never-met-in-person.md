@@ -2,6 +2,7 @@
 title: "Jerry Weinberg - my angel that I never met in person"
 date: 2018-10-28 11:32:22 +0530
 categories: [Career, Inspirational]
+image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=400&fit=crop"
 ---
 
 ![Jerry Weinberg](/assets/img/posts/jerry-weinberg.png)

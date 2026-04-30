@@ -2,6 +2,7 @@
 title: "No Testing, No Agile and No Software Delivery"
 date: 2016-09-09 16:36:30 +0530
 categories: [Agile, Mindfuck, Software Delivery]
+image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop"
 ---
 
 As a part of day 3 of [#20DaysofTesting at XING AG](http://www.talesoftesting.com/blog/20daysoftestingatxing-challenge) challenge, I was expected to read one blog and comment on it. But the blog I have chosen to comment on has rather encouraged me to write a blog instead of just leaving a comment.While reading some interesting discussion around testing and “100{828469547073759dc8ae19d3fe0f91616e10dbaa738bc72a24917bb3b2283fa6} test automation” thing, I stumbled upon “[No Testing](https://flowchainsensei.wordpress.com/2014/11/07/no-testing/)” blog by flowchainsensei (aka Bob Marshall) shared by one of the participants in discussion (thanks Nilanjan).

@@ -2,6 +2,7 @@
 title: "Sorry, software testing is not an ideal job in that case!"
 date: 2016-06-21 07:28:10 +0530
 categories: [Uncategorized]
+image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=400&fit=crop"
 ---
 
 I have been avoiding to write on this topic from quite some years but looks like I should really speak my mind about it now. Before you confuse yourself with the title any further, let me provide some context.

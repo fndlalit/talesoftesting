@@ -2,6 +2,7 @@
 title: "20 Days of Testing at XING - Day 2"
 date: 2016-08-09 07:17:40 +0530
 categories: [Uncategorized]
+image: "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?w=800&h=400&fit=crop"
 ---
 
 The task for day of the challenge was to share a testing blog with non-testers.

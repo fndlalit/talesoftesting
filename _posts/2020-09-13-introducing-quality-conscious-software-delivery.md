@@ -2,6 +2,7 @@
 title: "Introducing Quality Conscious Software Delivery"
 date: 2020-09-13 08:27:43 +0530
 categories: [Agile, Devops, Software Delivery, Testing]
+image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop"
 ---
 
 Considering my experience and what I have been observing in the industry, there seems to be an increasing interest in the idea of Whole Team Quality. The idea itself is not new as far as I know but certainly, there seems to be more awareness and eagerness towards its implementation, lately. 

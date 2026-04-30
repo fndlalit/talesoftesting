@@ -2,6 +2,7 @@
 title: "#20DaysOfTesting@XING - Day 5"
 date: 2016-09-13 07:47:38 +0530
 categories: [Uncategorized]
+image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&h=400&fit=crop"
 ---
 
 Day 5 is about “Coming out of your comfort zone”. 

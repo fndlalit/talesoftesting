@@ -2,6 +2,7 @@
 title: "#20DaysOfTesting@XING - Day 4﻿"
 date: 2016-09-12 08:02:56 +0530
 categories: [Uncategorized]
+image: "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=800&h=400&fit=crop"
 ---
 
 On day four of the challenge, I am expected to find a testing event (online or in person) to attend. 

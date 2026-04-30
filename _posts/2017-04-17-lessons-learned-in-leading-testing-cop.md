@@ -2,6 +2,7 @@
 title: "Lessons learned in leading Testing CoP"
 date: 2017-04-17 07:37:55 +0530
 categories: [Community of Practice]
+image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=400&fit=crop"
 ---
 
 ![](/assets/img/posts/freelancing-writing_1_orig.jpeg)

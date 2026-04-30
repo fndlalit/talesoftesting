@@ -2,6 +2,7 @@
 title: "Cake, Coffee and some POT"
 date: 2017-05-28 13:08:07 +0530
 categories: [Agile, Devops]
+image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=400&fit=crop"
 ---
 
 Before some of you start freaking out, let me make this clear – no, it’s not the pot some of you might be thinking of 🙂. It’s an abbreviation of “Problem on Table”, an activity we have recently started doing at XING AG for its testers.

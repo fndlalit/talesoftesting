@@ -2,6 +2,7 @@
 title: "Session Based Testing in Agile/DevOps Environments"
 date: 2017-06-25 21:11:21 +0530
 categories: [Agile, Devops, Testing]
+image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop"
 ---
 
 ![Session Based Testing in Agile/DevOps](/assets/img/posts/session-based-testing-agile-devops.webp)

@@ -2,6 +2,7 @@
 title: "Vocabulary and Perceptions"
 date: 2017-10-31 12:56:24 +0530
 categories: [Uncategorized]
+image: "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?w=800&h=400&fit=crop"
 ---
 
 “I am software tester. My job is to break software.” , said one student in my Exploratory Testing workshop. I asked him to elaborate and explain me his techniques to break the software. He was silent for moment and then said he did not know how exactly to answer that.I further asked about the last defect he found and how did he find it. He could explain that to my satisfaction. Then I asked if the defect was already there or something that he did introduced it. Student realised where I was coming from and admitted that he did not break software, he only helped to uncover the software which was already broken. Then I asked him once again to explain his techniques to uncover those already broken points and he explained that to my satisfaction again without getting frozen in between.
