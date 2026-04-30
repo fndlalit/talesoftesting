@@ -157,15 +157,16 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="ab-hero-text">
     <h1 class="ab-name">Lalitkumar Bhamare</h1>
     <p class="ab-role">Quality Engineering · Leadership · AI</p>
-    <p>I've spent eighteen years at the intersection of engineering quality, leadership, and human curiosity. I believe the best software isn't just tested — it's <em>thought about</em> deeply. I build teams that think that way, and I speak around the world about why it matters.</p>
+    <p>I've spent eighteen years at the intersection of engineering quality, leadership, and human curiosity. I believe the best software isn't just tested, it's <em>thought about</em> deeply. I build teams that think that way, coach senior executives on how to lead with quality consciousness, and speak around the world about why it matters.</p>
+    <p>I created <strong>QCSD</strong>, an award-winning framework adopted across three continents, and I'm the CEO and Co-founder of <a href="https://www.teatimewithtesters.com/" target="_blank" rel="noopener">Tea-time with Testers</a>, one of the most recognised publications in the global testing community. Through keynotes, full-day workshops, and executive coaching, I've trained over 1,000 engineers on quality engineering, agile delivery, and AI.</p>
   </div>
 </div>
 
 <div class="ab-quote">
-  <p>Most organisations chase quality through process. I've spent my career proving it comes from consciousness — a deliberate, human-centred awareness woven into every stage of delivery.</p>
+  <p>Most organisations chase quality through process. I've spent my career proving it comes from consciousness, a deliberate, human-centred awareness woven into every stage of software delivery.</p>
 </div>
 
-<p>That conviction became <strong><a href="/talesoftesting/qcsd/">QCSD</a></strong> — an award-winning framework now adopted by teams across three continents. Its evolution, <strong>Agentic QCSD</strong>, extends that thinking into the age of AI agents, where quality consciousness becomes a design principle for autonomous systems. Through keynotes, full-day workshops, and executive coaching, I've trained over 1,000 engineers globally.</p>
+<p>That conviction became <strong><a href="/talesoftesting/qcsd/">Quality Conscious Software Delivery</a></strong> a.k.a. <strong><a href="/talesoftesting/qcsd/">QCSD</a></strong>, an award-winning framework now adopted by teams across three continents. Its evolution, <strong>Agentic QCSD</strong>, extends that thinking into the age of AI agents, where quality consciousness becomes a design principle for autonomous systems. Through keynotes, full-day workshops, and executive coaching, I've trained over 1,000 engineers globally.</p>
 
 <hr class="ab-sep">
 
@@ -176,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="ab-card-icon"><i class="fas fa-trophy"></i></div>
     <div>
       <strong>Emerging QA Leader of the Year 2025</strong>
-      <span>PractiTest — global recognition for leadership in quality engineering</span>
+      <span>PractiTest, global recognition for leadership in quality engineering</span>
     </div>
   </a>
   <a href="https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/" target="_blank" rel="noopener" class="ab-card">
@@ -190,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="ab-card-icon"><i class="fas fa-book"></i></div>
     <div>
       <strong>Taking Testing Seriously</strong>
-      <span>Contributing author — James Bach &amp; Michael Bolton (Wiley)</span>
+      <span>Contributing author, James Bach &amp; Michael Bolton (Wiley)</span>
     </div>
   </a>
   <a href="https://www.teatimewithtesters.com/" target="_blank" rel="noopener" class="ab-card">
@@ -204,14 +205,14 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="ab-card-icon"><i class="fas fa-chart-bar"></i></div>
     <div>
       <strong>State of Testing Report</strong>
-      <span>Co-creator &amp; co-author — published annually since 2013</span>
+      <span>Co-creator &amp; co-author, published annually since 2013</span>
     </div>
   </a>
   <a href="https://associationforsoftwaretesting.org/" target="_blank" rel="noopener" class="ab-card">
     <div class="ab-card-icon"><i class="fas fa-university"></i></div>
     <div>
       <strong>Association for Software Testing</strong>
-      <span>Director / VP of Education (2020–2024) — BBST programme</span>
+      <span>Director / VP of Education (2020–2024), BBST programme</span>
     </div>
   </a>
   <a href="https://rapid-software-testing.com/" target="_blank" rel="noopener" class="ab-card">
