@@ -103,17 +103,15 @@ order: 3
 
 <div class="ed-hero">
   <img src="/assets/img/about-lalit.jpg" alt="Lalitkumar Bhamare" class="ed-hero-photo">
-  <div>
-    <p class="ed-intro">
-    For over eighteen years, I've worked at the intersection of engineering quality, leadership, and human curiosity. I believe the best software isn't just tested — it's <em>thought about</em> deeply. I build teams that think that way, coach senior executives on how to lead their teams with quality consciousness, and I speak around the world about why it matters.
-    </p>
+  <div class="ed-pull" style="margin-top: 0;">
+    <p>Most organisations chase quality through process. I've spent my career proving it comes from consciousness — a deliberate, human-centred awareness woven into every stage of delivery. That conviction became QCSD, won a EuroSTAR Best Paper award, and has since shaped how teams across three continents build software. Now, with Agentic QCSD, this philosophy extends into the age of AI agents — where quality consciousness becomes a design principle for the autonomous systems we build alongside.</p>
+    <cite>— On the evolution of Quality Conscious Software Delivery</cite>
   </div>
 </div>
 
-<div class="ed-pull">
-  <p>Most organisations chase quality through process. I've spent my career proving it comes from consciousness — a deliberate, human-centred awareness woven into every stage of delivery. That conviction became QCSD, won a EuroSTAR Best Paper award, and has since shaped how teams across three continents build software. Now, with Agentic QCSD, this philosophy extends into the age of AI agents — where quality consciousness becomes a design principle for the autonomous systems we build alongside.</p>
-  <cite>— On the evolution of Quality Conscious Software Delivery</cite>
-</div>
+<p class="ed-intro">
+For over eighteen years, I've worked at the intersection of engineering quality, leadership, and human curiosity. I believe the best software isn't just tested — it's <em>thought about</em> deeply. I build teams that think that way, coach senior executives on how to lead their teams with quality consciousness, and I speak around the world about why it matters.
+</p>
 
 <hr class="ed-sep">
 
