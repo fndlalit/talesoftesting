@@ -1,10 +1,22 @@
 ---
-title: About Me
+title: About me
 icon: fas fa-info-circle
-order: 3
+order: 6
 ---
 
 <style>
+  /* Hide Chirpy's auto-generated page heading */
+  article > h1 { display: none !important; }
+
+  .ab-page-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--heading-color, #1a1a2e);
+    margin: 0 0 2.5rem;
+    letter-spacing: -0.01em;
+  }
+
   .ab { max-width: 720px; }
   .ab p { font-size: 1.05rem; line-height: 1.9; color: var(--text-color, #444); }
   .ab a { color: var(--heading-color, #1a1a2e); text-decoration: underline; text-decoration-color: #50b8a6; text-underline-offset: 3px; text-decoration-thickness: 1.5px; transition: text-decoration-color 0.2s; }
@@ -30,22 +42,6 @@ order: 3
   .ab-hero .img-link { pointer-events: none; }
   .ab-hero-text {
     padding-top: 0.6rem;
-  }
-  .ab-name {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: var(--heading-color, #1a1a2e);
-    margin: 0 0 0.25rem;
-    letter-spacing: -0.01em;
-  }
-  .ab-role {
-    font-size: 0.92rem;
-    color: #50b8a6;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    margin: 0 0 3.5rem;
-    font-weight: 500;
   }
   .ab-hero-text p {
     font-size: 1.08rem;
@@ -152,11 +148,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div class="ab">
 
+<h1 class="ab-page-title">Lalitkumar Bhamare</h1>
+
 <div class="ab-hero">
   <img src="/assets/img/about-lalit.jpg" alt="Lalitkumar Bhamare" class="ab-hero-photo" width="900" height="1200" loading="eager">
   <div class="ab-hero-text">
-    <h1 class="ab-name">Lalitkumar Bhamare</h1>
-    <div style="height: 2.5rem;"></div>
     <p>For over eighteen years, I've worked at the intersection of software quality, engineering leadership, and human curiosity. I believe the best software isn't just tested - it's <em>thought about</em> deeply, cared about at every level from ideation till end user satisfaction, looked after from discovery to disaster recovery, by every person who touches it.</p>
     <p>I help building engineering teams where "quality is everyone's responsibility" is not just a slogan on the wall but a culture practically lived and pragmatically nurtured.</p>
   </div>
