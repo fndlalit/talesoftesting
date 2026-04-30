@@ -44,7 +44,7 @@ order: 3
     color: #50b8a6;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    margin: 0 0 1.6rem;
+    margin: 0 0 2.4rem;
     font-weight: 500;
   }
   .ab-hero-text p {
@@ -156,14 +156,14 @@ document.addEventListener('DOMContentLoaded', function() {
   <img src="/assets/img/about-lalit.jpg" alt="Lalitkumar Bhamare" class="ab-hero-photo" width="900" height="1200" loading="eager">
   <div class="ab-hero-text">
     <h1 class="ab-name">Lalitkumar Bhamare</h1>
-    <p class="ab-role">Quality Engineering · Leadership · AI</p>
-    <p>I've spent eighteen years at the intersection of engineering quality, leadership, and human curiosity. I believe the best software isn't just tested, it's <em>thought about</em> deeply. I build teams that think that way, coach senior executives on how to lead with quality consciousness, and speak around the world about why it matters.</p>
-    <p>I created <strong>QCSD</strong>, an award-winning framework adopted across three continents, and I'm the CEO and Co-founder of <a href="https://www.teatimewithtesters.com/" target="_blank" rel="noopener">Tea-time with Testers</a>, one of the most recognised publications in the global testing community. Through keynotes, full-day workshops, and executive coaching, I've trained over 1,000 engineers on quality engineering, agile delivery, and AI.</p>
+    <p class="ab-role">Productivity Engineering. Leadership. AI.</p>
+    <p>For over eighteen years, I've worked at the intersection of engineering quality, leadership, and human curiosity. I believe the best software isn't just tested, it's <em>thought about</em> deeply, at every level, by every person who touches it.</p>
+    <p>I build engineering cultures where quality is everyone's responsibility, not a phase to endure. I coach senior executives on leading with quality consciousness. And I speak at conferences around the world about why none of this works without changing how people <em>think</em>, not just how they test.</p>
   </div>
 </div>
 
 <div class="ab-quote">
-  <p>Most organisations chase quality through process. I've spent my career proving it comes from consciousness, a deliberate, human-centred awareness woven into every stage of software delivery.</p>
+  <p>Most organisations chase quality through process. I've spent my career proving it comes from consciousness - a deliberate, human-centred awareness woven into every stage of software delivery.</p>
 </div>
 
 <p>That conviction became <strong><a href="/talesoftesting/qcsd/">Quality Conscious Software Delivery</a></strong> a.k.a. <strong><a href="/talesoftesting/qcsd/">QCSD</a></strong>, an award-winning framework now adopted by teams across three continents. Its evolution, <strong>Agentic QCSD</strong>, extends that thinking into the age of AI agents, where quality consciousness becomes a design principle for autonomous systems. Through keynotes, full-day workshops, and executive coaching, I've trained over 1,000 engineers globally.</p>
