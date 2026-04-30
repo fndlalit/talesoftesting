@@ -218,6 +218,7 @@ layout: page
       <p class="talk-title">{{ talk.title }}</p>
       <p class="talk-date">{{ talk.date | date: "%-d %B %Y" }}{% if talk.location %}, {{ talk.location }}{% endif %}</p>
       <span class="talk-meta">{{ talk.type | default: "Session" }}{% if talk.flag %} {{ talk.flag }}{% endif %}</span>
+      {% if talk.description %}<p class="talk-title" style="font-style: italic;">{{ talk.description }}</p>{% endif %}
     </div>
   </div>
   {% endfor %}

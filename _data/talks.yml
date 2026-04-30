@@ -5,6 +5,71 @@
 # All entries within each section are ordered newest-first.
 # ============================================================
 
+# --- UPCOMING EVENTS (soonest-first) ---
+
+- title: "Speaker"
+  section: upcoming
+  event: "Nordic Testing Days 2026"
+  date: 2026-06-03
+  location: "Tallinn, Estonia"
+  type: "Talk"
+  flag: "\U0001F1EA\U0001F1EA"
+  link: "https://www.nordictestingdays.eu/program"
+  thumbnail: "https://nordictestingdays.eu/assets/ntd-logo.svg"
+
+- title: "Agentic Quality Engineering for Embedded Systems: Quality Intelligence Across the Entire Delivery Lifecycle"
+  section: upcoming
+  event: "QA&Test Embedded 2026"
+  date: 2026-10-14
+  location: "Bilbao, Spain"
+  type: "Tutorial"
+  flag: "\U0001F1EA\U0001F1F8"
+  link: "https://embedded.qatest.org/ponentes/lalitkumar-bhamare/?lang=en"
+  thumbnail: "https://embedded.qatest.org/wp-content/uploads/2018/11/logo_QA-1.png"
+
+- title: "The 70% Problem: Reclaiming Testing's Intellectual Core with Agentic Quality Engineering"
+  section: upcoming
+  event: "HUSTEF 2026"
+  date: 2026-10-06
+  location: "Budapest, Hungary"
+  type: "Full-day Tutorial"
+  flag: "\U0001F1ED\U0001F1FA"
+  link: "https://hustef.com/lalit-dragan_2026/"
+  description: "With Dragan Spiridonov"
+  thumbnail: "https://hustef.com/wp-content/uploads/Copilot_20260427_135836.png"
+
+- title: "Intelligent Accessibility for 'Very Busy' Teams"
+  section: upcoming
+  event: "HUSTEF 2026"
+  date: 2026-10-06
+  location: "Budapest, Hungary"
+  type: "Talk"
+  flag: "\U0001F1ED\U0001F1FA"
+  link: "https://hustef.com/lalit-affaf_2026/"
+  description: "With Affaf Malik"
+  thumbnail: "https://hustef.com/wp-content/uploads/Copilot_20260427_135836.png"
+
+- title: "The 70% Problem: Reclaiming Testing's Intellectual Core with Agentic Quality Engineering"
+  section: upcoming
+  event: "Agile Testing Days 2026"
+  date: 2026-11-16
+  location: "Potsdam, Germany"
+  type: "Full-day Workshop"
+  flag: "\U0001F1E9\U0001F1EA"
+  link: "https://agiletestingdays.com/2026/session/the-70-problem/"
+  description: "With Dragan Spiridonov"
+  thumbnail: "https://atd-de-prod.s3.eu-central-1.amazonaws.com/media/video-thmb.jpg"
+
+- title: "Speaker"
+  section: upcoming
+  event: "A4Q Testing Summit 2026"
+  date: 2026-09-01
+  location: "Online"
+  type: "Talk"
+  flag: "\U0001F310"
+  link: "https://testingsummit.com/lalitkumar-bhamare/"
+  thumbnail: "https://testingsummit.com/oceeltoo/2024/05/A4Q-Testing-Summit.png"
+
 # --- FEATURED TALKS (video embeds) ---
 
 - title: "Live from #EuroSTAR 25"
