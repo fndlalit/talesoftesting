@@ -122,48 +122,31 @@ order: 2
 <div class="qcsd">
 
 <p class="qcsd-lede">
-The software industry spends trillions failing at quality — not because it lacks tools, but because it treats quality as a problem tools can solve. QCSD is a framework built on the premise that quality comes from consciousness, not process. Its Agentic evolution extends that premise into the age of AI.
+When you ask most teams what "quality engineering" means, the answer comes back in tooling: automation frameworks, CI/CD gates, SonarQube dashboards, DORA metrics. These things matter. But they are answers to the wrong question.
 </p>
 
-<p>When you ask most teams what "quality engineering" means, the answer comes back in tooling: automation frameworks, CI/CD gates, SonarQube dashboards, DORA metrics. These things matter. But they are answers to the wrong question. The question isn't <em>how do we check more things faster</em>. It's <em>how do we make quality a conscious act at every stage of building software</em>.</p>
+<p>The question isn't <em>how do we check more things faster</em>. It's <em>how do we make quality a conscious act at every stage of building software</em>.</p>
 
-<p><a href="https://en.wikipedia.org/wiki/Gerald_Weinberg" target="_blank" rel="noopener">Jerry Weinberg</a> saw this decades ago when he wrote that quality is value to some person — and that no matter what they tell you at first, it is always a people problem. That observation remains more relevant today than when he made it. The cost of poor software quality in the US alone reached $2.41 trillion in 2022, yet the industry's response has been to double down on the same thinking: more automation, more dashboards, more gates. I call this the <strong>Faster Horse cycle</strong> — using 21st-century tools to optimise 20th-century objectives. Teams producing more tests than ever, while producing no better software.</p>
+<p><a href="https://en.wikipedia.org/wiki/Gerald_Weinberg" target="_blank" rel="noopener">Jerry Weinberg</a> saw this decades ago when he wrote that quality is value to some person — and that no matter what they tell you at first, it is always a people problem. The cost of poor software quality in the US alone reached $2.41 trillion in 2022, yet the industry's response has been to double down on the same thinking: more automation, more dashboards, more gates. I call this the <strong>Faster Horse cycle</strong> — using 21st-century tools to optimise 20th-century objectives. Teams producing more tests than ever, while producing no better software.</p>
 
 <p>The engineering solutions are just a tiny part of the picture. The deeper problem is one of consciousness for quality — or rather, its absence. And that's where QCSD begins.</p>
 
+<p><strong>Quality Conscious Software Delivery</strong> is a framework built on the premise that quality comes from consciousness, not process. Its Agentic evolution extends that premise into the age of AI.</p>
+
 <hr class="qcsd-sep">
 
-<h2>The Core Idea</h2>
+<h2>The Framework</h2>
 
 <p><strong>Quality Conscious Software Delivery</strong> grew out of years of experimentation with real delivery teams. I tested ideas, failed, learned, tried again — and eventually arrived at something that worked. It won the <a href="https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/" target="_blank" rel="noopener">EuroSTAR Best Paper Award in 2022</a>, one of only 26 recipients in the conference's 30-year history, and has since been adopted by teams across three continents.</p>
 
-<p>The premise is deceptively simple: quality doesn't come from process. It comes from <em>consciousness</em>. A deliberate, human-centred awareness woven into every stage of delivery. Not a phase to pass through. Not a gate to satisfy. A way of thinking that every person on the team carries into every decision they make.</p>
-
-<p>This sounds abstract until you see what it's built on. QCSD rests on a model I call <strong>QualiTri</strong>, which names three interdependent notions of quality that most organisations never think about together:</p>
-
-<div class="qcsd-trio">
-  <div class="qcsd-trio-item">
-    <h3>Product</h3>
-    <p>The quality of the software itself — functionality, reliability, security, and the value it delivers to the people who use it.</p>
-  </div>
-  <div class="qcsd-trio-item">
-    <h3>Project</h3>
-    <p>The quality of the delivery process — how risk is managed, how feedback flows, how well the team navigates complexity under real pressure.</p>
-  </div>
-  <div class="qcsd-trio-item">
-    <h3>People</h3>
-    <p>The consciousness and capability of every person involved — their mindset, their craft, their willingness to hold quality as a personal commitment.</p>
-  </div>
-</div>
-
-<p>Most organisations obsess over product quality and treat the other two as HR problems or process overhead. QualiTri argues they're inseparable. You cannot ship a quality product without quality-conscious people working within quality-empowering processes. Neglect any one, and the others erode — quietly at first, then catastrophically.</p>
+<p>At its core, QCSD rejects the idea that quality can be achieved through process alone. It introduces a model that reframes quality as an interplay of three forces most organisations never think about together — and a structured cycle that turns consciousness into craft and craft into discipline. The result is a fundamentally different way of embedding quality into software delivery: not as a gate at the end, but as a way of thinking that every person on the team carries into every decision they make.</p>
 
 <div class="qcsd-pull">
   <p>Delivery of quality products by quality-conscious people using quality-empowering processes.</p>
   <cite>— The QCSD goal</cite>
 </div>
 
-<p>The framework implements this through a four-stage cycle — <strong>Enable, Engage, Execute, Evaluate</strong> — that turns consciousness into craft and craft into discipline. How these stages are realised varies by context: team composition, business domain, organisational maturity. But the principle behind them is non-negotiable. Quality consciousness must be woven into every stage of delivery, not inspected in at the end.</p>
+<p>The details of the framework — its models, its implementation patterns, its adaptation to different contexts — are what I share in my <a href="/talesoftesting/talks/">workshops, tutorials, and keynotes</a> at conferences worldwide. Each engagement is tailored to the audience: from half-day executive briefings to full-day hands-on tutorials where teams leave with a concrete implementation roadmap.</p>
 
 <hr class="qcsd-sep">
 
@@ -171,62 +154,44 @@ The software industry spends trillions failing at quality — not because it lac
 
 <p>Then came AI agents. And with them, a question the industry is mostly answering badly: <em>what happens to quality consciousness when autonomous systems become part of the delivery team?</em></p>
 
-<p>The default answer has been predictable. Use AI to generate more test cases. Automate more of the pipeline. Chase volume again, but this time with large language models. The Faster Horse cycle with a new engine — still optimising for output over outcome.</p>
+<p>The default answer has been predictable. Use AI to generate more test cases. Automate more of the pipeline. Chase volume again, but this time with large language models. The Faster Horse cycle with a new engine.</p>
 
 <p>Agentic QCSD starts from a fundamentally different place. Not <em>how can agents produce more tests</em>, but <em>how can agents carry quality consciousness</em> — thinking strategically about quality at every stage of the software delivery lifecycle, the way a thoughtful senior engineer would, but at a speed and scale no human team can sustain.</p>
 
-<p>The intellectual foundation of this approach is what I call <strong>Designed Agency</strong>: the principle that autonomous agents must be architected with quality consciousness as a first-class design concern, not retrofitted as an afterthought. Agency that is always intentional, never accidental. This is what distinguishes Agentic QCSD from every other "AI for testing" play — it doesn't just use AI to test more. It embeds the philosophy of quality consciousness into the architecture of the agents themselves.</p>
-
-<p>In practice, this means specialised agent swarms operating across the full SDLC — from ideation through production telemetry — orchestrated through the same Enable, Engage, Execute, Evaluate structure, with human-in-the-loop quality gates at every critical juncture:</p>
-
-<div class="qcsd-4e">
-  <div class="qcsd-4e-item">
-    <div class="qcsd-4e-num">E1</div>
-    <div class="qcsd-4e-body">
-      <h3>Enable</h3>
-      <p>Humans define quality strategy and risk appetite. Agents perform risk storming using heuristics like SFDIPOT, score testability across requirements, and validate that quality criteria are substantive before a sprint begins.</p>
-      <p class="qcsd-agent-note">Ideation Swarm — risk discovery at the speed of thought, not the speed of meetings.</p>
-    </div>
-  </div>
-  <div class="qcsd-4e-item">
-    <div class="qcsd-4e-num">E2</div>
-    <div class="qcsd-4e-body">
-      <h3>Engage</h3>
-      <p>Humans challenge assumptions and exercise judgment. Agents surface blind spots, generate BDD scenarios, validate contracts, and score testability — creating a richer foundation for human exploration and decision-making.</p>
-      <p class="qcsd-agent-note">Refinement Swarm — amplifying human insight, not replacing it.</p>
-    </div>
-  </div>
-  <div class="qcsd-4e-item">
-    <div class="qcsd-4e-num">E3</div>
-    <div class="qcsd-4e-body">
-      <h3>Execute</h3>
-      <p>Specialised swarms handle test generation across domains — unit, integration, security, accessibility, visual regression, chaos engineering — while enforcing quality gates powered by evidence rather than gut feel.</p>
-      <p class="qcsd-agent-note">Development + Verification Swarms — craft at scale, discipline without bottleneck.</p>
-    </div>
-  </div>
-  <div class="qcsd-4e-item">
-    <div class="qcsd-4e-num">E4</div>
-    <div class="qcsd-4e-body">
-      <h3>Evaluate</h3>
-      <p>Agents predict defects, monitor production telemetry, auto-triage incidents, and feed findings back through cross-phase memory — so every cycle learns from the last. Humans assess business impact and chart the course forward.</p>
-      <p class="qcsd-agent-note">Production Swarm — continuous learning, not just continuous deployment.</p>
-    </div>
-  </div>
-</div>
-
-<p>The result isn't just faster QA. It's a fundamental restructuring of how quality engineering creates value. Clerical work drops dramatically, freeing testers to do what they're actually good at — critical thinking, exploration, judgment. Quality gates shift from opinion-based release calls to scored, evidence-based decisions. Defects are caught at design rather than maintenance, where the cost difference is orders of magnitude. And the system improves with every sprint, because cross-phase memory means nothing learned is ever lost.</p>
+<p>This isn't another "AI for testing" play. It's a principled architecture for embedding quality consciousness into autonomous systems — grounded in what I call <strong>Designed Agency</strong>. The approach covers the full SDLC from ideation through production telemetry, with human-in-the-loop quality gates where they matter most.</p>
 
 <div class="qcsd-pull">
   <p>Not replacement of human testers, but a genuine amplification of human quality consciousness — operating at the speed and scale that modern delivery demands.</p>
   <cite>— On Designed Agency</cite>
 </div>
 
+<p>I'm currently delivering Agentic QCSD as full-day tutorials and workshops at conferences including <a href="https://agiletestingdays.com/2026/session/the-70-problem/" target="_blank" rel="noopener">Agile Testing Days</a>, <a href="https://hustef.com/lalit-dragan_2026/" target="_blank" rel="noopener">HUSTEF</a>, and <a href="https://embedded.qatest.org/ponentes/lalitkumar-bhamare/?lang=en" target="_blank" rel="noopener">QA&Test Embedded</a>. If you're interested in what this looks like in practice, those are good places to start.</p>
+
 <hr class="qcsd-sep">
 
-<h2>Where This Lives</h2>
+<h2>Credentials</h2>
 
-<p>QCSD and Agentic QCSD are the subjects I'm most frequently invited to speak about at international conferences — including the <a href="https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/" target="_blank" rel="noopener">EuroSTAR Best Paper</a>, and my contribution to <a href="https://www.wiley.com/en-us/Taking+Testing+Seriously%3A+The+Rapid+Software+Testing+Approach-p-9781394253197" target="_blank" rel="noopener">Taking Testing Seriously</a> by James Bach and Michael Bolton. I deliver <a href="/talesoftesting/talks/">keynotes, workshops, and executive coaching</a> on both the original framework and its Agentic evolution.</p>
+<div class="qcsd-trio">
+  <div class="qcsd-trio-item">
+    <h3>EuroSTAR Best Paper</h3>
+    <p>One of only 26 recipients in the conference's 30-year history. Awarded for the original QCSD paper in 2022.</p>
+  </div>
+  <div class="qcsd-trio-item">
+    <h3>Taking Testing Seriously</h3>
+    <p>Contributing author in the book by <a href="https://www.wiley.com/en-us/Taking+Testing+Seriously%3A+The+Rapid+Software+Testing+Approach-p-9781394253197" target="_blank" rel="noopener">James Bach and Michael Bolton</a>, published by Wiley.</p>
+  </div>
+  <div class="qcsd-trio-item">
+    <h3>3 Continents</h3>
+    <p>QCSD has been adopted by delivery teams across Europe, Asia, and North America.</p>
+  </div>
+</div>
 
-<p>If you're building a quality engineering capability, navigating AI adoption in your delivery pipeline, or looking for a keynote that changes how your organisation thinks about quality — <a href="https://www.linkedin.com/in/lalitkumarbhamare/" target="_blank" rel="noopener">I'd welcome the conversation</a>.</p>
+<hr class="qcsd-sep">
+
+<h2>Work With Me</h2>
+
+<p>I deliver QCSD and Agentic QCSD through <a href="/talesoftesting/talks/">keynotes, full-day workshops, and executive coaching</a> — tailored to your organisation's context, maturity, and ambitions. Whether you're building a quality engineering capability from scratch, navigating AI adoption in your delivery pipeline, or looking for a keynote that changes how your organisation thinks about quality.</p>
+
+<p><a href="https://www.linkedin.com/in/lalitkumarbhamare/" target="_blank" rel="noopener"><strong>Let's talk.</strong></a></p>
 
 </div>
