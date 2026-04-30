@@ -83,14 +83,14 @@ order: 3
 
   .ed-hero {
     display: grid;
-    grid-template-columns: 280px 1fr;
+    grid-template-columns: 340px 1fr;
     gap: 2.5rem;
     align-items: start;
     margin-bottom: 2.5rem;
   }
   @media (max-width: 720px) {
     .ed-hero { grid-template-columns: 1fr; }
-    .ed-hero-photo { max-width: 260px; }
+    .ed-hero-photo { max-width: 320px; }
   }
   .ed-hero-photo {
     width: 100%;
@@ -102,7 +102,7 @@ order: 3
 <div class="ed">
 
 <div class="ed-hero">
-  <img src="/assets/img/about-lalit.jpg" alt="Lalitkumar Bhamare" class="ed-hero-photo" loading="lazy">
+  <img src="/assets/img/about-lalit.jpg" alt="Lalitkumar Bhamare" class="ed-hero-photo">
   <div>
     <p class="ed-intro">
     For over eighteen years, I've worked at the intersection of engineering quality, leadership, and human curiosity. I believe the best software isn't just tested — it's <em>thought about</em> deeply. I build teams that think that way, coach senior executives on how to lead their teams with quality consciousness, and I speak around the world about why it matters.
