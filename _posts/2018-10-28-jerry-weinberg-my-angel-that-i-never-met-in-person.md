@@ -5,8 +5,6 @@ categories: [Career, Inspirational]
 image: "/assets/img/posts/jerry-weinberg.png"
 ---
 
-![Jerry Weinberg](/assets/img/posts/jerry-weinberg.png)
-
 The more I think about events and people around me, the more I have started to believe in higher calling and celestial hints. I have been wanting to write about Jerry and as I started to pen my heart down finally, I learned that it’s Jerry’s birthday today. Could that be a coincidence?
 
 Happy birthday Jerry! This time, accept it with tears in my eyes and lots of gratitude.

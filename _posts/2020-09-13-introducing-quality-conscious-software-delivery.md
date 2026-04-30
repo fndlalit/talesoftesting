@@ -31,8 +31,6 @@ Having deep philosophical discussions with [Michael Bolton](https://twitter.com
 
 Like I said before, focusing on the **Product** notion of the quality alone is not enough. To succeed with Whole Team Quality, it is equally important to understand **Project** and the **People** notion of quality. They are related and they do affect each other. That said, to **deliver** a quality product we got to be equally conscious about the project and the people notion of the quality.
 
-![](/assets/img/posts/QualiTri-by-Lalit.png)
-
 **The framework: Quality-conscious Software Delivery **
 
 The challenge was how to really go about implementing QualiTri model in a context. And thinking about it helped me formulate my goal to be to achieve the ***d******elivery of quality products by quality-conscious people using quality-empowering processes.  ***

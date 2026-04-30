@@ -5,8 +5,6 @@ categories: [Agile, Career, Devops, Testing]
 image: "/assets/img/posts/evaluation.jpeg"
 ---
 
-![](/assets/img/posts/evaluation.jpeg)
-
 **​Disclaimer:** The purpose** of this blog is not to undermine the importance of automation skills for testers but rather to highlight the lack of awareness in our industry for tester’s usefulness in teams beyond typical testing and automation tasks. **​Recently, I was invited to conduct a workshop around “Whole Team Testing” at Test Leadership Congress in New York. Participating in this conference has been a great experience, especially because I truly believe in the need for conferences dedicated to testing leadership and career path for testers in changing era.
 
 The discussions I had there with fellow testers, managers, and directors of engineering/testing were interesting. Well, not only interesting but insightful and with lots of ideas, concerns, observations to ponder upon. Out of the things we discussed, what held my attention the most was the growing concern of evaluation of testers in Agile teams. The evaluation can be for hiring or for their overall performance in the team.
