@@ -6,117 +6,132 @@ order: 2
 ---
 
 <style>
-  .qcsd { max-width: 720px; }
-  .qcsd p { font-size: 1.05rem; line-height: 1.9; color: var(--text-color, #444); }
-  .qcsd a { color: var(--heading-color, #1a1a2e); text-decoration: underline; text-decoration-color: #50b8a6; text-underline-offset: 3px; text-decoration-thickness: 1.5px; transition: text-decoration-color 0.2s; }
-  .qcsd a:hover { text-decoration-color: var(--heading-color, #1a1a2e); }
+.qcsd { max-width: 720px; }
+.qcsd p { font-size: 1.05rem; line-height: 1.9; color: var(--text-color, #444); }
+.qcsd a { color: var(--heading-color, #1a1a2e); text-decoration: underline; text-decoration-color: #50b8a6; text-underline-offset: 3px; text-decoration-thickness: 1.5px; transition: text-decoration-color 0.2s; }
+.qcsd a:hover { text-decoration-color: var(--heading-color, #1a1a2e); }
 
-  .qcsd h2 {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.65rem;
-    font-weight: 400;
-    font-style: italic;
-    color: var(--heading-color, #1a1a2e);
-    margin: 3.5rem 0 1.2rem;
-    letter-spacing: -0.01em;
-  }
+.qcsd h2 {
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 1.65rem;
+font-weight: 400;
+font-style: italic;
+color: var(--heading-color, #1a1a2e);
+margin: 3.5rem 0 1.2rem;
+letter-spacing: -0.01em;
+}
 
-  .qcsd-lede {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.35rem;
-    line-height: 1.7;
-    color: var(--heading-color, #1a1a2e);
-    margin-bottom: 2.5rem;
-    max-width: 640px;
-  }
+.qcsd-lede {
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 1.35rem;
+line-height: 1.7;
+color: var(--heading-color, #1a1a2e);
+margin-bottom: 2.5rem;
+max-width: 640px;
+}
 
-  .qcsd-pull {
-    margin: 2.5rem 0;
-    padding: 0 0 0 1.5rem;
-    border-left: 3px solid #50b8a6;
-  }
-  .qcsd-pull p {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.15rem;
-    font-style: italic;
-    line-height: 1.75;
-    color: var(--heading-color, #1a1a2e);
-  }
-  .qcsd-pull cite {
-    font-style: normal;
-    font-family: -apple-system, sans-serif;
-    font-size: 0.85rem;
-    color: #50b8a6;
-    display: block;
-    margin-top: 0.8rem;
-  }
+.qcsd-pull {
+margin: 2.5rem 0;
+padding: 0 0 0 1.5rem;
+border-left: 3px solid #50b8a6;
+}
+.qcsd-pull p {
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 1.15rem;
+font-style: italic;
+line-height: 1.75;
+color: var(--heading-color, #1a1a2e);
+}
+.qcsd-pull cite {
+font-style: normal;
+font-family: -apple-system, sans-serif;
+font-size: 0.85rem;
+color: #50b8a6;
+display: block;
+margin-top: 0.8rem;
+}
 
-  .qcsd-sep {
-    border: none;
-    height: 1px;
-    background: var(--card-border-color, #e0e0e0);
-    margin: 3rem 0;
-    max-width: 80px;
-  }
+.qcsd-sep {
+border: none;
+height: 1px;
+background: var(--card-border-color, #e0e0e0);
+margin: 3rem 0;
+max-width: 80px;
+}
 
-  .qcsd-trio {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    margin: 2rem 0 1.5rem;
-  }
-  @media (max-width: 720px) { .qcsd-trio { grid-template-columns: 1fr; } }
-  .qcsd-trio-item h3 {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.05rem;
-    font-weight: 400;
-    font-style: italic;
-    color: var(--heading-color, #1a1a2e);
-    margin: 0 0 0.4rem;
-  }
-  .qcsd-trio-item p {
-    font-size: 0.92rem;
-    line-height: 1.65;
-    color: var(--text-muted-color, #777);
-    margin: 0;
-  }
+.qcsd-trio {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 2rem;
+margin: 2rem 0 1.5rem;
+}
+@media (max-width: 720px) { .qcsd-trio { grid-template-columns: 1fr; } }
+.qcsd-trio-item h3 {
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 1.05rem;
+font-weight: 400;
+font-style: italic;
+color: var(--heading-color, #1a1a2e);
+margin: 0 0 0.4rem;
+}
+.qcsd-trio-item p {
+font-size: 0.92rem;
+line-height: 1.65;
+color: var(--text-muted-color, #777);
+margin: 0;
+}
 
-  .qcsd-4e {
-    margin: 2rem 0;
-  }
-  .qcsd-4e-item {
-    display: grid;
-    grid-template-columns: 56px 1fr;
-    gap: 0 1.2rem;
-    margin-bottom: 1.8rem;
-    align-items: start;
-  }
-  .qcsd-4e-num {
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.8rem;
-    font-weight: 400;
-    color: #50b8a6;
-    line-height: 1;
-    padding-top: 0.15rem;
-    text-align: right;
-  }
-  .qcsd-4e-body h3 {
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--heading-color, #1a1a2e);
-    margin: 0 0 0.3rem;
-  }
-  .qcsd-4e-body p {
-    font-size: 0.95rem;
-    margin: 0;
-    line-height: 1.7;
-  }
-  .qcsd-4e-body .qcsd-agent-note {
-    font-size: 0.88rem;
-    color: #50b8a6;
-    margin-top: 0.4rem;
-    font-style: italic;
-  }
+.qcsd-4e {
+margin: 2rem 0;
+}
+.qcsd-4e-item {
+display: grid;
+grid-template-columns: 56px 1fr;
+gap: 0 1.2rem;
+margin-bottom: 1.8rem;
+align-items: start;
+}
+.qcsd-4e-num {
+font-family: Georgia, 'Times New Roman', serif;
+font-size: 1.8rem;
+font-weight: 400;
+color: #50b8a6;
+line-height: 1;
+padding-top: 0.15rem;
+text-align: right;
+}
+.qcsd-4e-body h3 {
+font-size: 1rem;
+font-weight: 700;
+color: var(--heading-color, #1a1a2e);
+margin: 0 0 0.3rem;
+}
+.qcsd-4e-body p {
+font-size: 0.95rem;
+margin: 0;
+line-height: 1.7;
+}
+.qcsd-4e-body .qcsd-agent-note {
+font-size: 0.88rem;
+color: #50b8a6;
+margin-top: 0.4rem;
+font-style: italic;
+}
+
+.qcsd-license {
+margin: 1.5rem 0;
+padding: 1.3rem 1.6rem;
+border: 1px solid var(--card-border-color, #e0e0e0);
+border-radius: 6px;
+}
+.qcsd-license p {
+font-size: 0.86rem;
+line-height: 1.7;
+color: var(--text-muted-color, #777);
+margin: 0 0 0.7rem;
+}
+.qcsd-license p:last-child { margin-bottom: 0; }
+.qcsd-license a { text-decoration-thickness: 1px; }
 </style>
 
 <div class="qcsd">
@@ -142,8 +157,8 @@ When you ask most teams what "quality engineering" means, the answer comes back 
 <p>At its core, QCSD rejects the idea that quality can be achieved through process alone. It introduces a model that reframes quality as an interplay of three forces most organisations never think about together — and a structured cycle that turns consciousness into craft and craft into discipline. The result is a fundamentally different way of embedding quality into software delivery: not as a gate at the end, but as a way of thinking that every person on the team carries into every decision they make.</p>
 
 <div class="qcsd-pull">
-  <p>Delivery of quality products by quality-conscious people using quality-empowering processes.</p>
-  <cite>— The QCSD goal</cite>
+<p>Delivery of quality products by quality-conscious people using quality-empowering processes.</p>
+<cite>— The QCSD goal</cite>
 </div>
 
 <p>The details of the framework — its models, its implementation patterns, its adaptation to different contexts — are what I share in my <a href="/talks/">workshops, tutorials, and keynotes</a> at conferences worldwide. Each engagement is tailored to the audience: from half-day executive briefings to full-day hands-on tutorials where teams leave with a concrete implementation roadmap.</p>
@@ -161,8 +176,8 @@ When you ask most teams what "quality engineering" means, the answer comes back 
 <p>This isn't another "AI for testing" play. It's a principled architecture for embedding quality consciousness into autonomous systems — grounded in what I call <strong>Designed Agency</strong>. The approach covers the full SDLC from ideation through production telemetry, with human-in-the-loop quality gates where they matter most.</p>
 
 <div class="qcsd-pull">
-  <p>Not replacement of human testers, but a genuine amplification of human quality consciousness — operating at the speed and scale that modern delivery demands.</p>
-  <cite>— On Designed Agency</cite>
+<p>Not replacement of human testers, but a genuine amplification of human quality consciousness — operating at the speed and scale that modern delivery demands.</p>
+<cite>— On Designed Agency</cite>
 </div>
 
 <p>I'm currently delivering Agentic QCSD as full-day tutorials and workshops at conferences including <a href="https://agiletestingdays.com/2026/session/the-70-problem/" target="_blank" rel="noopener">Agile Testing Days</a>, <a href="https://hustef.com/lalit-dragan_2026/" target="_blank" rel="noopener">HUSTEF</a>, and <a href="https://embedded.qatest.org/ponentes/lalitkumar-bhamare/?lang=en" target="_blank" rel="noopener">QA&Test Embedded</a>. If you're interested in what this looks like in practice, those are good places to start.</p>
@@ -172,18 +187,18 @@ When you ask most teams what "quality engineering" means, the answer comes back 
 <h2>Credentials</h2>
 
 <div class="qcsd-trio">
-  <div class="qcsd-trio-item">
-    <h3>EuroSTAR Best Paper</h3>
-    <p>One of only 26 recipients in the conference's 30-year history. Awarded for the original QCSD paper in 2022.</p>
-  </div>
-  <div class="qcsd-trio-item">
-    <h3>Taking Testing Seriously</h3>
-    <p>Contributing author in the book by <a href="https://www.wiley.com/en-us/Taking+Testing+Seriously%3A+The+Rapid+Software+Testing+Approach-p-9781394253197" target="_blank" rel="noopener">James Bach and Michael Bolton</a>, published by Wiley.</p>
-  </div>
-  <div class="qcsd-trio-item">
-    <h3>3 Continents</h3>
-    <p>QCSD has been adopted by delivery teams across Europe, Asia, and North America.</p>
-  </div>
+<div class="qcsd-trio-item">
+<h3>EuroSTAR Best Paper</h3>
+<p>One of only 26 recipients in the conference's 30-year history. Awarded for the original QCSD paper in 2022.</p>
+</div>
+<div class="qcsd-trio-item">
+<h3>Taking Testing Seriously</h3>
+<p>Contributing author in the book by <a href="https://www.wiley.com/en-us/Taking+Testing+Seriously%3A+The+Rapid+Software+Testing+Approach-p-9781394253197" target="_blank" rel="noopener">James Bach and Michael Bolton</a>, published by Wiley.</p>
+</div>
+<div class="qcsd-trio-item">
+<h3>3 Continents</h3>
+<p>QCSD has been adopted by delivery teams across Europe, Asia, and North America.</p>
+</div>
 </div>
 
 <hr class="qcsd-sep">
@@ -193,5 +208,17 @@ When you ask most teams what "quality engineering" means, the answer comes back 
 <p>I deliver QCSD and Agentic QCSD through <a href="/talks/">keynotes, full-day workshops, and executive coaching</a> — tailored to your organisation's context, maturity, and ambitions. Whether you're building a quality engineering capability from scratch, navigating AI adoption in your delivery pipeline, or looking for a keynote that changes how your organisation thinks about quality.</p>
 
 <p><a href="https://www.linkedin.com/in/lalitkumarbhamare/" target="_blank" rel="noopener"><strong>Let's talk.</strong></a></p>
+
+<hr class="qcsd-sep">
+
+<h2>License &amp; Attribution</h2>
+
+<p><strong>Quality Conscious Software Delivery (QCSD)</strong> — including its framework, models, terminology, and written specification — together with its Agentic evolution ("Agentic QCSD") and the concept of <strong>Designed Agency</strong>, was originated and authored by <strong>Lalit Bhamare</strong>. The framework was first published in 2022, when the original QCSD paper received the <a href="https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/" target="_blank" rel="noopener">EuroSTAR Best Paper Award</a>. This page is published from the author's own independent channel as a public, timestamped record of authorship.</p>
+
+<div class="qcsd-license">
+<p>© 2022–2026 Lalit Bhamare. The <strong>QCSD framework, specification, and written content</strong> on this page are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>. You are free to share and adapt the material for any purpose, including commercially, provided you give appropriate credit to Lalit Bhamare as the originator of QCSD, link to the license, and indicate if changes were made.</p>
+<p>Any accompanying <strong>source code and reference implementations</strong> are licensed separately under the <a href="https://opensource.org/license/mit" target="_blank" rel="noopener">MIT License</a>.</p>
+<p>"QCSD", "Quality Conscious Software Delivery", "Agentic QCSD", and "Designed Agency" are used here as terms originated by the author to denote this body of work.</p>
+</div>
 
 </div>
