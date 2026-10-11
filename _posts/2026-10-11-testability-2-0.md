@@ -1,5 +1,5 @@
 ---
-title: "Rethinking Testability so the agentic SDLC delivers outcomes that matter"
+title: "Rethinking Testability - so we help AI agents deliver outcomes that matter"
 date: 2026-10-11 18:00:00 +0200
 categories: [Quality Engineering, Testability]
 tags: [testability, agentic-qe, qcsd, agentic-sdlc, testing-vs-checking]
