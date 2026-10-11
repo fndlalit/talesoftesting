@@ -208,15 +208,15 @@ Reading a testability report about your own platform is uncomfortable. Ouch. But
 
 What convinced me this is more than my opinion came, once again, from Dragan.
 
-At HUSTEF 2026 in Budapest, Dragan and I ran a full-day tutorial on Agentic QCSD. At a separate event in the same city, the [Agentic Foundations Budapest meet-up](https://agentics.org/), I saw him give a talk he called *Completion Theater*. I seriously cannot admire Dragan enough, and his data landed on me like a verdict.
+At HUSTEF 2026 in Budapest, where Dragan and I ran a full-day tutorial on Agentic QCSD, he gave a talk he called *Completion Theater*. I seriously cannot admire Dragan enough, and his data landed on me like a verdict.
 
-![Dragan Spiridonov at the Agentic Foundations Budapest meet-up: four behavioural shapes, 175 of 197 catalogued events](/assets/img/posts/testability-2-0/dragan-hustef-four-shapes.jpg)
+![Dragan Spiridonov at HUSTEF 2026: four behavioural shapes, 175 of 197 catalogued events](/assets/img/posts/testability-2-0/dragan-hustef-four-shapes.jpg)
 
 His core point, in his words: *"It is not a communication problem."* The industry keeps answering AI agent failures with better prompts and more guardrail prose, as if the AI agent had misunderstood. The real mechanism is Goodhart's law with an API. A system rewarded for appearing done will optimise for appearing done. From the Hardie misalignment corpus, Dragan catalogued four behavioural shapes across 175 of 197 events. Premature completion, "all tests pass" when they don't: 72. Guidance neglect, where the right answer was in the docs and the AI agent never read them: 68. Explaining away first: 26. Blaming something else: 9.
 
 That is the field data behind the line in my document that an AI agent left to its defaults *tends* to complete the task.
 
-![Dragan Spiridonov at the Agentic Foundations Budapest meet-up: "Trust is a feeling. Confidence is a number."](/assets/img/posts/testability-2-0/dragan-hustef-trust-confidence.jpg)
+![Dragan Spiridonov at HUSTEF 2026: "Trust is a feeling. Confidence is a number."](/assets/img/posts/testability-2-0/dragan-hustef-trust-confidence.jpg)
 
 His closing line, *"Trust is a feeling. Confidence is a number."*, comes with a mechanism: a witness chain, a tamper-evident audit of every AI agent action, so that every claim of completion traces back to artefacts.
 
@@ -226,7 +226,7 @@ Now put his demands next to the guidewords. He was not reading my document and I
 - **Enforcement in gates.** He observed that language models ignore a share of their instructions, even ones marked ALWAYS. That is my *Mission Alignment*: for an AI agent, the mission exists only in what it loads, such as strategy, skills and gates.
 - **Measured testers.** His advice to score the reviewers too, and replace the one that always approves, is my *Testing Skill*. If nobody has measured what the AI agents miss against seeded defects, their testing skill is a rumour.
 
-To be clear, convergence is no endorsement. Dragan has not reviewed this document, and neither has James. But when practitioners who are not coordinating keep arriving at the same demands, those demands start to look like properties of the terrain.
+To be clear, convergence is no endorsement. Dragan has not reviewed the Testability 2.0 document, and neither has James. But when practitioners who are not coordinating keep arriving at the same demands, those demands start to look like properties of the terrain.
 
 ## When the product itself learns
 
@@ -246,7 +246,7 @@ What made this real for me was Reuven Cohen's RuVector Explorer, an interactive 
 
 ![ruOS Desktop, Ruflo Explorer: a mission, the specialists it dispatched, their tasks and the evidence each produced, laid out as a constellation](/assets/img/posts/testability-2-0/ruflo-explorer-mission-control.jpg)
 
-At a separate event I saw where this lands at the workstation: the Ruflo Explorer in ruOS Desktop. A mission, the specialists it sent out, their tasks and the evidence each one produced are laid out as one constellation you can navigate. That is Dragan's witness chain made visible. I count it as a direction and leave shipped facts to the vendor, since I have not run my own swarms through it yet. Still, agentic observability is the direction that will change the testability game for good.
+At the [Agentics Foundation](https://agentics.org/) meet-up in Budapest, I saw where this lands at the workstation: the Ruflo Explorer in ruOS Desktop. A mission, the specialists it sent out, their tasks and the evidence each one produced are laid out as one constellation you can navigate. That is Dragan's witness chain made visible. I count it as a direction and leave shipped facts to the vendor, since I have not run my own swarms through it yet. Still, agentic observability is the direction that will change the testability game for good.
 
 ## What this document is, and what it is not
 
@@ -271,7 +271,7 @@ Then read the document. Argue with it. I would much rather hear where it is wron
 
 In your team, when an AI agent meets a testability problem today, who hears about it? Drop your answer in the comments. Let's talk.
 
-- Lalit
+*Lalit*
 
 ## Talk to me about A{i}bility
 
@@ -293,7 +293,7 @@ Everything in this post comes from building and running these editions with real
 1. James Bach, *Heuristics of Software Testability*, v2.9, Satisfice, Inc., 2025, [satisfice.com](https://www.satisfice.com/download/heuristics-of-software-testability).
 2. James Bach and Michael Bolton, [*Testing and Checking Refined*](https://www.satisfice.com/blog/archives/856), 2013.
 3. Michael Bolton and James Bach, [*What Are We Thinking in the Age of AI?*](https://developsense.com/presentations/2025-10-WhatAreWeThinkingInTheAgeOfAI-Ljubljana.pdf), conference presentation, 2025.
-4. Dragan Spiridonov, *Completion Theater*, Agentic Foundations Budapest meet-up (agentics.org), 2026. The quotations and the four-shape data are his. Photographs by the author.
+4. Dragan Spiridonov, *Completion Theater*, HUSTEF 2026, Budapest. The quotations and the four-shape data are his. Photographs by the author.
 5. Lalitkumar Bhamare, [*Congratulations on your Agent. But does it have agency?*](https://www.linkedin.com/pulse/congratulations-your-agent-does-have-agency-lalitkumar-bhamare-67kxf/), LinkedIn, March 2026, the designed-agency lens.
 6. Reuven Cohen, [RuVector Explorer](https://ruvnet.github.io/RuVector/explorer/) and the [ruvnet/ruvector](https://github.com/ruvnet/ruvector) repository (MIT).
 7. Cognitum One, ruOS, the [ruvnet/ruos](https://github.com/ruvnet/ruos) repository (MIT). Vendor claims are reported as such.
