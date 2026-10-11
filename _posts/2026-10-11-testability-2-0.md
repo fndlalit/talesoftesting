@@ -42,9 +42,7 @@ An AI agent has no hallway. Whatever is not in that graph, or in a file, a skill
 
 Speed is the easy part of an agentic SDLC. What I keep asking is whether that speed turns into outcomes that matter: products that work for the people who use them, risks we know about before release, decisions a team can stand behind. Jerry Weinberg taught us that quality is value to some person. Speed that does not reach that person is just motion.
 
-Whether speed reaches that person depends, far more than most teams realise, on testability. And our common understanding of testability is too narrow for the job it now has. So I sat down with the work I respect most on the subject, James Bach's *Heuristics of Software Testability*, and asked what it would take to rethink testability for delivery in which AI agents build and test alongside people.
-
-**[Download: Heuristics of Software Testability in the Agentic SDLC (Testability 2.0, PDF)](/assets/docs/Heuristics-of-Testability-2.0.pdf)**
+Whether speed reaches that person depends, far more than most teams realise, on testability. And our common understanding of testability is too narrow for the job it now has. So I sat down with the work I respect most on the subject, James Bach's *Heuristics of Software Testability*, and asked what it would take to rethink testability for delivery in which AI agents build and test alongside people. The result is a document, *Heuristics of Software Testability in the Agentic SDLC*, which you can download at the end of this post.
 
 ## Where the common understanding of testability falls short
 
@@ -269,7 +267,7 @@ If your teams are adopting AI agents, and most of the teams I speak to are, whet
 
 Then read the document. Argue with it. I would much rather hear where it is wrong from you than discover it in a swarm run.
 
-**[Heuristics of Software Testability in the Agentic SDLC (Testability 2.0, PDF)](/assets/docs/Heuristics-of-Testability-2.0.pdf)**
+**[Download: Heuristics of Software Testability in the Agentic SDLC (Testability 2.0, PDF)](/assets/docs/Heuristics-of-Testability-2.0.pdf)**
 
 In your team, when an AI agent meets a testability problem today, who hears about it? Drop your answer in the comments. Let's talk.
 
