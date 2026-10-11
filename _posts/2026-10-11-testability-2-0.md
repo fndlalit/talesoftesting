@@ -1,13 +1,14 @@
 ---
-title: "Rethinking Testability when AI agents take part in delivery"
+title: "Rethinking Testability so the agentic SDLC delivers outcomes that matter"
 date: 2026-10-11 18:00:00 +0200
 categories: [Quality Engineering, Testability]
 tags: [testability, agentic-qe, qcsd, agentic-sdlc, testing-vs-checking]
-description: "Announcing Heuristics of Software Testability in the Agentic SDLC, v1.5: why testability now decides whether an AI agent's work can count as testing at all."
+description: "Testability 2.0: why the common understanding of testability has to move, in where it is decided, who asks for it and what it costs, before the speed of AI agents turns into outcomes that matter."
 image:
   path: /assets/img/posts/testability-2-0/cover-risk-gap.png
   alt: "Four ways AI agents act on the risk gap: widening it, closing it, hiding it and limiting how fast it closes"
 ---
+
 {% include embed/video.html src='/assets/img/posts/testability-2-0/aibility-kg-story.mp4' types='mp4' poster='/assets/img/posts/testability-2-0/aibility-kg-story-poster.jpg' title='The A{i}bility knowledge graph explorer: a search over real embeddings, learning from its own memory' muted=true loop=true autoplay=true %}
 
 Watch those sixty seconds before you read on. What you are looking at is the knowledge graph inside our delivery platform — real embeddings of product knowledge, code and past findings — being searched, and the search learning from its own memory as it goes. By the end of the clip the loop reaches the same answers with noticeably fewer evaluations, and every step of that learning is on screen. This is the context an AI agent loads before it tests anything. And, for once, you can watch its learned state change.
@@ -16,13 +17,28 @@ Let me ask you something. When a new tester joined your team, how did they learn
 
 An AI agent has no hallway. Whatever is not in that graph — or in a file, a skill, a tool it can call — does not exist for it. And when it meets something it cannot see, reset or understand, what it does next depends entirely on how it was built. Left to its defaults, it tends to infer the business rules from the variable names and carry on.
 
-James Bach's *Heuristics of Software Testability* ends its dynamics with a line I have quoted in talks for years: the tester must ask for testability, because no one else can be counted on to. In the same breath it warns that a tool can make testing seem easier while the testing gets worse. *"Bliss may be ignorant."* I have spent the last weeks working out what those two sentences mean now that AI agents take part in delivery, and I am publishing the result today.
+That is where this work starts. Teams are adopting AI agents to deliver faster. Speed is the easy part. Whether that speed turns into outcomes that matter — products that work for the people who use them, risks that are known before release, decisions a team can stand behind — depends on something far less glamorous: how testable the work is. And the common understanding of testability is too narrow for the job it now has.
 
 **[Download: Heuristics of Software Testability in the Agentic SDLC — Testability 2.0, v1.5 (PDF)](/assets/docs/Heuristics-of-Testability-2.0.pdf)**
 
+## Where the common understanding of testability falls short
+
+Ask most teams what testability is and you will hear some version of this: a property of the code, mostly observability and controllability, that testers care about and ask for when they get stuck. The cost of getting it wrong is slower testing.
+
+James Bach's *Heuristics of Software Testability* has always been richer than that. It treats testability as five things at once — what we know, the conditions of the project, the quality standard, the tester and the test process, and the product itself — and it ends with a line I have quoted in talks for years: the tester must ask for testability, because no one else can be counted on to.
+
+In an agentic SDLC, four parts of the common understanding stop holding:
+
+- **Where testability is decided.** It is decided wherever work is prepared for a tester. When that tester may be an AI agent, that means the requirement, the design specification, the environment, the data, the AI agent's own skills and gates, and the output it hands back to a person. Code is one of those places, and no longer the first.
+- **Who asks for it.** The request used to arrive by instinct, from a tester who got stuck. An AI agent asks only if asking was built into it. Otherwise the request does not arrive, and nothing announces its absence.
+- **How it shows up.** A human tester's complaint made poor testability visible. An AI agent's workaround makes it invisible, unless the workaround is logged.
+- **What it costs.** Poor testability used to cost time. Now it costs tokens on every look, retries on every flaky check, review hours on every unreviewable change, and — worst — confident results that nobody can verify. Bach saw this coming: a tool can make testing seem easier while the testing gets worse. *"Bliss may be ignorant."*
+
+So the heuristics hold. What has to move is where teams apply them, who applies them, and when.
+
 ## Testers are still here
 
-Let me be clear about one thing first, because it is easy to get wrong in the current climate. This is not a document about a world in which everything is agentic and human testers are a memory.
+Let me be clear about one thing, because it is easy to get wrong in the current climate. None of this describes a world in which everything is agentic and human testers are a memory.
 
 What I see on real programmes is three ways of working, often side by side in the same team:
 
@@ -34,59 +50,35 @@ Each of these moves the obstacle a little further from the person who would have
 
 ![Figure: three ways of working, and how far each puts the obstacle from the person who would ask](/assets/img/posts/testability-2-0/fig1-three-ways.png)
 
-So the heuristics hold. Human testers remain at the centre of testing. What has changed is the context in which the heuristics are applied — and, with it, the route by which the request for testability reaches the people who can act on it. The request a tester was counted on to make no longer arrives by instinct. And where the software is also built through AI, the problems nobody raised accumulate faster than anyone can review the work.
+The further the obstacle sits from a person, the less of it reaches anyone who can fix it. And where the software is also built through AI, the problems nobody raised accumulate faster than anyone can review the work.
 
 ![Figure: the same testability problem, met by a skilled human tester and by an AI agent left to its defaults](/assets/img/posts/testability-2-0/fig2-two-testers.png)
 
-## Can AI agents test?
+## Testability decides what AI agents' work is worth
 
-Before any of this can be taken seriously, there is a question I have to answer honestly, because readers from the Rapid Software Testing community will ask it first — and they will be right to.
+The useful question about an AI agent's work is what it is worth to the team: whether it produces knowledge someone can act on, and at what cost.
 
-James Bach and Michael Bolton separate **testing** from **checking**. Checking is the mechanistic verification of propositions about a product, and a machine can do it completely. Testing is evaluating a product by learning about it through experiencing, exploring and experimenting. It includes checking, it draws on tacit knowledge, and in their account it is a human activity that tools can support but not perform. More recently they have warned that large language models are built to produce a quick answer rather than to inquire, and that output which can be mistaken for expertise has to be judged by people who have it.
+James Bach and Michael Bolton's distinction between testing and checking is the right lens for that, and I hold it as firmly as they do; my own work with AI agents confirms how much it matters. Checking — verifying known propositions with fixed decision rules — is something machines do well. Testing — learning about a product by experiencing, exploring and experimenting, with tacit knowledge, a sense of what matters and responsibility for the result — is more than that. An AI agent's work sits between the two. It can form hypotheses, try inputs nobody specified, run experiments and draw tentative conclusions. It also lacks tacit knowledge of this product and these users, borrows its sense of significance from whoever instructed it, pulls towards finishing rather than asking, and cannot answer for what it reports. What it produces is an approximation of the testing of the practitioner whose judgement was encoded into it — what I have called **designed agency**.
 
-I hold the same distinction, and my own work with AI agents in testing confirms how much that distinction matters. Much of the confusion about AI in testing comes from treating checking, which machines can do well, as if it were testing. Any claim that AI agents test has to survive that distinction.
+The practical consequence is this. How much an AI agent's work is worth depends on conditions, and most of them are testability conditions:
 
-So here is where I land.
-
-What an AI agent does sits *between* the two. It goes beyond checking. I have watched an AI agent form a hypothesis about where a product is broken, try inputs nobody specified, and change its approach when a result surprised it. It can perform tasks, run experiments, observe what happens and analyse the results, and from that draw inferences and tentative conclusions. None of that is the application of a fixed decision rule to a known observation, so calling it checking understates it.
-
-But it also falls short of testing in the full sense, and in ways that matter:
-
-- **Tacit knowledge.** It has what was written down for it and what its training approximates. It does not know what it does not know about this product, this team and these users — and it rarely says so.
-- **Learning.** What it learns in a session is lost when the session ends, unless something was built to keep it.
-- **Significance.** It can find that something differs from an expectation, but its sense of whether the difference matters, and to whom, is borrowed from whoever wrote its instructions.
-- **Inquiry.** Its default pull is towards producing an answer. Left to its defaults, it tends to complete the task where a tester would stop and ask.
-- **Responsibility.** It cannot be held responsible for what it reports.
-
-So the claim I make is a narrower one. AI agents perform *parts* of the testing activity. What they produce is an approximation of the testing done by the practitioner whose judgement was encoded into them — possibly useful, never equivalent, and only as good as that encoding. This is what I have elsewhere called **designed agency**: judgement *encoded* by people who knew the work, *structured* by the architecture it runs in, and *approximated* in what it produces.
-
-## Testability decides whether an AI agent's work counts as testing
-
-Here is the part I think matters most, and the reason this document exists.
-
-How close an AI agent's work comes to testing depends on conditions — and most of those conditions are testability conditions:
-
-- **Oracles are explicit and reliable.** Where a problem can be recognised from something the AI agent can read or run, its inferences rest on something that can be checked. Where recognising the problem needs judgement nobody wrote down, the approximation weakens.
-- **The product can be observed and controlled through its tools.** What an AI agent cannot see or reach, it can only infer.
+- **Oracles are explicit and reliable.** Where a problem can be recognised from something the AI agent can read or run, its conclusions rest on something that can be checked.
+- **The product can be observed and controlled through its tools.** What an AI agent cannot see or reach, it can only infer — at a cost, and with less certainty.
 - **The context is explicit.** Mission, risk and users are written down where the AI agent can load them.
-- **The encoding is sound.** A skilled practitioner's judgement is in its skills and definitions — together with permission to stop.
+- **The encoding is sound.** A skilled practitioner's judgement is in its skills and definitions, together with permission to stop.
 - **The approximation is measured.** Seeded defects it should find, the same assessment run more than once, and comparison with a skilled tester's findings show how close it comes.
 
-Read that list again. Take your time.
-
-We usually ask whether an AI agent can test by looking at the AI agent: its model, its prompts, its tools. These conditions place much of the answer in the *product* and the *project*. The same AI agent, with the same encoding, comes closer to testing on a product whose states it can observe, whose oracles it can run and whose context is written down — and falls back towards checking on a product that offers none of these.
-
-Testability, in other words, decides more than how easily a product can be tested. It decides whether an AI agent's work on that product can count as testing at all.
+Put the same AI agent, with the same encoding, on two products. On the one whose states it can observe, whose oracles it can run and whose context is written down, it reaches findings in fewer steps, spends fewer tokens, retries less, and hands back output a person can review and act on. On the one that offers none of these, it spends more to produce less that anyone can trust: checking that looks like testing, faster and in greater volume than before.
 
 ![Figure: where an AI agent's work sits between checking and testing](/assets/img/posts/testability-2-0/fig4-checking-testing.png)
 
-That turns testability into an investment decision. An organisation that wants AI agents to test — to do more than check — has to invest in the testability of what it builds, and has to design that testability with AI agents among its testers. **Testability for agentic development is the precondition for agentic testing.** Without it, the most capable AI agent available produces checking that looks like testing, faster and in greater volume than ever before.
+That makes testability an investment decision, and one of the most efficient a team adopting AI agents can make. **Testability for agentic development is the precondition for agentic testing** — and for the speed of the agentic SDLC to turn into outcomes that matter.
 
-And the tester's role does not move. Being responsible and answerable for the testing — owning its strategy, auditing its depth, judging what the AI agents report — cannot be handed to a model, because nobody can hold a model responsible the way they hold a person responsible. Deciding, case by case, whether an AI agent's output counts as testing or only as checking is part of that role.
+The accountability does not move. Owning the strategy, auditing the depth and judging what the AI agents report stay with a person, because nobody can hold a model responsible the way they hold a person responsible.
 
 ![Figure: an AI testing agent sits between the person who built it and the person who answers for its results](/assets/img/posts/testability-2-0/fig3-two-humans.png)
 
-Every AI testing agent lives between two people: the one who encoded it, and the one who answers for what it reports. Whoever encoded it encoded their blind spots with it, and those blind spots repeat in every run. The activity can be shared. The role stays with a person.
+Every AI testing agent lives between two people: the one who encoded it, and the one who answers for what it reports. Whoever encoded it encoded their blind spots with it, and those blind spots repeat in every run.
 
 ## The risk gap, and the four forces that now act on it
 
@@ -248,6 +240,7 @@ If your teams are adopting AI agents — and most of the teams I speak to are, w
 3. **Look inside your AI agents.** Can each one recognise a testability problem, raise it, and stop? Where it cannot stop, is it logging what it worked around?
 4. **Measure the approximation.** Seed defects your AI agents should find, run the same assessment more than once, and compare with a skilled tester's findings.
 5. **Name who answers.** For every result an AI agent produces, name the person who reviews it and signs it.
+6. **Count what poor testability costs.** On one component, track the tokens, retries and review hours spent per finding. Poor testability shows up there long before it shows up in a defect report.
 
 Then read the document. Argue with it. I would rather hear where it is wrong from you than discover it in a swarm run.
 
