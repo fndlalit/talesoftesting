@@ -22,19 +22,15 @@ His foundational work on the AQE fleet helped me build [**Agentic QCSD**](https:
 
 What I started as Agentic QCSD on my agentic journey has now become a full-fledged agentic SDLC platform with built-in quality intelligence. For everything it enables teams to do, and for how it amplifies human effectiveness with the help of AI, I have named it **A{i}bility**.
 
-![The A{i}bility logo](/assets/img/posts/testability-2-0/aibility-logo.gif){: width="720" height="400" }
-
 I am currently delivering most of my client projects within Accenture using this A{i}bility platform. That includes leading an "AI-curious to AI-native" transformation programme for a large enterprise. And I must say, it has been a fun ride. I have learned, unlearned and re-learned a lot over this period, and it still continues.
 
 These have been real projects, with real products, real users and real release dates, where swarms of AI agents work alongside the people who build, test and run the software. Most of what A{i}bility can do today, it learned on those projects, one hard lesson at a time.
 
 That work also taught me something I thought I already knew. In [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) I describe quality through three notions, which I call **QualiTri**: the **Product** notion, the **Project** notion and the **People** notion of quality. I have taught that model for years. Building and running A{i}bility across these projects made me live it.
 
-**People.** Testers, developers and product owners had to learn new ways of working, and some of them had to learn to trust work they did not do themselves. Every time an AI agent reported "done", a person still had to decide whether it was. Someone always has to answer for the result.
-
-**Project.** The pace changed overnight. AI agents could produce change faster than any team could review it, and every look, every retry and every rework now came with a token bill. How we delivered became as much a quality question as what we delivered.
-
-**Product.** Through all of this, the only outcome that mattered was still what the product did for the people who use it.
+- **People.** Testers, developers and product owners had to learn new ways of working, and some of them had to learn to trust work they did not do themselves. Every time an AI agent reported "done", a person still had to decide whether it was. Someone always has to answer for the result.
+- **Project.** The pace changed overnight. AI agents could produce change faster than any team could review it, and every look, every retry and every rework now came with a token bill. How we delivered became as much a quality question as what we delivered.
+- **Product.** Through all of this, the only outcome that mattered was still what the product did for the people who use it.
 
 And in all three, the same thing kept getting in the way. When people could not see what an AI agent had done, when the project could not afford to verify it, when the product did not show its state to anyone but a human looking at a screen, the speed we had gained turned into rework, doubt and confident results nobody could trust. Every one of those problems was a testability problem. Just not where we were used to looking for one.
 
@@ -58,13 +54,10 @@ James's heuristics have always been richer than that. They treat testability as 
 
 In an agentic SDLC, I see four parts of the common understanding stop holding.
 
-**Where testability is decided.** It is decided wherever work is prepared for a tester. When that tester may be an AI agent, that means the requirement, the design specification, the environment, the data, the AI agent's own skills and gates, and the output it hands back to a person. Code is still one of those places. It is rarely the first one any more.
-
-**Who asks for it.** The request used to arrive by instinct, from a tester who got stuck. An AI agent asks only if somebody built the asking into it. Otherwise the request never arrives, and nothing tells you it is missing.
-
-**How it shows up.** A human tester's complaint made poor testability visible. An AI agent's workaround makes it invisible, unless somebody built it to log the workaround.
-
-**What it costs.** Poor testability used to cost time. Now it costs tokens on every look, retries on every flaky check, review hours on every change too big to review, and worst of all, confident results that nobody can verify.
+- **Where testability is decided.** It is decided wherever work is prepared for a tester. When that tester may be an AI agent, that means the requirement, the design specification, the environment, the data, the AI agent's own skills and gates, and the output it hands back to a person. Code is still one of those places. It is rarely the first one any more.
+- **Who asks for it.** The request used to arrive by instinct, from a tester who got stuck. An AI agent asks only if somebody built the asking into it. Otherwise the request never arrives, and nothing tells you it is missing.
+- **How it shows up.** A human tester's complaint made poor testability visible. An AI agent's workaround makes it invisible, unless somebody built it to log the workaround.
+- **What it costs.** Poor testability used to cost time. Now it costs tokens on every look, retries on every flaky check, review hours on every change too big to review, and worst of all, confident results that nobody can verify.
 
 James saw the shape of this long before AI agents arrived. His heuristics warn that a tool can make testing seem easier while the testing gets worse. *"Bliss may be ignorant."* Read that line again with AI agents in mind. Take your time.
 
@@ -126,9 +119,8 @@ Two of the forces are long known. Change and higher standards *widen* the gap. T
 
 The other two forces arrive with AI agents.
 
-**They can hide the gap.** Confident reports that nobody verified, and problems that nobody raised, make the gap look closed while it is still open. This is "Bliss may be ignorant" at machine scale.
-
-**They meet a limit on how fast the gap closes.** An AI agent's result becomes knowledge only when a person can trace it, sample it and trust it. So human review capacity caps the rate at which the gap closes, however many AI agents you run.
+- **They can hide the gap.** Confident reports that nobody verified, and problems that nobody raised, make the gap look closed while it is still open. This is "Bliss may be ignorant" at machine scale.
+- **They meet a limit on how fast the gap closes.** An AI agent's result becomes knowledge only when a person can trace it, sample it and trust it. So human review capacity caps the rate at which the gap closes, however many AI agents you run.
 
 That second force surprised me the most. It means one of the strongest testability investments available right now is simply making AI agents' output *reviewable by a person*: small, ordered by risk, backed by evidence, and summarisable in minutes. A four-thousand-line change with a one-line description cannot be reviewed claim by claim, however good the code is. In the document this became a new guideword, **Human Reviewability**.
 
@@ -138,15 +130,11 @@ It is also why you will not find a testability score anywhere in this work. Test
 
 The testabilities act on one another. Some forces widen the gap, others close it, and improving one testability can cost you another. AI agents change several of these relationships and add some new ones. Here are the ones I would want every team adopting AI agents to know about.
 
-**An AI agent can make testing seem easier while it gets worse.** Left to its defaults, it produces thousands of passing checks, confident reports and no complaints about testability. A rising pass count and falling defect detection can happen together, and the dashboard shows only the pass count.
-
-**An AI agent that tests well costs more to build and to run.** One built to recognise testability problems, stop on them and log what it worked around costs more than one that simply completes the task. A better test strategy has always asked for more effort and skill than the one it replaced. The same holds here.
-
-**Making a product testable for AI agents has costs of its own.** Interfaces added so that AI agents can test cheaply, such as APIs and command lines, drift away from the interface users actually use. Testing follows the cheap path, and the user interface quietly collects untested behaviour.
-
-**Realistic testing now passes through a model.** Whether data containing personal information may be processed by the model you use, hosted or local, becomes a constraint on the whole project. The more realistic the data, the fewer AI agents may touch it.
-
-**Testability built for AI agents serves everyone.** The structured interface that lets an AI testing agent read the product's state also serves the AI coding agent, the support engineer, and the human tester debugging at 2 a.m.
+- **An AI agent can make testing seem easier while it gets worse.** Left to its defaults, it produces thousands of passing checks, confident reports and no complaints about testability. A rising pass count and falling defect detection can happen together, and the dashboard shows only the pass count.
+- **An AI agent that tests well costs more to build and to run.** One built to recognise testability problems, stop on them and log what it worked around costs more than one that simply completes the task. A better test strategy has always asked for more effort and skill than the one it replaced. The same holds here.
+- **Making a product testable for AI agents has costs of its own.** Interfaces added so that AI agents can test cheaply, such as APIs and command lines, drift away from the interface users actually use. Testing follows the cheap path, and the user interface quietly collects untested behaviour.
+- **Realistic testing now passes through a model.** Whether data containing personal information may be processed by the model you use, hosted or local, becomes a constraint on the whole project. The more realistic the data, the fewer AI agents may touch it.
+- **Testability built for AI agents serves everyone.** The structured interface that lets an AI testing agent read the product's state also serves the AI coding agent, the support engineer, and the human tester debugging at 2 a.m.
 
 Then there are the trades. I find it useful to sort them by the currency you pay in.
 
