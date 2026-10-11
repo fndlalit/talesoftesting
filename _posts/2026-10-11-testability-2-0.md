@@ -50,8 +50,6 @@ This is where rethinking testability pays off first. If testability is decided w
 
 Meet those at the handoff, and every AI agent downstream starts from intent it can verify. Miss them, and no amount of testing later recovers what was never said.
 
-Getting there needs two disciplines that delivery teams usually bring in too late. Systems thinking shows how a change ripples through the business and the system it lands in, and where it could go wrong. Design thinking makes clear who the change is for and what would make it valuable to them. Together they turn intent into something with its checks attached. In A{i}bility, QX brings both to the very start of delivery, so that teams do the right things from the beginning and the testability of everything that follows is decided while it is still cheap.
-
 Speed is the easy part of an agentic SDLC. What I keep asking is whether that speed turns into outcomes that matter: products that work for the people who use them, risks we know about before release, decisions a team can stand behind. Jerry Weinberg taught us that quality is value to some person. Speed that does not reach that person is just motion.
 
 Whether speed reaches that person depends, far more than most teams realise, on testability. And our common understanding of testability is too narrow for the job it now has. So I sat down with the work I respect most on the subject, James Bach's *Heuristics of Software Testability*, and asked what it would take to rethink testability for delivery in which AI agents build and test alongside people. The result is a document, *Heuristics of Software Testability in the Agentic SDLC*.
