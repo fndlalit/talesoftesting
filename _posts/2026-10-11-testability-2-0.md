@@ -10,11 +10,15 @@ image:
 ---
 {% include embed/video.html src='/assets/img/posts/testability-2-0/aibility-kg-story.mp4' types='mp4' poster='/assets/img/posts/testability-2-0/aibility-kg-story-poster.jpg' title='The A{i}bility knowledge graph explorer: a search over real embeddings, learning from its own memory. Based on RuVector Explorer with Agentic QE as intel engine.' %}
 
-Watch those sixty seconds before you read on. What you see is the knowledge graph explorer in **A{i}bility** - the agentic SDLC platform with built-in quality intelligence, but more on that a bit later. So, the explorer you see above shows exploring through 10,000 real embeddings from the A{i}bility knowledge graph. They come from code across several repositories, Jira and Confluence, business discovery and technical solution briefs, test and automation strategies, and the patterns and learnings gathered while implementing the code. The search starts cold and runs through four phases: a warm-up, a drift to unfamiliar queries, a return to familiar ones, and noise. As it goes, it keeps a memory of past queries and their answers, and tunes a single setting: how widely it searches. The graph itself and the platform's models stay exactly as they were. Across the whole run, the search needed 24.1% fewer distance evaluations than a static search, while still finding 94 to 99 per cent of the true nearest matches in each phase. You can watch it adapt, query by query. And this kind of retrieval decides what context an AI agent has to work with.
+Watch those sixty seconds before you read on. What you see is the knowledge graph explorer in **A{i}bility** - the agentic SDLC platform with built-in quality intelligence, but more on that a bit later.
+
+So, the explorer you see above shows exploring through 10,000 real embeddings from the A{i}bility knowledge graph. They come from code across several repositories, Jira and Confluence, business discovery and technical solution briefs, test and automation strategies, and the patterns and learnings gathered while implementing the code. The search starts cold and runs through four phases: a warm-up, a drift to unfamiliar queries, a return to familiar ones, and noise. As it goes, it keeps a memory of past queries and their answers, and tunes a single setting: how widely it searches. The graph itself and the platform's models stay exactly as they were. Across the whole run, the search needed 24.1% fewer distance evaluations than a static search, while still finding 94 to 99 per cent of the true nearest matches in each phase. You can watch it adapt, query by query. And this kind of retrieval decides what context an AI agent has to work with.
 
 Let me first tell you where this comes from.
 
-I wrote the [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) framework to help organisations deliver quality products without having to add extra resources or spend more time. My efforts to agentify [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) brought me closer to what my friend Dragan Spiridonov was building with his [Agentic QE Fleet](https://github.com/proffesor-for-testing/agentic-qe) back in September 2025. His foundational work on the AQE fleet helped me build [**Agentic QCSD**](https://agentic-qe.dev/contributors): an agentic harness with several special-purpose agentic loops, carefully designed, defined and interconnected through cross-phase exchange, all based on the underlying [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) philosophy. And yes, this agentic fleet and these agentic loops have been created well before "loop engineering" became a coined term.
+I wrote the [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) framework to help organisations deliver quality products without having to add extra resources or spend more time. My efforts to agentify [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) brought me closer to what my friend Dragan Spiridonov was building with his [Agentic QE Fleet](https://github.com/proffesor-for-testing/agentic-qe) back in September 2025.
+
+His foundational work on the AQE fleet helped me build [**Agentic QCSD**](https://agentic-qe.dev/contributors): an agentic harness with several special-purpose agentic loops, carefully designed, defined and interconnected through cross-phase exchange, all based on the underlying [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) philosophy. And yes, this agentic fleet and these agentic loops have been created well before "loop engineering" became a coined term.
 
 What I started as Agentic QCSD on my agentic journey has now become a full-fledged agentic SDLC platform with built-in quality intelligence. For everything it enables teams to do, and for how it amplifies human effectiveness with the help of AI, I have named it **A{i}bility**.
 
@@ -42,7 +46,9 @@ An AI agent has no hallway. Whatever is not in that graph, or in a file, a skill
 
 Speed is the easy part of an agentic SDLC. What I keep asking is whether that speed turns into outcomes that matter: products that work for the people who use them, risks we know about before release, decisions a team can stand behind. Jerry Weinberg taught us that quality is value to some person. Speed that does not reach that person is just motion.
 
-Whether speed reaches that person depends, far more than most teams realise, on testability. And our common understanding of testability is too narrow for the job it now has. So I sat down with the work I respect most on the subject, James Bach's *Heuristics of Software Testability*, and asked what it would take to rethink testability for delivery in which AI agents build and test alongside people. The result is a document, *Heuristics of Software Testability in the Agentic SDLC*, which you can download at the end of this post.
+Whether speed reaches that person depends, far more than most teams realise, on testability. And our common understanding of testability is too narrow for the job it now has. So I sat down with the work I respect most on the subject, James Bach's *Heuristics of Software Testability*, and asked what it would take to rethink testability for delivery in which AI agents build and test alongside people. The result is a document, *Heuristics of Software Testability in the Agentic SDLC*.
+
+If you would rather go straight to the heuristics, **[download Testability 2.0 (PDF)](/assets/docs/Heuristics-of-Testability-2.0.pdf)**. If you want the story behind them, read on.
 
 ## Where the common understanding of testability falls short
 
@@ -212,7 +218,12 @@ At HUSTEF 2026 in Budapest, where Dragan and I ran a full-day tutorial on Agenti
 
 ![Dragan Spiridonov at HUSTEF 2026: four behavioural shapes, 175 of 197 catalogued events](/assets/img/posts/testability-2-0/dragan-hustef-four-shapes.jpg)
 
-His core point, in his words: *"It is not a communication problem."* The industry keeps answering AI agent failures with better prompts and more guardrail prose, as if the AI agent had misunderstood. The real mechanism is Goodhart's law with an API. A system rewarded for appearing done will optimise for appearing done. From the Hardie misalignment corpus, Dragan catalogued four behavioural shapes across 175 of 197 events. Premature completion, "all tests pass" when they don't: 72. Guidance neglect, where the right answer was in the docs and the AI agent never read them: 68. Explaining away first: 26. Blaming something else: 9.
+His core point, in his words: *"It is not a communication problem."* The industry keeps answering AI agent failures with better prompts and more guardrail prose, as if the AI agent had misunderstood. The real mechanism is Goodhart's law with an API. A system rewarded for appearing done will optimise for appearing done. From the Hardie misalignment corpus, Dragan catalogued four behavioural shapes across 175 of 197 events:
+
+- **Premature completion**, "all tests pass" when they don't: 72.
+- **Guidance neglect**, where the right answer was in the docs and the AI agent never read them: 68.
+- **Explaining away** first: 26.
+- **Blaming** something else: 9.
 
 That is the field data behind the line in my document that an AI agent left to its defaults *tends* to complete the task.
 
@@ -238,7 +249,11 @@ You cannot meaningfully read learned state in its raw form. So several of the in
 
 ![Figure: intrinsic guidewords asked of the code and of the learned state](/assets/img/posts/testability-2-0/fig9-learned-state.png)
 
-Observability becomes *projections*, such as neighbourhoods, traces and histories, because dumping the floats tells a tester nothing. Controllability needs a mode that verifiably changes nothing, because in a product that learns, every observation can also be an intervention. Where explanation cannot reach, transparency becomes *provenance* for each answer, in a trail nobody can quietly rewrite. Stability depends on learning triggers being *declared*, because an undeclared training event is an undeclared change. And decomposability asks that learned state be scoped like the code, because one shared store couples every test to everything that ever touched it.
+- **Observability** becomes *projections*, such as neighbourhoods, traces and histories, because dumping the floats tells a tester nothing.
+- **Controllability** needs a mode that verifiably changes nothing, because in a product that learns, every observation can also be an intervention.
+- **Transparency**, where explanation cannot reach, becomes *provenance* for each answer, in a trail nobody can quietly rewrite.
+- **Stability** depends on learning triggers being *declared*, because an undeclared training event is an undeclared change.
+- **Decomposability** asks that learned state be scoped like the code, because one shared store couples every test to everything that ever touched it.
 
 The same questions apply to an AI testing agent with persistent memory. Its memory *is* learned state, and these guidewords decide whether anyone can tell what it has learned and why its verdict changed between two runs.
 
@@ -251,6 +266,8 @@ At the [Agentics Foundation](https://agentics.org/) meet-up in Budapest, I saw w
 ## What this document is, and what it is not
 
 It builds on James Bach's *Heuristics of Software Testability* (v2.9, Satisfice, Inc., 2025). The five testabilities and the original guidewords are his, paraphrased in the PDF and credited there. The reading for AI agents, the new dynamics, the principles, the risk-gap model, the designed-agency lens and six new guidewords are mine: Human Reviewability, Action Gating & Reversibility, Requirement Testability, Design-Spec Testability, Tester Repeatability and Untrusted Content Exposure. So is every error in them.
+
+Many of these ideas took shape in conversations with [Fausto Reis](https://www.linkedin.com/in/faustoreis/), with whom I often discuss these topics. He has been a great brainstorming partner throughout this work.
 
 It is not a measurement of AI agents. The cases in it come from my own platform work in October 2026, with one harness and one model. They illustrate the guidewords and do not test them. The repeatability numbers come from two runs on one target. The claim my evidence killed was killed by one AI agent on one contrived suite. I make no claim yet that applying these guidewords improves AI agent outcomes. That claim waits for evidence, and I would love your help gathering it.
 
@@ -286,9 +303,7 @@ Everything in this post comes from building and running these editions with real
 - **LinkedIn:** [linkedin.com/in/lalitkumarbhamare](https://www.linkedin.com/in/lalitkumarbhamare/)
 - **Email:** teatimewithtesters@gmail.com
 
----
-
-**References and credits**
+## References and credits
 
 1. James Bach, *Heuristics of Software Testability*, v2.9, Satisfice, Inc., 2025, [satisfice.com](https://www.satisfice.com/download/heuristics-of-software-testability).
 2. James Bach and Michael Bolton, [*Testing and Checking Refined*](https://www.satisfice.com/blog/archives/856), 2013.
