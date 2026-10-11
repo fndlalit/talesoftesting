@@ -34,9 +34,9 @@ That work also taught me something I thought I already knew. In [QCSD](/assets/d
 
 And in all three, the same thing kept getting in the way. When people could not see what an AI agent had done, when the project could not afford to verify it, when the product did not show its state to anyone but a human looking at a screen, the speed we had gained turned into rework, doubt and confident results nobody could trust. Every one of those problems was a testability problem. Just not where we were used to looking for one.
 
-Let me ask you something. When a new tester joined your team, how did they learn what mattered?
+Let me ask you something. When someone new joined your team, whether a tester, a developer, a designer or a product owner, how did they learn what mattered?
 
-Not from the wiki. From the hallway. From the senior developer who said "don't bother with that module, it's being rewritten". From the product owner who sighed at a particular ticket. From the look on someone's face in the demo. In my eighteen years in this craft, I have rarely met a tester whose best knowledge of a product was written down anywhere.
+Not from the wiki. From the hallway. From the senior developer who said "don't bother with that module, it's being rewritten". From the product owner who sighed at a particular ticket. From the tester who knew which screen always broke after a release. From the look on someone's face in the demo. In my eighteen years in this craft, I have rarely met anyone in delivery whose best knowledge of a product was written down anywhere.
 
 An AI agent has no hallway. Whatever is not in that graph, or in a file, a skill or a tool it can call, does not exist for it. And when it meets something it cannot see, reset or understand, what it does next depends entirely on how somebody built it. Left to its defaults, it tends to guess the business rules from the variable names and carry on.
 
