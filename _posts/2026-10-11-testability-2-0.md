@@ -14,7 +14,7 @@ Watch those sixty seconds before you read on. What you see is the knowledge grap
 
 Let me first tell you where this comes from.
 
-I wrote the QCSD framework to help organisations deliver quality products without having to add extra resources or spend more time. My efforts to agentify QCSD brought me closer to what my friend Dragan Spiridonov was building with his [Agentic QE Fleet](https://github.com/proffesor-for-testing/agentic-qe) back in September 2025. His foundational work on the AQE fleet helped me build [**Agentic QCSD**](https://agentic-qe.dev/contributors): an agentic harness with several special-purpose agentic loops, carefully designed, defined and interconnected through cross-phase exchange, all based on the underlying QCSD philosophy. And yes, this agentic fleet and these agentic loops were working well before "loop engineering" became a coined term.
+I wrote the [QCSD](https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/) framework to help organisations deliver quality products without having to add extra resources or spend more time. My efforts to agentify [QCSD](https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/) brought me closer to what my friend Dragan Spiridonov was building with his [Agentic QE Fleet](https://github.com/proffesor-for-testing/agentic-qe) back in September 2025. His foundational work on the AQE fleet helped me build [**Agentic QCSD**](https://agentic-qe.dev/contributors): an agentic harness with several special-purpose agentic loops, carefully designed, defined and interconnected through cross-phase exchange, all based on the underlying [QCSD](https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/) philosophy. And yes, this agentic fleet and these agentic loops were working well before "loop engineering" became a coined term.
 
 What I started as Agentic QCSD on my agentic journey has now become a full-fledged agentic SDLC platform with built-in quality intelligence. For everything it enables teams to do, and for how it amplifies human effectiveness with the help of AI, I have named it **A{i}bility**.
 
@@ -24,7 +24,7 @@ I am currently delivering most of my client projects within Accenture on the A{i
 
 That programme is real delivery: real squads, real products and real release dates, with swarms of AI agents working alongside the people who build, test and run the software. Most of what A{i}bility can do today, it learned there, one hard lesson at a time.
 
-It also taught me something I thought I already knew. In QCSD I describe quality through three notions, which I call **QualiTri**: the product notion, the project notion and the people notion of quality. I have taught that model for years. The transformation made me live it.
+It also taught me something I thought I already knew. In [QCSD](https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/) I describe quality through three notions, which I call **QualiTri**: the product notion, the project notion and the people notion of quality. I have taught that model for years. The transformation made me live it.
 
 **People.** Testers, developers and product owners had to learn new ways of working, and some of them had to learn to trust work they did not do themselves. Every time an AI agent reported "done", a person still had to decide whether it was. Someone always has to answer for the result.
 
@@ -300,4 +300,5 @@ Everything in this post comes from building and running these editions with real
 6. Reuven Cohen, [RuVector Explorer](https://ruvnet.github.io/RuVector/explorer/) and the [ruvnet/ruvector](https://github.com/ruvnet/ruvector) repository (MIT).
 7. Cognitum One, ruOS, the [ruvnet/ruos](https://github.com/ruvnet/ruos) repository (MIT). Vendor claims are reported as such.
 8. The [Agentic QE engine](https://github.com/proffesor-for-testing/agentic-qe) by Dragan Spiridonov (open source, MIT), on which [Agentic QCSD](https://agentic-qe.dev/contributors) builds.
+9. Lalitkumar Bhamare, [*Quality Conscious Software Delivery*](https://huddle.eurostarsoftwaretesting.com/resources/test-management/quality-conscious-software-delivery/), EuroSTAR Best Paper Award, 2022.
 
