@@ -9,7 +9,7 @@ image:
   alt: "Four ways AI agents act on the risk gap: widening it, closing it, hiding it and limiting how fast it closes"
 ---
 
-{% include embed/video.html src='/assets/img/posts/testability-2-0/aibility-kg-story.mp4' types='mp4' poster='/assets/img/posts/testability-2-0/aibility-kg-story-poster.jpg' title='The A{i}bility knowledge graph explorer: a search over real embeddings, learning from its own memory' muted=true loop=true autoplay=true %}
+{% include embed/video.html src='/assets/img/posts/testability-2-0/aibility-kg-story.mp4' types='mp4' poster='/assets/img/posts/testability-2-0/aibility-kg-story-poster.jpg' title='The A{i}bility knowledge graph explorer: a search over real embeddings, learning from its own memory. Based on RuVector Explorer.' muted=true loop=true autoplay=true %}
 
 Watch those sixty seconds before you read on. What you are looking at is the knowledge graph inside our delivery platform — real embeddings of product knowledge, code and past findings — being searched, and the search learning from its own memory as it goes. By the end of the clip the loop reaches the same answers with noticeably fewer evaluations, and every step of that learning is on screen. This is the context an AI agent loads before it tests anything. And, for once, you can watch its learned state change.
 
