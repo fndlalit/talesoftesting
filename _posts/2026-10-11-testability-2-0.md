@@ -315,5 +315,5 @@ Everything in this post comes from building and running these sub-modules with r
 9. Lalitkumar Bhamare, [*Quality Conscious Software Delivery*](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf), EuroSTAR Best Paper Award, 2022.
 10. Cover photo by [Jason Yuen](https://unsplash.com/@fanfandyuen) on [Unsplash](https://unsplash.com/photos/photo-of-white-glass-panel-window-UQBmFv4u0wc).
 
-Thanks to [Fausto Oliveira](https://www.linkedin.com/in/faustoreis/), [Christian Obermeyer](https://www.linkedin.com/in/christian-obermeyer/), [Akash Mohan](https://www.linkedin.com/in/akashmohanakash/) and [Christian Wurmdobler](https://www.linkedin.com/in/christian-wurmdobler/), with whom I often discuss these topics.
+Thanks to [Fausto Oliveira](https://www.linkedin.com/in/faustoreis/), [Christian Obermeyer](https://www.linkedin.com/in/christian-obermeyer/), [Akash Mohan](https://www.linkedin.com/in/akashmohanakash/) and [Christian Wurmdobler](https://www.linkedin.com/in/christian-wurmdobler/), with whom I often discuss these topics. Those conversations, grounded in their own delivery work, keep returning to the same concerns that Testability 2.0 reflects: who asks for testability when the tester is an AI agent, what poor testability really costs, and whether anyone can trust what an AI agent reports.
 
