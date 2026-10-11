@@ -267,8 +267,6 @@ At the [Agentics Foundation](https://agentics.org/) meet-up in Budapest, I saw w
 
 It builds on James Bach's *Heuristics of Software Testability* (v2.9, Satisfice, Inc., 2025). The five testabilities and the original guidewords are his, paraphrased in the PDF and credited there. The reading for AI agents, the new dynamics, the principles, the risk-gap model, the designed-agency lens and six new guidewords are mine: Human Reviewability, Action Gating & Reversibility, Requirement Testability, Design-Spec Testability, Tester Repeatability and Untrusted Content Exposure. So is every error in them.
 
-Many of these ideas took shape in conversations with [Fausto Oliveira](https://www.linkedin.com/in/faustoreis/), with whom I often discuss these topics. He has been a great brainstorming partner throughout this work.
-
 It is not a measurement of AI agents. The cases in it come from my own platform work in October 2026, with one harness and one model. They illustrate the guidewords and do not test them. The repeatability numbers come from two runs on one target. The claim my evidence killed was killed by one AI agent on one contrived suite. I make no claim yet that applying these guidewords improves AI agent outcomes. That claim waits for evidence, and I would love your help gathering it.
 
 ## The ask
@@ -314,4 +312,6 @@ Everything in this post comes from building and running these sub-modules with r
 8. The [Agentic QE engine](https://github.com/proffesor-for-testing/agentic-qe) by Dragan Spiridonov (open source, MIT), on which [Agentic QCSD](https://agentic-qe.dev/contributors) builds.
 9. Lalitkumar Bhamare, [*Quality Conscious Software Delivery*](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf), EuroSTAR Best Paper Award, 2022.
 10. Cover photo by [Jason Yuen](https://unsplash.com/@fanfandyuen) on [Unsplash](https://unsplash.com/photos/photo-of-white-glass-panel-window-UQBmFv4u0wc).
+
+Thanks to [Fausto Oliveira](https://www.linkedin.com/in/faustoreis/), with whom I often discuss these topics.
 
