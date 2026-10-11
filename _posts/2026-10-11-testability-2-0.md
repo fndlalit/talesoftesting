@@ -22,7 +22,7 @@ What I started as Agentic QCSD on my agentic journey has now become a full-fledg
 
 I am currently delivering most of my client projects within Accenture using this A{i}bility platform. That includes leading an "AI-curious to AI-native" transformation programme for a large enterprise. And I must say, it has been a fun ride. I have learned, unlearned and re-learned a lot over this period, and it still continues.
 
-These are live client projects, with real products, real users and real release dates, where swarms of AI agents work alongside the people who build, test and run the software. Most of what A{i}bility can do today, it learned on those projects, one hard lesson at a time.
+These have been real projects, with real products, real users and real release dates, where swarms of AI agents work alongside the people who build, test and run the software. Most of what A{i}bility can do today, it learned on those projects, one hard lesson at a time.
 
 That work also taught me something I thought I already knew. In [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) I describe quality through three notions, which I call **QualiTri**: the product notion, the project notion and the people notion of quality. I have taught that model for years. Building and running A{i}bility across these projects made me live it.
 
