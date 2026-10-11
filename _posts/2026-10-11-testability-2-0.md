@@ -16,7 +16,7 @@ So, the explorer you see above shows exploring through 10,000 real embeddings fr
 
 Let me first tell you where this comes from.
 
-I wrote the [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) framework to help organisations deliver quality products without having to add extra resources or spend more time. My efforts to agentify [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) brought me closer to what my friend Dragan Spiridonov was building with his [Agentic QE Fleet](https://github.com/proffesor-for-testing/agentic-qe) back in September 2025.
+I wrote the [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) framework to help organisations deliver quality products without having to add extra resources or spend more time. My efforts to agentify [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) brought me closer to what my friend [Dragan Spiridonov](https://www.linkedin.com/in/dragan-spiridonov/) was building with his [Agentic QE Fleet](https://github.com/proffesor-for-testing/agentic-qe) back in September 2025.
 
 His foundational work on the AQE fleet helped me build [**Agentic QCSD**](https://agentic-qe.dev/contributors): an agentic harness with several special-purpose agentic loops, carefully designed, defined and interconnected through cross-phase exchange, all based on the underlying [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) philosophy. And yes, this agentic fleet and these agentic loops have been created well before "loop engineering" became a coined term.
 
@@ -212,7 +212,7 @@ Reading a testability report about your own platform is uncomfortable. Ouch. But
 
 ## Independent evidence from Dragan Spiridonov
 
-What convinced me this is more than my opinion came, once again, from Dragan.
+What convinced me this is more than my opinion came, once again, from [Dragan](https://www.linkedin.com/in/dragan-spiridonov/).
 
 At HUSTEF 2026 in Budapest, where Dragan and I ran a full-day tutorial on Agentic QCSD, he gave a talk he called *Completion Theater*. I seriously cannot admire Dragan enough, and his data landed on me like a verdict.
 
@@ -257,7 +257,7 @@ You cannot meaningfully read learned state in its raw form. So several of the in
 
 The same questions apply to an AI testing agent with persistent memory. Its memory *is* learned state, and these guidewords decide whether anyone can tell what it has learned and why its verdict changed between two runs.
 
-What made this real for me was Reuven Cohen's RuVector Explorer, an interactive view over real index structures. You can watch a search descend, see the trail of past queries, and follow the store's own learning loop. For the first time I could *see* the learned state of a system as something a tester can reason about. The knowledge graph explorer in the video at the top of this post is built on it.
+What made this real for me was [Reuven Cohen](https://www.linkedin.com/in/reuvencohen/)'s RuVector Explorer, an interactive view over real index structures. You can watch a search descend, see the trail of past queries, and follow the store's own learning loop. For the first time I could *see* the learned state of a system as something a tester can reason about. The knowledge graph explorer in the video at the top of this post is built on it.
 
 ![ruOS Desktop, Ruflo Explorer: a mission, the specialists it dispatched, their tasks and the evidence each produced, laid out as a constellation](/assets/img/posts/testability-2-0/ruflo-explorer-mission-control.jpg)
 
