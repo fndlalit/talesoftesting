@@ -16,9 +16,9 @@ So, the explorer you see above shows exploring through 10,000 real embeddings fr
 
 Let me first tell you where this comes from.
 
-I wrote the [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) framework to help organisations deliver quality products without having to add extra resources or spend more time. My efforts to agentify [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) brought me closer to what my friend [Dragan Spiridonov](https://www.linkedin.com/in/dragan-spiridonov/) was building with his [Agentic QE Fleet](https://github.com/proffesor-for-testing/agentic-qe) back in September 2025.
+I wrote the [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) framework to help organisations deliver quality products without having to add extra resources or spend more time. My efforts to agentify QCSD brought me closer to what my friend [Dragan Spiridonov](https://www.linkedin.com/in/dragan-spiridonov/) was building with his [Agentic QE Fleet](https://github.com/proffesor-for-testing/agentic-qe) back in September 2025.
 
-His foundational work on the AQE fleet helped me build [**Agentic QCSD**](https://agentic-qe.dev/contributors): an agentic harness with several special-purpose agentic loops, carefully designed, defined and interconnected through cross-phase exchange, all based on the underlying [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) philosophy. And yes, this agentic fleet and these agentic loops have been created well before "loop engineering" became a coined term.
+His foundational work on the AQE fleet helped me build [**Agentic QCSD**](https://agentic-qe.dev/contributors): an agentic harness with several special-purpose agentic loops, carefully designed, defined and interconnected through cross-phase exchange, all based on the underlying QCSD philosophy. And yes, this agentic fleet and these agentic loops have been created well before "loop engineering" became a coined term.
 
 What I started as Agentic QCSD on my agentic journey has now become a full-fledged agentic SDLC platform with built-in quality intelligence. For everything it enables teams to do, and for how it amplifies human effectiveness with the help of AI, I have named it **A{i}bility**.
 
@@ -26,7 +26,7 @@ I am currently delivering most of my client projects within Accenture using this
 
 These have been real projects, with real products, real users and real release dates, where swarms of AI agents work alongside the people who build, test and run the software. Most of what A{i}bility can do today, it learned on those projects, one hard lesson at a time.
 
-That work also taught me something I thought I already knew. In [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) I describe quality through three notions, which I call **QualiTri**: the **Product** notion, the **Project** notion and the **People** notion of quality. I have taught that model for years. Building and running A{i}bility across these projects made me live it.
+That work also taught me something I thought I already knew. In QCSD I describe quality through three notions, which I call **QualiTri**: the **Product** notion, the **Project** notion and the **People** notion of quality. I have taught that model for years. Building and running A{i}bility across these projects made me live it.
 
 - **People.** Testers, developers and product owners had to learn new ways of working, and some of them had to learn to trust work they did not do themselves. Every time an AI agent reported "done", a person still had to decide whether it was. Someone always has to answer for the result.
 - **Project.** The pace changed overnight. AI agents could produce change faster than any team could review it, and every look, every retry and every rework now came with a token bill. How we delivered became as much a quality question as what we delivered.
