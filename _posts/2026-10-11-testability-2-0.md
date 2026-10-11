@@ -36,7 +36,9 @@ And in all three, the same thing kept getting in the way. When people could not 
 
 One place this showed up most clearly is the handoff between business and engineering. Business intent used to travel as prose, and people filled the gaps in conversations and refinements. When AI agents pick up that work, nobody fills the gaps. If the person who wrote a requirement cannot say how it will be checked, an AI agent cannot either, and the intent gets lost without anyone noticing.
 
-That is exactly what I am working on with a key stakeholder on one of my programmes right now, with A{i}bility as the agentic platform that enables it. A{i}bility QX addresses the handoff by bringing systems thinking and design thinking in early, so that teams do the right things from the beginning, and what the business means reaches engineering as something AI agents and people can both check. I have come to see it as a testability problem first. In Testability 2.0 it shows up as a new guideword, *Requirement Testability*, and as one of the checks I ask you to try at the end of this post.
+So the fix has to start before the requirement is written. In A{i}bility, QX brings systems thinking and design thinking into the earliest stage of delivery, where business intent is first shaped. Teams look at the whole system a change lives in and at the people it is for, and they agree on what the business means and how anyone will know it has been met. That way they do the right things from the beginning, and engineering receives intent it can check, whether the one checking is a person or an AI agent.
+
+Testability 2.0 names this *Requirement Testability*: whoever writes a requirement can say, while writing it, how it will be checked. It is the cheapest point at which testability is won or lost.
 
 Let me ask you something. When someone new joined your team, whether a tester, a developer, a designer or a product owner, how did they learn what mattered?
 
