@@ -294,11 +294,11 @@ In your team, when an AI agent meets a testability problem today, who hears abou
 
 <div style="position:relative;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#0A0A0F"><iframe src="/assets/aibility/aibility-platform-family.html" title="The A{i}bility platform family" style="position:absolute;inset:0;width:100%;height:100%;border:0" loading="lazy" allow="autoplay"></iframe></div>
 
-*Interactive: press reveal, then hover over an edition. [Open full screen](/assets/aibility/aibility-platform-family.html).*
+*Interactive: press reveal, then hover over a sub-module. [Open full screen](/assets/aibility/aibility-platform-family.html).*
 
-A{i}bility is one platform with four editions. **A{i}ris** brings agentic UI and UX design for teams who craft experiences. **A{i}nstein** brings testing and quality engineering for teams who think critically. **A{i}mplifier** runs the full agentic SDLC with quality intelligence built in. **A{i}mer** brings production support intelligence, with a person approving every action that matters. Press reveal, then hover over each edition to see what it does.
+A{i}bility is one platform with four sub-modules, for now. **A{i}ris** brings agentic UI and UX design for teams who craft experiences. **A{i}nstein** brings testing and quality engineering for teams who think critically. **A{i}mplifier** runs the full agentic SDLC with quality intelligence built in. **A{i}mer** brings production support intelligence, with a person approving every action that matters. Press reveal, then hover over each sub-module to see what it does.
 
-Everything in this post comes from building and running these editions with real teams. If you want to explore what A{i}bility could do for your delivery organisation, or simply want to talk about testability and AI agents, I would love to hear from you.
+Everything in this post comes from building and running these sub-modules with real teams. If you want to explore what A{i}bility could do for your delivery organisation, or simply want to talk about testability and AI agents, I would love to hear from you.
 
 **LinkedIn:** [linkedin.com/in/lalitkumarbhamare](https://www.linkedin.com/in/lalitkumarbhamare/)
 
