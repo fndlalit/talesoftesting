@@ -8,9 +8,9 @@ image:
   path: /assets/img/posts/testability-2-0/cover-window.jpg
   alt: "An open window in a white wall, with the room behind it in darkness. Photo by Jason Yuen on Unsplash."
 ---
-{% include embed/video.html src='/assets/img/posts/testability-2-0/aibility-kg-story.mp4' types='mp4' poster='/assets/img/posts/testability-2-0/aibility-kg-story-poster.jpg' title='The A{i}bility knowledge graph explorer: a search over real embeddings, learning from its own memory. Based on RuVector Explorer with Agentic QE as intel engine.' %}
+Watch these sixty seconds before you read on. What you see is the knowledge graph explorer in **A{i}bility** - the agentic SDLC platform with built-in quality intelligence, but more on that a bit later.
 
-Watch those sixty seconds before you read on. What you see is the knowledge graph explorer in **A{i}bility** - the agentic SDLC platform with built-in quality intelligence, but more on that a bit later.
+{% include embed/video.html src='/assets/img/posts/testability-2-0/aibility-kg-story.mp4' types='mp4' poster='/assets/img/posts/testability-2-0/aibility-kg-story-poster.jpg' title='The A{i}bility knowledge graph explorer: a search over real embeddings, learning from its own memory. Based on RuVector Explorer with Agentic QE as intel engine.' %}
 
 So, the explorer you see above shows exploring through 10,000 real embeddings from the A{i}bility knowledge graph. They come from code across several repositories, Jira and Confluence, business discovery and technical solution briefs, test and automation strategies, and the patterns and learnings gathered while implementing the code. The search starts cold and runs through four phases: a warm-up, a drift to unfamiliar queries, a return to familiar ones, and noise. As it goes, it keeps a memory of past queries and their answers, and tunes a single setting: how widely it searches. The graph itself and the platform's models stay exactly as they were. Across the whole run, the search needed 24.1% fewer distance evaluations than a static search, while still finding 94 to 99 per cent of the true nearest matches in each phase. You can watch it adapt, query by query. And this kind of retrieval decides what context an AI agent has to work with.
 
