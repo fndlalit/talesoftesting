@@ -34,17 +34,23 @@ That work also taught me something I thought I already knew. In QCSD I describe 
 
 And in all three, the same thing kept getting in the way. When people could not see what an AI agent had done, when the project could not afford to verify it, when the product did not show its state to anyone but a human looking at a screen, the speed we had gained turned into rework, doubt and confident results nobody could trust. Every one of those problems was a testability problem. Just not where we were used to looking for one.
 
-One place this showed up most clearly is the handoff between business and engineering. Business intent used to travel as prose, and people filled the gaps in conversations and refinements. When AI agents pick up that work, nobody fills the gaps. If the person who wrote a requirement cannot say how it will be checked, an AI agent cannot either, and the intent gets lost without anyone noticing.
-
-Testability 2.0 moves the fix to where the problem starts, before the requirement is written. Its new guideword, *Requirement Testability*, asks that whoever writes a requirement can say, while writing it, how it will be checked. Asked early, that one question changes the handoff itself. Business intent has to arrive in engineering together with the way it will be checked, whether the one checking is a person or an AI agent. It is the cheapest point at which testability is won or lost.
-
-In A{i}bility, QX puts this into practice by bringing systems thinking and design thinking into the earliest stage of delivery, where business intent is first shaped. Teams look at the whole system a change lives in and at the people it is for, and agree on what the business means and how anyone will know it has been met. That way they do the right things from the beginning.
-
 Let me ask you something. When someone new joined your team, whether a tester, a developer, a designer or a product owner, how did they learn what mattered?
 
 Not from the wiki. From the hallway. From the senior developer who said "don't bother with that module, it's being rewritten". From the product owner who sighed at a particular ticket. From the tester who knew which screen always broke after a release. From the look on someone's face in the demo. In my eighteen years in this craft, I have rarely met anyone in delivery whose best knowledge of a product was written down anywhere.
 
 An AI agent has no hallway. Whatever is not in that graph, or in a file, a skill or a tool it can call, does not exist for it. And when it meets something it cannot see, reset or understand, what it does next depends entirely on how somebody built it. Left to its defaults, it tends to guess the business rules from the variable names and carry on.
+
+Nowhere does this hurt more than at the handoff between business and engineering. That handoff was always the biggest hallway in any enterprise. Business intent travelled as prose, and the gaps were filled in refinements, in side conversations and in the product owner's head. Today the reader on the other side of that handoff is more and more often an AI agent, and a swarm of them can turn an ambiguous requirement into thousands of lines of confident code before lunch. At enterprise speed and scale, a gap in intent gets copied into every story, every test and every AI agent that touches it.
+
+This is where rethinking testability pays off first. If testability is decided wherever work is prepared for a tester, the first piece of work prepared is the business intent itself, and it has to be testable in its own right. Testability 2.0 asks three things of it:
+
+- whoever writes a requirement can say, while writing it, how it will be checked (*Requirement Testability*);
+- the design it points to can be checked against: tokens, states and behaviour (*Design-Spec Testability*);
+- the mission, the risks and the users are written down where an AI agent can load them.
+
+Meet those at the handoff, and every AI agent downstream starts from intent it can verify. Miss them, and no amount of testing later recovers what was never said.
+
+Getting there needs two disciplines that delivery teams usually bring in too late. Systems thinking shows how a change ripples through the business and the system it lands in, and where it could go wrong. Design thinking makes clear who the change is for and what would make it valuable to them. Together they turn intent into something with its checks attached. In A{i}bility, QX brings both to the very start of delivery, so that teams do the right things from the beginning and the testability of everything that follows is decided while it is still cheap.
 
 Speed is the easy part of an agentic SDLC. What I keep asking is whether that speed turns into outcomes that matter: products that work for the people who use them, risks we know about before release, decisions a team can stand behind. Jerry Weinberg taught us that quality is value to some person. Speed that does not reach that person is just motion.
 
