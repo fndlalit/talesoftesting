@@ -36,9 +36,9 @@ And in all three, the same thing kept getting in the way. When people could not 
 
 One place this showed up most clearly is the handoff between business and engineering. Business intent used to travel as prose, and people filled the gaps in conversations and refinements. When AI agents pick up that work, nobody fills the gaps. If the person who wrote a requirement cannot say how it will be checked, an AI agent cannot either, and the intent gets lost without anyone noticing.
 
-So the fix has to start before the requirement is written. In A{i}bility, QX brings systems thinking and design thinking into the earliest stage of delivery, where business intent is first shaped. Teams look at the whole system a change lives in and at the people it is for, and they agree on what the business means and how anyone will know it has been met. That way they do the right things from the beginning, and engineering receives intent it can check, whether the one checking is a person or an AI agent.
+Testability 2.0 moves the fix to where the problem starts, before the requirement is written. Its new guideword, *Requirement Testability*, asks that whoever writes a requirement can say, while writing it, how it will be checked. Asked early, that one question changes the handoff itself. Business intent has to arrive in engineering together with the way it will be checked, whether the one checking is a person or an AI agent. It is the cheapest point at which testability is won or lost.
 
-Testability 2.0 names this *Requirement Testability*: whoever writes a requirement can say, while writing it, how it will be checked. It is the cheapest point at which testability is won or lost.
+In A{i}bility, QX puts this into practice by bringing systems thinking and design thinking into the earliest stage of delivery, where business intent is first shaped. Teams look at the whole system a change lives in and at the people it is for, and agree on what the business means and how anyone will know it has been met. That way they do the right things from the beginning.
 
 Let me ask you something. When someone new joined your team, whether a tester, a developer, a designer or a product owner, how did they learn what mattered?
 
