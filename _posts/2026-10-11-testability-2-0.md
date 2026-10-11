@@ -18,7 +18,7 @@ I wrote the QCSD framework to help organisations deliver quality products withou
 
 What I started as Agentic QCSD on my agentic journey has now become a full-fledged agentic SDLC platform with built-in quality intelligence. For everything it enables teams to do, and for how it amplifies human effectiveness with the help of AI, I have named it **A{i}bility**.
 
-<div style="position:relative;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#0A0A0F"><iframe src="/assets/aibility/aibility-logo-animated.html" title="A{i}bility animated logo" style="position:absolute;inset:0;width:100%;height:100%;border:0" loading="lazy"></iframe></div>
+![The A{i}bility logo](/assets/img/posts/testability-2-0/aibility-logo.gif){: width="720" height="400" }
 
 I am currently delivering most of my client projects within Accenture on the A{i}bility platform. That includes leading an "AI-curious to AI-native" transformation programme for a large enterprise. And I must say, it has been a fun ride. I have learned, unlearned and re-learned a lot over this period, and it still continues.
 
