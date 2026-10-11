@@ -24,7 +24,7 @@ I am currently delivering most of my client projects within Accenture using this
 
 These have been real projects, with real products, real users and real release dates, where swarms of AI agents work alongside the people who build, test and run the software. Most of what A{i}bility can do today, it learned on those projects, one hard lesson at a time.
 
-That work also taught me something I thought I already knew. In [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) I describe quality through three notions, which I call **QualiTri**: the product notion, the project notion and the people notion of quality. I have taught that model for years. Building and running A{i}bility across these projects made me live it.
+That work also taught me something I thought I already knew. In [QCSD](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf) I describe quality through three notions, which I call **QualiTri**: the **Product** notion, the **Project** notion and the **People** notion of quality. I have taught that model for years. Building and running A{i}bility across these projects made me live it.
 
 **People.** Testers, developers and product owners had to learn new ways of working, and some of them had to learn to trust work they did not do themselves. Every time an AI agent reported "done", a person still had to decide whether it was. Someone always has to answer for the result.
 
