@@ -234,7 +234,7 @@ At a separate event I saw where this lands at the workstation: the Ruflo Explore
 
 I want to be open about where this came from, because the credibility of a framework like this rests on it. I did not write it at a desk. It came out of running AI agents on real delivery work.
 
-It started with contribution. I contributed to Dragan Spiridonov's open-source **Agentic QE** engine **[Lalit: cite the specific contributions here, such as the fork, pull requests and features that shipped]**, and that is where my conviction formed that quality engineering could be truly *agentic*, beyond being merely AI-assisted. From that engine grew **Agentic QCSD**: quality-conscious swarms across the delivery phases, from ideation and refinement through development, CI/CD and production. Dragan and I taught it as a full-day tutorial at HUSTEF 2026 in Budapest.
+It started with contribution. I contributed to Dragan Spiridonov's open-source [**Agentic QE**](https://github.com/proffesor-for-testing/agentic-qe) engine **[Lalit: cite the specific contributions here, such as the fork, pull requests and features that shipped]**, and that is where my conviction formed that quality engineering could be truly *agentic*, beyond being merely AI-assisted. From that engine grew [**Agentic QCSD**](https://agentic-qe.dev/contributors): quality-conscious swarms across the delivery phases, from ideation and refinement through development, CI/CD and production. Dragan and I taught it as a full-day tutorial at HUSTEF 2026 in Budapest.
 
 **A{i}bility** takes that idea into a full agentic software delivery platform. People orchestrate strategy and decisions, and swarms of AI agents handle insight, analysis and execution across the SDLC. Running it with real teams is where the dynamics in this document stopped being theory for me. Each of them names a price we first paid in a real run.
 
@@ -274,5 +274,5 @@ In your team, when an AI agent meets a testability problem today, who hears abou
 5. Lalitkumar Bhamare, [*Congratulations on your Agent. But does it have agency?*](https://www.linkedin.com/pulse/congratulations-your-agent-does-have-agency-lalitkumar-bhamare-67kxf/), LinkedIn, March 2026, the designed-agency lens.
 6. Reuven Cohen, [RuVector Explorer](https://ruvnet.github.io/RuVector/explorer/) and the [ruvnet/ruvector](https://github.com/ruvnet/ruvector) repository (MIT).
 7. Cognitum One, ruOS, the [ruvnet/ruos](https://github.com/ruvnet/ruos) repository (MIT). Vendor claims are reported as such.
-8. The Agentic QE engine by Dragan Spiridonov (open source, MIT), on which A{i}bility builds.
+8. The [Agentic QE engine](https://github.com/proffesor-for-testing/agentic-qe) by Dragan Spiridonov (open source, MIT), on which [Agentic QCSD](https://agentic-qe.dev/contributors) builds.
 
