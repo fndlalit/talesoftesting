@@ -1,7 +1,7 @@
 ---
 title: "Rethinking Testability - so we help AI agents deliver outcomes that matter"
 date: 2026-10-11 15:00:00 +0200
-categories: [Quality Engineering, Testability]
+categories: [Quality Engineering, Testability, Agentic SDLC]
 tags: [testability, agentic-qe, qcsd, agentic-sdlc, testing-vs-checking]
 description: "Testability 2.0: why the common understanding of testability has to move, in where it is decided, who asks for it and what it costs, before the speed of AI agents turns into outcomes that matter."
 image:
