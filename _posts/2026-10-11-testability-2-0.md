@@ -1,5 +1,5 @@
 ---
-title: "Testability 2.0: testability when AI agents take part in delivery"
+title: "Rethinking Testability when AI agents take part in delivery"
 date: 2026-10-11 18:00:00 +0200
 categories: [Quality Engineering, Testability]
 tags: [testability, agentic-qe, qcsd, agentic-sdlc, testing-vs-checking]
