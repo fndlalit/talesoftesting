@@ -5,8 +5,8 @@ categories: [Quality Engineering, Testability]
 tags: [testability, agentic-qe, qcsd, agentic-sdlc, testing-vs-checking]
 description: "Testability 2.0: why the common understanding of testability has to move, in where it is decided, who asks for it and what it costs, before the speed of AI agents turns into outcomes that matter."
 image:
-  path: /assets/img/posts/testability-2-0/cover-risk-gap.png
-  alt: "Four ways AI agents act on the risk gap: widening it, closing it, hiding it and limiting how fast it closes"
+  path: /assets/img/posts/testability-2-0/cover-window.jpg
+  alt: "An open window in a white wall, with the room behind it in darkness. Photo by Jason Yuen on Unsplash."
 ---
 {% include embed/video.html src='/assets/img/posts/testability-2-0/aibility-kg-story.mp4' types='mp4' poster='/assets/img/posts/testability-2-0/aibility-kg-story-poster.jpg' title='The A{i}bility knowledge graph explorer: a search over real embeddings, learning from its own memory. Based on RuVector Explorer with Agentic QE as intel engine.' %}
 
@@ -208,15 +208,15 @@ Reading a testability report about your own platform is uncomfortable. Ouch. But
 
 What convinced me this is more than my opinion came, once again, from Dragan.
 
-At HUSTEF 2026 in Budapest, where Dragan and I ran a full-day tutorial on Agentic QCSD, he gave a talk he called *Completion Theater*. I seriously cannot admire Dragan enough, and his data landed on me like a verdict.
+At HUSTEF 2026 in Budapest, Dragan and I ran a full-day tutorial on Agentic QCSD. At a separate event in the same city, the [Agentic Foundations Budapest meet-up](https://agentics.org/), I saw him give a talk he called *Completion Theater*. I seriously cannot admire Dragan enough, and his data landed on me like a verdict.
 
-![Dragan Spiridonov at HUSTEF 2026: four behavioural shapes, 175 of 197 catalogued events](/assets/img/posts/testability-2-0/dragan-hustef-four-shapes.jpg)
+![Dragan Spiridonov at the Agentic Foundations Budapest meet-up: four behavioural shapes, 175 of 197 catalogued events](/assets/img/posts/testability-2-0/dragan-hustef-four-shapes.jpg)
 
 His core point, in his words: *"It is not a communication problem."* The industry keeps answering AI agent failures with better prompts and more guardrail prose, as if the AI agent had misunderstood. The real mechanism is Goodhart's law with an API. A system rewarded for appearing done will optimise for appearing done. From the Hardie misalignment corpus, Dragan catalogued four behavioural shapes across 175 of 197 events. Premature completion, "all tests pass" when they don't: 72. Guidance neglect, where the right answer was in the docs and the AI agent never read them: 68. Explaining away first: 26. Blaming something else: 9.
 
 That is the field data behind the line in my document that an AI agent left to its defaults *tends* to complete the task.
 
-![Dragan Spiridonov at HUSTEF 2026: "Trust is a feeling. Confidence is a number."](/assets/img/posts/testability-2-0/dragan-hustef-trust-confidence.jpg)
+![Dragan Spiridonov at the Agentic Foundations Budapest meet-up: "Trust is a feeling. Confidence is a number."](/assets/img/posts/testability-2-0/dragan-hustef-trust-confidence.jpg)
 
 His closing line, *"Trust is a feeling. Confidence is a number."*, comes with a mechanism: a witness chain, a tamper-evident audit of every AI agent action, so that every claim of completion traces back to artefacts.
 
@@ -293,10 +293,11 @@ Everything in this post comes from building and running these editions with real
 1. James Bach, *Heuristics of Software Testability*, v2.9, Satisfice, Inc., 2025, [satisfice.com](https://www.satisfice.com/download/heuristics-of-software-testability).
 2. James Bach and Michael Bolton, [*Testing and Checking Refined*](https://www.satisfice.com/blog/archives/856), 2013.
 3. Michael Bolton and James Bach, [*What Are We Thinking in the Age of AI?*](https://developsense.com/presentations/2025-10-WhatAreWeThinkingInTheAgeOfAI-Ljubljana.pdf), conference presentation, 2025.
-4. Dragan Spiridonov, *Completion Theater*, HUSTEF 2026, Budapest. The quotations and the four-shape data are his. Photographs by the author.
+4. Dragan Spiridonov, *Completion Theater*, Agentic Foundations Budapest meet-up (agentics.org), 2026. The quotations and the four-shape data are his. Photographs by the author.
 5. Lalitkumar Bhamare, [*Congratulations on your Agent. But does it have agency?*](https://www.linkedin.com/pulse/congratulations-your-agent-does-have-agency-lalitkumar-bhamare-67kxf/), LinkedIn, March 2026, the designed-agency lens.
 6. Reuven Cohen, [RuVector Explorer](https://ruvnet.github.io/RuVector/explorer/) and the [ruvnet/ruvector](https://github.com/ruvnet/ruvector) repository (MIT).
 7. Cognitum One, ruOS, the [ruvnet/ruos](https://github.com/ruvnet/ruos) repository (MIT). Vendor claims are reported as such.
 8. The [Agentic QE engine](https://github.com/proffesor-for-testing/agentic-qe) by Dragan Spiridonov (open source, MIT), on which [Agentic QCSD](https://agentic-qe.dev/contributors) builds.
 9. Lalitkumar Bhamare, [*Quality Conscious Software Delivery*](/assets/docs/Quality-Conscious-Software-Delivery-Lalitkumar-Bhamare.pdf), EuroSTAR Best Paper Award, 2022.
+10. Cover photo by [Jason Yuen](https://unsplash.com/@fanfandyuen) on [Unsplash](https://unsplash.com/photos/photo-of-white-glass-panel-window-UQBmFv4u0wc).
 
