@@ -10,7 +10,21 @@ image:
 ---
 {% include embed/video.html src='/assets/img/posts/testability-2-0/aibility-kg-story.mp4' types='mp4' poster='/assets/img/posts/testability-2-0/aibility-kg-story-poster.jpg' title='The A{i}bility knowledge graph explorer: a search over real embeddings, learning from its own memory. Based on RuVector Explorer.' muted=true loop=true autoplay=true %}
 
-Watch those sixty seconds before you read on. What you see is the knowledge graph inside our delivery platform. Real embeddings of product knowledge, code and past findings are being searched, and the search learns from its own memory as it goes. By the end of the clip it reaches the same answers with noticeably fewer evaluations, and you can watch every step of that learning on screen. This is the context an AI agent loads before it tests anything.
+Watch those sixty seconds before you read on. What you see is the knowledge graph inside **A{i}bility**, the agentic SDLC platform with built-in quality intelligence that I have built and use with Accenture clients. Real embeddings of product knowledge, code and past findings are being searched, and the search learns from its own memory as it goes. By the end of the clip it reaches the same answers with noticeably fewer evaluations, and you can watch every step of that learning on screen. This is the context an AI agent loads before it tests anything.
+
+Let me tell you where this comes from.
+
+For the past months I have been leading a transformation programme that takes a large delivery organisation from AI-curious to AI-native. This was real delivery: real squads, real products and real release dates, with swarms of AI agents working alongside the people who build, test and run the software. Most of what A{i}bility can do today, it learned there, one hard lesson at a time.
+
+That programme taught me something I thought I already knew. In QCSD I describe quality through three notions, which I call **QualiTri**: the product notion, the project notion and the people notion of quality. I have taught that model for years. The transformation made me live it.
+
+**People.** Testers, developers and product owners had to learn new ways of working, and some of them had to learn to trust work they did not do themselves. Every time an AI agent reported "done", a person still had to decide whether it was. Someone always has to answer for the result.
+
+**Project.** The pace changed overnight. AI agents could produce change faster than any team could review it, and every look, every retry and every rework now came with a token bill. How we delivered became as much a quality question as what we delivered.
+
+**Product.** Through all of this, the only outcome that mattered was still what the product did for the people who use it.
+
+And in all three, the same thing kept getting in the way. When people could not see what an AI agent had done, when the project could not afford to verify it, when the product did not show its state to anyone but a human looking at a screen, the speed we had gained turned into rework, doubt and confident results nobody could trust. Every one of those problems was a testability problem. Just not where we were used to looking for one.
 
 Let me ask you something. When a new tester joined your team, how did they learn what mattered?
 
@@ -18,11 +32,9 @@ Not from the wiki. From the hallway. From the senior developer who said "don't b
 
 An AI agent has no hallway. Whatever is not in that graph, or in a file, a skill or a tool it can call, does not exist for it. And when it meets something it cannot see, reset or understand, what it does next depends entirely on how somebody built it. Left to its defaults, it tends to guess the business rules from the variable names and carry on.
 
-That is where this work started for me.
+Speed is the easy part of an agentic SDLC. What I keep asking is whether that speed turns into outcomes that matter: products that work for the people who use them, risks we know about before release, decisions a team can stand behind. Jerry Weinberg taught us that quality is value to some person. Speed that does not reach that person is just motion.
 
-Teams everywhere are adopting AI agents to deliver faster. Speed is the easy part. What I keep asking is whether that speed turns into outcomes that matter: products that work for the people who use them, risks we know about before release, decisions a team can stand behind. Jerry Weinberg taught us that quality is value to some person. Speed that does not reach that person is just motion.
-
-And whether speed reaches that person depends, more than most teams realise, on testability. I am convinced our common understanding of testability is too narrow for the job it now has. So I sat down with the work I respect most on the subject, James Bach's *Heuristics of Software Testability*, and asked what it would take to rethink testability for delivery in which AI agents build and test alongside people.
+Whether speed reaches that person depends, far more than most teams realise, on testability. And our common understanding of testability is too narrow for the job it now has. So I sat down with the work I respect most on the subject, James Bach's *Heuristics of Software Testability*, and asked what it would take to rethink testability for delivery in which AI agents build and test alongside people.
 
 **[Download: Heuristics of Software Testability in the Agentic SDLC (Testability 2.0, PDF)](/assets/docs/Heuristics-of-Testability-2.0.pdf)**
 
@@ -236,7 +248,7 @@ I want to be open about where this came from, because the credibility of a frame
 
 It started with contribution. I contributed to Dragan Spiridonov's open-source [**Agentic QE**](https://github.com/proffesor-for-testing/agentic-qe) engine **[Lalit: cite the specific contributions here, such as the fork, pull requests and features that shipped]**, and that is where my conviction formed that quality engineering could be truly *agentic*, beyond being merely AI-assisted. From that engine grew [**Agentic QCSD**](https://agentic-qe.dev/contributors): quality-conscious swarms across the delivery phases, from ideation and refinement through development, CI/CD and production. Dragan and I taught it as a full-day tutorial at HUSTEF 2026 in Budapest.
 
-**A{i}bility** takes that idea into a full agentic software delivery platform. People orchestrate strategy and decisions, and swarms of AI agents handle insight, analysis and execution across the SDLC. Running it with real teams is where the dynamics in this document stopped being theory for me. Each of them names a price we first paid in a real run.
+**A{i}bility** takes that idea into a full agentic SDLC platform with quality intelligence built in, and the transformation programme I described at the start is where it, and every dynamic in this document, met real delivery. Each of those dynamics names a price we first paid in a real run.
 
 ## What this document is, and what it is not
 
