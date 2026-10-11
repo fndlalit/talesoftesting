@@ -10,13 +10,21 @@ image:
 ---
 {% include embed/video.html src='/assets/img/posts/testability-2-0/aibility-kg-story.mp4' types='mp4' poster='/assets/img/posts/testability-2-0/aibility-kg-story-poster.jpg' title='The A{i}bility knowledge graph explorer: a search over real embeddings, learning from its own memory. Based on RuVector Explorer with Agentic QE as intel engine.' %}
 
-Watch those sixty seconds before you read on. What you see is the knowledge graph explorer in **A{i}bility** - the agentic SDLC platform with built-in quality intelligence that I have built and am using with Accenture clients. It is an extension of Agentic QCSD, but more on that later. It searches 10,000 real embeddings from the A{i}bility knowledge graph. They come from code across several repositories, Jira and Confluence, business discovery and technical solution briefs, test and automation strategies, and the patterns and learnings gathered while implementing the code. The search starts cold and runs through four phases: a warm-up, a drift to unfamiliar queries, a return to familiar ones, and noise. As it goes, it keeps a memory of past queries and their answers, and tunes a single setting: how widely it searches. The graph itself and the platform's models stay exactly as they were. Across the whole run, the search needed 24.1% fewer distance evaluations than a static search, while still finding 94 to 99 per cent of the true nearest matches in each phase. You can watch it adapt, query by query. And this kind of retrieval decides what context an AI agent has to work with.
+Watch those sixty seconds before you read on. What you see is the knowledge graph explorer in **A{i}bility** - the agentic SDLC platform with built-in quality intelligence that I have built and am using with Accenture clients. It is an extension of Agentic QCSD. It searches 10,000 real embeddings from the A{i}bility knowledge graph. They come from code across several repositories, Jira and Confluence, business discovery and technical solution briefs, test and automation strategies, and the patterns and learnings gathered while implementing the code. The search starts cold and runs through four phases: a warm-up, a drift to unfamiliar queries, a return to familiar ones, and noise. As it goes, it keeps a memory of past queries and their answers, and tunes a single setting: how widely it searches. The graph itself and the platform's models stay exactly as they were. Across the whole run, the search needed 24.1% fewer distance evaluations than a static search, while still finding 94 to 99 per cent of the true nearest matches in each phase. You can watch it adapt, query by query. And this kind of retrieval decides what context an AI agent has to work with.
 
-Let me tell you where this comes from.
+Let me first tell you where this comes from.
 
-For the past months I have been leading a transformation programme that takes a large delivery organisation from AI-curious to AI-native. This was real delivery: real squads, real products and real release dates, with swarms of AI agents working alongside the people who build, test and run the software. Most of what A{i}bility can do today, it learned there, one hard lesson at a time.
+I wrote the QCSD framework to help organisations deliver quality products without having to add extra resources or spend more time. My efforts to agentify QCSD brought me closer to what my friend Dragan Spiridonov was building with his [Agentic QE Fleet](https://github.com/proffesor-for-testing/agentic-qe) back in September 2025. His foundational work on the AQE fleet helped me build [**Agentic QCSD**](https://agentic-qe.dev/contributors): an agentic harness with several special-purpose agentic loops, carefully designed, defined and interconnected through cross-phase exchange, all based on the underlying QCSD philosophy. And yes, this agentic fleet and these agentic loops were working well before "loop engineering" became a coined term.
 
-That programme taught me something I thought I already knew. In QCSD I describe quality through three notions, which I call **QualiTri**: the product notion, the project notion and the people notion of quality. I have taught that model for years. The transformation made me live it.
+What I started as Agentic QCSD on my agentic journey has now become a full-fledged agentic SDLC platform with built-in quality intelligence. For everything it enables teams to do, and for how it amplifies human effectiveness with the help of AI, I have named it **A{i}bility**.
+
+<div style="position:relative;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#0A0A0F"><iframe src="/assets/aibility/aibility-logo-animated.html" title="A{i}bility animated logo" style="position:absolute;inset:0;width:100%;height:100%;border:0" loading="lazy"></iframe></div>
+
+I am currently delivering most of my client projects within Accenture on the A{i}bility platform. That includes leading an "AI-curious to AI-native" transformation programme for a large enterprise. And I must say, it has been a fun ride. I have learned, unlearned and re-learned a lot over this period, and it still continues.
+
+That programme is real delivery: real squads, real products and real release dates, with swarms of AI agents working alongside the people who build, test and run the software. Most of what A{i}bility can do today, it learned there, one hard lesson at a time.
+
+It also taught me something I thought I already knew. In QCSD I describe quality through three notions, which I call **QualiTri**: the product notion, the project notion and the people notion of quality. I have taught that model for years. The transformation made me live it.
 
 **People.** Testers, developers and product owners had to learn new ways of working, and some of them had to learn to trust work they did not do themselves. Every time an AI agent reported "done", a person still had to decide whether it was. Someone always has to answer for the result.
 
@@ -200,9 +208,9 @@ Reading a testability report about your own platform is uncomfortable. Ouch. But
 
 ## Independent evidence from Dragan Spiridonov
 
-What convinced me this is more than my opinion came from a friend.
+What convinced me this is more than my opinion came, once again, from Dragan.
 
-At HUSTEF 2026, on the same stage where we ran our tutorial, Dragan Spiridonov gave a talk he called *Completion Theater*. I seriously cannot admire Dragan enough, and his data landed on me like a verdict.
+At HUSTEF 2026 in Budapest, where Dragan and I ran a full-day tutorial on Agentic QCSD, he gave a talk he called *Completion Theater*. I seriously cannot admire Dragan enough, and his data landed on me like a verdict.
 
 ![Dragan Spiridonov at HUSTEF 2026: four behavioural shapes, 175 of 197 catalogued events](/assets/img/posts/testability-2-0/dragan-hustef-four-shapes.jpg)
 
@@ -241,16 +249,6 @@ What made this real for me was Reuven Cohen's RuVector Explorer, an interactive 
 ![ruOS Desktop, Ruflo Explorer: a mission, the specialists it dispatched, their tasks and the evidence each produced, laid out as a constellation](/assets/img/posts/testability-2-0/ruflo-explorer-mission-control.jpg)
 
 At a separate event I saw where this lands at the workstation: the Ruflo Explorer in ruOS Desktop. A mission, the specialists it sent out, their tasks and the evidence each one produced are laid out as one constellation you can navigate. That is Dragan's witness chain made visible. I count it as a direction and leave shipped facts to the vendor, since I have not run my own swarms through it yet. Still, agentic observability is the direction that will change the testability game for good.
-
-## Where this work comes from
-
-I want to be open about where this came from, because the credibility of a framework like this rests on it. I did not write it at a desk. It came out of running AI agents on real delivery work.
-
-It started with contribution. I contributed to Dragan Spiridonov's open-source [**Agentic QE**](https://github.com/proffesor-for-testing/agentic-qe) engine **[Lalit: cite the specific contributions here, such as the fork, pull requests and features that shipped]**, and that is where my conviction formed that quality engineering could be truly *agentic*, beyond being merely AI-assisted. From that engine grew [**Agentic QCSD**](https://agentic-qe.dev/contributors): quality-conscious swarms across the delivery phases, from ideation and refinement through development, CI/CD and production. Dragan and I taught it as a full-day tutorial at HUSTEF 2026 in Budapest.
-
-<div style="position:relative;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#0A0A0F"><iframe src="/assets/aibility/aibility-logo-animated.html" title="A{i}bility animated logo" style="position:absolute;inset:0;width:100%;height:100%;border:0" loading="lazy"></iframe></div>
-
-**A{i}bility** takes that idea into a full agentic SDLC platform with quality intelligence built in, and the transformation programme I described at the start is where it, and every dynamic in this document, met real delivery. Each of those dynamics names a price we first paid in a real run.
 
 ## What this document is, and what it is not
 
