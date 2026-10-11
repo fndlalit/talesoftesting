@@ -288,6 +288,8 @@ In your team, when an AI agent meets a testability problem today, who hears abou
 
 *Lalit*
 
+---
+
 ## Talk to me about A{i}bility
 
 <div style="position:relative;width:100%;aspect-ratio:16/9;border-radius:8px;overflow:hidden;background:#0A0A0F"><iframe src="/assets/aibility/aibility-platform-family.html" title="The A{i}bility platform family" style="position:absolute;inset:0;width:100%;height:100%;border:0" loading="lazy" allow="autoplay"></iframe></div>
