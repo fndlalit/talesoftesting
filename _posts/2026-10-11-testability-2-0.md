@@ -172,7 +172,11 @@ In your team, where is testability decided today, and who decides it? Drop your 
 
 A{i}bility is one platform with four sub-modules, for now. **A{i}ris** brings agentic UI and UX design for teams who craft experiences. **A{i}nstein** brings testing and quality engineering for teams who think critically. **A{i}mplifier** runs the full agentic SDLC with quality intelligence built in. **A{i}mer** brings production support intelligence, with a person approving every action that matters. Press reveal, then hover over each sub-module to see what it does.
 
-Everything in this post comes from building and running these sub-modules with real teams. If you want to explore what A{i}bility could do for your delivery organisation, or simply want to talk about testability and AI agents, I would love to hear from you.
+Everything in this post comes from building and running these sub-modules with real teams.
+
+A{i}bility is a team effort. The people in my team use it on real projects every day, contribute to it, and keep shaping it with their feedback. Much of what it does well today comes from them. Thank you, Aleksejs Demjanenko, Akash Mohan, Anju B. A C, Arturs Pugejs, Daniels Gurjevs, Hariprasad Satheendran, Naresh Aithagoni, Naveen Sivakumar, Shabbir Ahmed, Shahzad Hafeez and Sivapriya V B.
+
+If you want to explore what A{i}bility could do for your delivery organisation, or simply want to talk about testability and AI agents, I would love to hear from you.
 
 **LinkedIn:** [linkedin.com/in/lalitkumarbhamare](https://www.linkedin.com/in/lalitkumarbhamare/)
 
