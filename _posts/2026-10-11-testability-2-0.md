@@ -34,6 +34,10 @@ That work also taught me something I thought I already knew. In QCSD I describe 
 
 And in all three, the same thing kept getting in the way. When people could not see what an AI agent had done, when the project could not afford to verify it, when the product did not show its state to anyone but a human looking at a screen, the speed we had gained turned into rework, doubt and confident results nobody could trust. Every one of those problems was a testability problem. Just not where we were used to looking for one.
 
+One place this showed up most clearly is the handoff between business and engineering. Business intent used to travel as prose, and people filled the gaps in conversations and refinements. When AI agents pick up that work, nobody fills the gaps. If the person who wrote a requirement cannot say how it will be checked, an AI agent cannot either, and the intent gets lost without anyone noticing.
+
+That is exactly what I am working on with a key stakeholder on one of my programmes right now: using A{i}bility to make that handoff explicit, so that what the business means reaches engineering as something AI agents and people can both check. I have come to see it as a testability problem first. In Testability 2.0 it shows up as a new guideword, *Requirement Testability*, and as one of the checks I ask you to try at the end of this post.
+
 Let me ask you something. When someone new joined your team, whether a tester, a developer, a designer or a product owner, how did they learn what mattered?
 
 Not from the wiki. From the hallway. From the senior developer who said "don't bother with that module, it's being rewritten". From the product owner who sighed at a particular ticket. From the tester who knew which screen always broke after a release. From the look on someone's face in the demo. In my eighteen years in this craft, I have rarely met anyone in delivery whose best knowledge of a product was written down anywhere.
