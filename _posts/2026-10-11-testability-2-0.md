@@ -8,7 +8,11 @@ image:
   path: /assets/img/posts/testability-2-0/cover-window.jpg
   alt: "An open window in a white wall, with the room behind it in darkness. Photo by Jason Yuen on Unsplash."
 ---
-Can you see what your AI agents know? In most teams, nobody can. The sixty seconds below show what it looks like when you can: the knowledge graph explorer in **A{i}bility** (the agentic SDLC platform with built-in quality intelligence, but more on it later) watching a search decide what context an AI agent gets to work with.
+**Can you see what your AI agents know?**
+
+In most teams, nobody can.
+
+The sixty seconds below show what it looks like when you can: the knowledge graph explorer in **A{i}bility** (the agentic SDLC platform with built-in quality intelligence, but more on it later) watching a search decide what context an AI agent gets to work with.
 
 {% include embed/video.html src='/assets/img/posts/testability-2-0/aibility-kg-story.mp4' types='mp4' poster='/assets/img/posts/testability-2-0/aibility-kg-story-poster.jpg' title='The A{i}bility knowledge graph explorer: a search over real embeddings, learning from its own memory. Based on RuVector Explorer with Agentic QE as intel engine.' %}
 
