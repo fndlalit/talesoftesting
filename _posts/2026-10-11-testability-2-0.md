@@ -180,7 +180,7 @@ A{i}bility is one platform with four sub-modules, for now. **A{i}ris** brings ag
 
 Everything in this post comes from building and running these sub-modules with real teams.
 
-A{i}bility is a team effort. The people in my team use it on real projects every day, contribute to it, and keep shaping it with their feedback. Much of what it does well today comes from them. Thank you, Aleksejs Demjanenko, Anju Bose, Arturs Pugejs, Daniels Gurjevs, Hariprasad Satheendran, Naresh Aithagoni, Naveen Sivakumar, Shabbir Ahmed, Shahzad Hafeez and Sivapriya V B.
+A{i}bility is a team effort. The people in my team use it on real projects every day, contribute to it, and keep shaping it with their feedback. Much of what it does well today comes from them. Thank you, [Aleksejs Demjanenko](https://www.linkedin.com/in/demali/), [Anju Bose](https://www.linkedin.com/in/anju-bose-8b678250/), [Artūrs Pugejs](https://www.linkedin.com/in/art%C5%ABrs-pugejs-b8146337/), Daniels Gurjevs, [Hariprasad Satheendran](https://www.linkedin.com/in/hariprasad-s-24264117a/), [Naresh Aithagoni](https://www.linkedin.com/in/naresh-aithagoni/), [Naveen Sivakumar](https://www.linkedin.com/in/naveen-sivakumar-a4b8551a0/), [Shabbir Ahmed](https://www.linkedin.com/in/iamshabbirahmed/), Shahzad Hafeez and [Sivapriya Baburaj](https://www.linkedin.com/in/sivapriya-baburaj-4ab759213/).
 
 If you want to explore what A{i}bility could do for your delivery organisation, or simply want to talk about testability and AI agents, I would love to hear from you.
 
